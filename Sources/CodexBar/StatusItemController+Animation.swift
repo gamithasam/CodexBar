@@ -489,6 +489,8 @@ extension StatusItemController {
         {
             // Update the last active provider when we detect an active AI app
             self.settings.lastActiveProvider = activeProvider
+            // Keep menu in sync with icon when no didActivateApplication notification was received
+            self.selectedMenuProvider = activeProvider
             return activeProvider
         }
 
