@@ -498,6 +498,8 @@
 "cost_comparison_periods_title" = "显示更短的对比周期";
 "cost_comparison_periods_subtitle" = "当 7 天、30 天和 90 天处于所选历史窗口内时，添加相应汇总。这些汇总复用同一次本地扫描。";
 "refresh_interval_title" = "刷新间隔";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "自动刷新已关闭；请使用菜单中的“刷新”命令。";
 "refresh_on_open_title" = "打开菜单时刷新";
 "refresh_on_open_subtitle" = "每次打开菜单时获取每个提供商的最新用量。";

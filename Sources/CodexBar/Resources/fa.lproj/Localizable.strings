@@ -476,6 +476,8 @@
 "cost_comparison_periods_subtitle" = "وقتی در پنجره تاریخچه انتخاب‌شده جا می‌گیرند، مجموع‌های ۷، ۳۰ و ۹۰ روزه را اضافه کنید. این مجموع‌ها از همان اسکن محلی استفاده می‌کنند.";
 "cost_auto_refresh_info" = "تازه‌سازی خودکار: بازه سراسری (حداقل ۵ دقیقه) · مهلت: ۱۰ دقیقه";
 "refresh_interval_title" = "فاصله تازه‌سازی";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "تازه سازی خودکار خاموش است؛ از فرمان تازه سازی منو استفاده کنید.";
 "refresh_on_open_title" = "بازخوانی هنگام باز کردن منو";
 "refresh_on_open_subtitle" = "هر بار که منو را باز می‌کنید، آخرین میزان مصرف هر ارائه‌دهنده دریافت می‌شود.";

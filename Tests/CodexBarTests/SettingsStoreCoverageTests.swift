@@ -6,6 +6,20 @@ import Testing
 @MainActor
 struct SettingsStoreCoverageTests {
     @Test
+    func `focused app provider selection defaults off and persists`() throws {
+        let suite = "SettingsStoreCoverageTests-focused-app-provider-selection"
+        let defaults = try #require(UserDefaults(suiteName: suite))
+        defaults.removePersistentDomain(forName: suite)
+        let configStore = testConfigStore(suiteName: suite)
+        let settings = Self.makeSettingsStore(userDefaults: defaults, configStore: configStore)
+        #expect(!settings.autoSelectProviderForFocusedApp)
+
+        settings.autoSelectProviderForFocusedApp = true
+        let reloaded = Self.makeSettingsStore(userDefaults: defaults, configStore: configStore)
+        #expect(reloaded.autoSelectProviderForFocusedApp)
+    }
+
+    @Test
     func `provider ordering and caching`() throws {
         let suite = "SettingsStoreCoverageTests-ordering"
         let defaults = try #require(UserDefaults(suiteName: suite))

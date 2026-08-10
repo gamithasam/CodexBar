@@ -256,6 +256,8 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
     private var lastConfigRevision: Int
     private var lastProviderOrder: [ProviderInstanceID]
     private var lastMergeIcons: Bool
+    var focusedAppProviderSelection = FocusedAppProviderSelectionCoordinator()
+    var focusedAppActivationObserverInstalled = false
     private var lastSwitcherShowsIcons: Bool
     private var lastObservedUsageBarsShowUsed: Bool
     var lastWidgetDisplaySettingsSignature = ""
@@ -443,6 +445,7 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
         self.lastMenuAdjunctReadinessBaselineVersion = self.menuSession.contentVersion
         self.lastWidgetDisplaySettingsSignature = self.widgetDisplaySettingsSignature()
         self.wireBindings()
+        self.synchronizeFocusedAppProviderSelectionObservation()
         self.wireAgentSessionUpdates()
         if !SettingsStore.isRunningTests {
             self.agentSessions.start()
@@ -686,6 +689,7 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
         #if DEBUG
         guard !self.isReleasedForTesting else { return }
         #endif
+        self.synchronizeFocusedAppProviderSelectionObservation()
         self.synchronizeAgentSessionsForSettingsChange()
         let configChanged = self.settings.configRevision != self.lastConfigRevision
         let orderChanged = self.settings.providerOrder != self.lastProviderOrder
@@ -942,6 +946,7 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
         self.loginTask?.cancel()
         self.screenChangeVisibilityTask?.cancel()
         self.pendingScreenChangePreviousCount = nil
+        NSWorkspace.shared.notificationCenter.removeObserver(self)
         NotificationCenter.default.removeObserver(self)
     }
 }

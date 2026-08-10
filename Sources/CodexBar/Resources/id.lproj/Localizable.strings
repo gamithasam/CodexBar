@@ -478,6 +478,8 @@
 "cost_comparison_periods_subtitle" = "Tambahkan total 7, 30, dan 90 hari jika termasuk dalam rentang riwayat yang dipilih. Total ini menggunakan kembali pemindaian lokal yang sama.";
 "cost_auto_refresh_info" = "Penyegaran otomatis: interval global (minimum 5 menit) · Batas waktu: 10 menit";
 "refresh_interval_title" = "Interval penyegaran";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Penyegaran otomatis nonaktif; gunakan perintah Segarkan di menu.";
 "refresh_on_open_title" = "Segarkan saat menu dibuka";
 "refresh_on_open_subtitle" = "Ambil penggunaan terbaru untuk setiap penyedia setiap kali Anda membuka menu.";

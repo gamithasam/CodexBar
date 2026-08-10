@@ -486,6 +486,8 @@
 "cost_comparison_periods_title" = "더 짧은 비교 기간 표시";
 "cost_comparison_periods_subtitle" = "선택한 기록 범위에 포함되는 경우 7일, 30일, 90일 합계를 추가합니다. 이 합계에는 동일한 로컬 스캔을 재사용합니다.";
 "refresh_interval_title" = "새로 고침 주기";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "자동 새로 고침이 꺼져 있습니다. 메뉴의 새로 고침 명령을 사용하세요.";
 "refresh_on_open_title" = "메뉴를 열 때 새로 고침";
 "refresh_on_open_subtitle" = "메뉴를 열 때마다 모든 공급자의 최신 사용량을 가져옵니다.";

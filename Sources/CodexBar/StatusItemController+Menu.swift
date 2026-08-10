@@ -985,7 +985,7 @@ extension StatusItemController {
                         provider = self.resolvedMenuProvider()
                     case let .provider(selectedProvider):
                         self.settings.mergedMenuLastSelectedWasOverview = false
-                        self.selectedMenuProvider = selectedProvider
+                        self.selectMenuProviderManually(selectedProvider)
                         provider = selectedProvider.firstPartyProvider
                     }
                     switch selection {

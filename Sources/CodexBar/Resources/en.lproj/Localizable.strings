@@ -453,6 +453,8 @@
 "cost_comparison_periods_subtitle" = "Add 7, 30, and 90-day totals when they fit inside the selected history window. These totals reuse the same local scan.";
 "cost_auto_refresh_info" = "Auto-refresh: global interval (minimum 5m) · Timeout: 10m";
 "refresh_interval_title" = "Refresh interval";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Auto-refresh is off; use the menu's Refresh command.";
 "refresh_on_open_title" = "Refresh when the menu opens";
 "refresh_on_open_subtitle" = "Fetch the latest usage for every provider each time you open the menu.";

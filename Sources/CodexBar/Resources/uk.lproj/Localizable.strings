@@ -491,6 +491,8 @@
 "cost_comparison_periods_title" = "Показувати коротші періоди порівняння";
 "cost_comparison_periods_subtitle" = "Додає підсумки за 7, 30 і 90 днів, якщо вони входять у вибране вікно історії. Для цих підсумків використовується те саме локальне сканування.";
 "refresh_interval_title" = "Інтервал оновлення";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Автооновлення вимкнено; скористайтеся командою меню «Оновити».";
 "refresh_on_open_title" = "Оновлювати при відкритті меню";
 "refresh_on_open_subtitle" = "Отримує найновіші дані про використання для кожного провайдера щоразу, коли ви відкриваєте меню.";

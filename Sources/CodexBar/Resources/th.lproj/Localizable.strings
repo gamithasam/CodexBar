@@ -476,6 +476,8 @@
 "cost_comparison_periods_subtitle" = "เพิ่มยอดรวม 7, 30 และ 90 วันเมื่ออยู่ภายในกรอบเวลาประวัติที่เลือก โดยใช้การสแกนในเครื่องเดียวกัน";
 "cost_auto_refresh_info" = "รีเฟรชอัตโนมัติ: ช่วงเวลาส่วนกลาง (ขั้นต่ำ 5 นาที) · หมดเวลา: 10 นาที";
 "refresh_interval_title" = "ช่วงเวลาการรีเฟรช";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "การรีเฟรชอัตโนมัติปิดอยู่ ใช้คําสั่งรีเฟรชของเมนู";
 "refresh_on_open_title" = "รีเฟรชเมื่อเปิดเมนู";
 "refresh_on_open_subtitle" = "ดึงข้อมูลการใช้งานล่าสุดของผู้ให้บริการทุกรายทุกครั้งที่คุณเปิดเมนู";

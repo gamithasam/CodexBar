@@ -772,6 +772,14 @@ extension SettingsStore {
         }
     }
 
+    var autoSelectProviderForFocusedApp: Bool {
+        get { self.defaultsState.autoSelectProviderForFocusedApp }
+        set {
+            self.defaultsState.autoSelectProviderForFocusedApp = newValue
+            self.userDefaults.set(newValue, forKey: "autoSelectProviderForFocusedApp")
+        }
+    }
+
     var switcherShowsIcons: Bool {
         get { self.defaultsState.switcherShowsIcons }
         set {

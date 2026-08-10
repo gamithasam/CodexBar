@@ -476,6 +476,8 @@
 "cost_comparison_periods_subtitle" = "أضف إجماليات 7 و30 و90 يومًا عندما تقع ضمن نافذة التاريخ المحددة. تعيد هذه الإجماليات استخدام الفحص المحلي نفسه.";
 "cost_auto_refresh_info" = "تحديث تلقائي: الفاصل الزمني العام (الحد الأدنى 5 دقائق) · المهلة: 10 دقائق";
 "refresh_interval_title" = "فاصل التحديث";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "التحديث التلقائي مغلق؛ استخدم أمر التحديث في القائمة.";
 "refresh_on_open_title" = "التحديث عند فتح القائمة";
 "refresh_on_open_subtitle" = "جلب أحدث بيانات الاستخدام لكل مزوّد في كل مرة تفتح فيها القائمة.";

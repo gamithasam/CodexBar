@@ -491,6 +491,8 @@
 "cost_comparison_periods_title" = "Afficher des périodes de comparaison plus courtes";
 "cost_comparison_periods_subtitle" = "Ajoute les totaux sur 7, 30 et 90 jours lorsqu'ils tiennent dans la période d'historique sélectionnée. Ces totaux réutilisent la même analyse locale.";
 "refresh_interval_title" = "Intervalle d’actualisation";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "L'actualisation automatique est désactivée ; utilisez la commande Actualiser du menu.";
 "refresh_on_open_title" = "Actualiser à l'ouverture du menu";
 "refresh_on_open_subtitle" = "Récupère l'utilisation la plus récente de chaque fournisseur à chaque ouverture du menu.";

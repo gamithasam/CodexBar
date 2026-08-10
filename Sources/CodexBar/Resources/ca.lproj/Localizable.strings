@@ -474,6 +474,8 @@
 "cost_comparison_periods_title" = "Mostra períodes de comparació més curts";
 "cost_comparison_periods_subtitle" = "Afegeix totals de 7, 30 i 90 dies quan càpiguen dins l'interval d'historial seleccionat. Aquests totals reutilitzen la mateixa exploració local.";
 "refresh_interval_title" = "Interval d'actualització";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "L'actualització automàtica està desactivada; feu servir l'ordre Actualitza del menú.";
 "refresh_on_open_title" = "Actualitza en obrir el menú";
 "refresh_on_open_subtitle" = "Obté l'ús més recent de cada proveïdor cada vegada que obriu el menú.";

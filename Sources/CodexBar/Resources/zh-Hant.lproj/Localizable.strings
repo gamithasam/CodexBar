@@ -496,6 +496,8 @@
 "cost_comparison_periods_title" = "顯示較短的比較期間";
 "cost_comparison_periods_subtitle" = "當 7 天、30 天和 90 天落在所選歷史時段內時，加入相應總計。這些總計會重複使用同一次本機掃描。";
 "refresh_interval_title" = "重新整理間隔";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "自動重新整理已關閉；請使用選單中的「重新整理」指令。";
 "refresh_on_open_title" = "開啟選單時重新整理";
 "refresh_on_open_subtitle" = "每次開啟選單時擷取每個供應商的最新用量。";

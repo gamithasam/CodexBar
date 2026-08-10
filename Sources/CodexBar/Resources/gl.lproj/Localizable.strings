@@ -472,6 +472,8 @@
 "cost_comparison_periods_title" = "Mostrar períodos de comparación máis curtos";
 "cost_comparison_periods_subtitle" = "Engade totais de 7, 30 e 90 días cando caiban na xanela de historial seleccionada. Estes totais reutilizan a mesma análise local.";
 "refresh_interval_title" = "Intervalo de actualización";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "A actualización automática está desactivada; usa a orde Actualizar do menú.";
 "check_provider_status_title" = "Comprobar o estado do provedor";
 "check_provider_status_subtitle" = "Consulta as páxinas de estado de OpenAI/Claude e Google Workspace para Gemini/Antigravity, amosando incidencias na icona e no menú.";

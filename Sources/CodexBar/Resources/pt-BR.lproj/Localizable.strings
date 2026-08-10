@@ -488,6 +488,8 @@
 "cost_comparison_periods_title" = "Mostrar períodos de comparação mais curtos";
 "cost_comparison_periods_subtitle" = "Adiciona totais de 7, 30 e 90 dias quando couberem na janela de histórico selecionada. Esses totais reutilizam a mesma varredura local.";
 "refresh_interval_title" = "Intervalo de atualização";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "A atualização automática está desativada; use Atualizar no menu.";
 "refresh_on_open_title" = "Atualizar ao abrir o menu";
 "refresh_on_open_subtitle" = "Busca o uso mais recente de cada provedor sempre que você abre o menu.";

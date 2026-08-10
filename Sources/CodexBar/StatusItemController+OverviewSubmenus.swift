@@ -54,7 +54,7 @@ extension StatusItemController {
         self.preservingMergedSwitcherContentCachesDuringInvalidation {
             self.settings.mergedMenuLastSelectedWasOverview = false
             self.lastMergedSwitcherSelection = .provider(provider.instanceID)
-            self.selectedMenuProvider = provider.instanceID
+            self.selectMenuProviderManually(provider.instanceID)
             self.lastMenuProvider = provider.instanceID
             self.refreshProviderSelectionDependentUI(deferRendering: true)
         }

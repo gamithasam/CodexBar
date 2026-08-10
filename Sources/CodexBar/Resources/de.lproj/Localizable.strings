@@ -489,6 +489,8 @@
 "cost_comparison_periods_title" = "Kürzere Vergleichszeiträume anzeigen";
 "cost_comparison_periods_subtitle" = "Fügt Summen für 7, 30 und 90 Tage hinzu, wenn sie in den ausgewählten Verlaufszeitraum passen. Diese Summen verwenden denselben lokalen Scan.";
 "refresh_interval_title" = "Aktualisierungsintervall";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Auto-Aktualisierung ist aus; nutze im Menü den Befehl „Aktualisieren“.";
 "refresh_on_open_title" = "Beim Öffnen des Menüs aktualisieren";
 "refresh_on_open_subtitle" = "Bei jedem Öffnen des Menüs die aktuelle Nutzung aller Anbieter abrufen.";

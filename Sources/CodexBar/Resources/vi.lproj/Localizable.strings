@@ -487,6 +487,8 @@
 "cost_comparison_periods_title" = "Hiển thị các khoảng so sánh ngắn hơn";
 "cost_comparison_periods_subtitle" = "Thêm tổng 7, 30 và 90 ngày khi nằm trong cửa sổ lịch sử đã chọn. Các tổng này dùng lại cùng một lần quét cục bộ.";
 "refresh_interval_title" = "Khoảng thời gian làm mới";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Tính năng tự động làm mới bị tắt; sử dụng lệnh Làm mới của menu.";
 "refresh_on_open_title" = "Làm mới khi mở menu";
 "refresh_on_open_subtitle" = "Tải mức sử dụng mới nhất của mọi nhà cung cấp mỗi khi bạn mở menu.";

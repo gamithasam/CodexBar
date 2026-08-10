@@ -163,6 +163,12 @@ struct GeneralPane: View {
                     })
 
                 Toggle(L("start_at_login_title"), isOn: self.$settings.launchAtLogin)
+
+                Toggle(isOn: self.$settings.autoSelectProviderForFocusedApp) {
+                    SettingsRowLabel(
+                        L("auto_select_focused_app_title"),
+                        subtitle: L("auto_select_focused_app_subtitle"))
+                }
             } header: {
                 Text(L("section_system"))
             }

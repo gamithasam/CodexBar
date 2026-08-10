@@ -476,6 +476,8 @@
 "cost_comparison_periods_subtitle" = "Seçilen geçmiş aralığına sığdığında 7, 30 ve 90 günlük toplamları ekler. Bu toplamlar aynı yerel taramayı yeniden kullanır.";
 "cost_auto_refresh_info" = "Otomatik yenileme: genel aralık (en az 5 dk) · Zaman aşımı: 10 dk";
 "refresh_interval_title" = "Yenileme aralığı";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Otomatik yenileme kapalı; menüdeki Yenile komutunu kullanın.";
 "refresh_on_open_title" = "Menü açıldığında yenile";
 "refresh_on_open_subtitle" = "Menüyü her açtığınızda her sağlayıcının en güncel kullanımını getirir.";

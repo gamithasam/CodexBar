@@ -77,7 +77,7 @@ extension StatusItemController {
                     (self.navigationResolvedProvider(enabledProviders: enabledProviders) ?? .codex).instanceID
             case let .provider(provider):
                 self.settings.mergedMenuLastSelectedWasOverview = false
-                self.selectedMenuProvider = provider
+                self.selectMenuProviderManually(provider)
                 self.lastMenuProvider = provider
             }
             self.lastMergedSwitcherSelection = selection

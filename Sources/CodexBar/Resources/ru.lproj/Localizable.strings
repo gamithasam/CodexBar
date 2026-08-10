@@ -492,6 +492,8 @@
 "cost_comparison_periods_title" = "Показывать более короткие периоды сравнения";
 "cost_comparison_periods_subtitle" = "Добавляет итоги за 7, 30 и 90 дней, если они входят в выбранный период истории. Для этих итогов используется то же локальное сканирование.";
 "refresh_interval_title" = "Частота обновления";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Автообновление отключено; используйте команду меню «Обновить».";
 "refresh_on_open_title" = "Обновить при открытии меню";
 "refresh_on_open_subtitle" = "Получайте последние данные об использовании для каждого провайдера каждый раз, когда вы открываете меню.";

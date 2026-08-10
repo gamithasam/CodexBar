@@ -491,6 +491,8 @@
 "cost_comparison_periods_title" = "Visa kortare jämförelseperioder";
 "cost_comparison_periods_subtitle" = "Lägger till summor för 7, 30 och 90 dagar när de ryms i det valda historikfönstret. Summorna återanvänder samma lokala genomsökning.";
 "refresh_interval_title" = "Uppdateringsintervall";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Automatisk uppdatering är avstängd. Använd Uppdatera i menyn.";
 "refresh_on_open_title" = "Uppdatera när menyn öppnas";
 "refresh_on_open_subtitle" = "Hämtar den senaste användningen för varje leverantör varje gång du öppnar menyn.";

@@ -478,6 +478,8 @@
 "cost_comparison_periods_subtitle" = "Dodaj sumy z 7, 30 i 90 dni, gdy mieszczą się w wybranym zakresie historii. Sumy te wykorzystują to samo skanowanie lokalne.";
 "cost_auto_refresh_info" = "Auto-odświeżanie: interwał globalny (minimum 5 min) · Limit czasu: 10 min";
 "refresh_interval_title" = "Częstotliwość odświeżania";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Auto-odświeżanie jest wyłączone; użyj polecenia Odśwież w menu.";
 "refresh_on_open_title" = "Odśwież po otwarciu menu";
 "refresh_on_open_subtitle" = "Pobiera najnowsze zużycie każdego dostawcy przy każdym otwarciu menu.";

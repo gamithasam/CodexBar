@@ -491,6 +491,8 @@
 "cost_comparison_periods_title" = "Kortere vergelijkingsperioden tonen";
 "cost_comparison_periods_subtitle" = "Voegt totalen voor 7, 30 en 90 dagen toe wanneer ze binnen het geselecteerde geschiedenisvenster vallen. Deze totalen gebruiken dezelfde lokale scan.";
 "refresh_interval_title" = "Vernieuwingsinterval";
+"auto_select_focused_app_title" = "Auto-select provider for focused app";
+"auto_select_focused_app_subtitle" = "Switches the merged menu-bar provider when you focus a supported app. Manual selections take priority until you switch apps.";
 "manual_refresh_hint" = "Automatisch vernieuwen is uitgeschakeld; gebruik de opdracht Vernieuwen van het menu.";
 "refresh_on_open_title" = "Vernieuwen bij openen van menu";
 "refresh_on_open_subtitle" = "Haalt bij elke keer dat je het menu opent het meest recente gebruik van elke provider op.";
