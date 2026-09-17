@@ -58,6 +58,7 @@ extension StatusItemController {
         let delta = direction == .next ? 1 : -1
         let nextIndex = (currentIndex + delta + selections.count) % selections.count
         let selection = selections[nextIndex]
+        self.recordManualProviderSelection(selection.provider)
         let menuProvider: UsageProvider? = switch selection {
         case .overview:
             self.navigationResolvedProvider(enabledProviders: enabledProviders) ?? .codex

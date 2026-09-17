@@ -1584,3 +1584,14 @@
 
 "agent_sessions_hide_unreachable_title" = "پنهان کردن میزبان‌های در دسترس نبودنی";
 "agent_sessions_hide_unreachable_subtitle" = "میزبان‌ها را در صورت ناموفق بودن دریافت نشست‌هایشان پنهان کنید.";
+/* Focused app provider selection */
+"auto_provider_title" = "انتخاب خودکار ارائه‌دهنده بر اساس برنامهٔ فعال";
+"auto_provider_subtitle" = "انتخاب دستی تا فعال شدن برنامهٔ نگاشت‌شدهٔ دیگری اولویت دارد. این گزینه با نمایش پرمصرف‌ترین ارائه‌دهنده هم‌زمان فعال نمی‌شود.";
+"auto_provider_configure" = "تنظیم نگاشت برنامه‌ها…";
+"auto_provider_mapping_help" = "برای هر برنامه ارائه‌دهنده انتخاب کنید. فقط ارائه‌دهندگان فعال انتخاب می‌شوند. زبانه‌های مرورگر و فرمان‌های ترمینال بررسی نمی‌شوند.";
+"auto_provider_provider" = "ارائه‌دهنده";
+"auto_provider_remove" = "حذف نگاشت";
+"auto_provider_add" = "افزودن برنامه…";
+"auto_provider_restore" = "بازیابی پیش‌فرض‌ها";
+"auto_provider_done" = "انجام شد";
+"auto_provider_invalid_app" = "برنامه‌ای با شناسهٔ بسته انتخاب کنید.";

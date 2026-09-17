@@ -1579,3 +1579,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Dölj värdar som inte kan nås";
 "agent_sessions_hide_unreachable_subtitle" = "Dölj värdar när deras sessioner inte kan hämtas.";
+/* Focused app provider selection */
+"auto_provider_title" = "Välj leverantör automatiskt efter aktiv app";
+"auto_provider_subtitle" = "Manuellt val har företräde tills en annan kopplad app blir aktiv. Alternativet kan inte kombineras med mest använd leverantör.";
+"auto_provider_configure" = "Konfigurera appkopplingar…";
+"auto_provider_mapping_help" = "Välj leverantör för varje app. Endast aktiverade leverantörer väljs. Webbläsarflikar och terminalkommandon granskas inte.";
+"auto_provider_provider" = "Leverantör";
+"auto_provider_remove" = "Ta bort koppling";
+"auto_provider_add" = "Lägg till app…";
+"auto_provider_restore" = "Återställ standardvärden";
+"auto_provider_done" = "Klart";
+"auto_provider_invalid_app" = "Välj en app med ett bundle-ID.";

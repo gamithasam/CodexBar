@@ -713,6 +713,7 @@ extension SettingsStore {
     var menuBarShowsHighestUsage: Bool {
         get { self.defaultsState.menuBarShowsHighestUsage }
         set {
+            if newValue { self.automaticProviderSelectionEnabled = false }
             self.defaultsState.menuBarShowsHighestUsage = newValue
             self.userDefaults.set(newValue, forKey: "menuBarShowsHighestUsage")
         }

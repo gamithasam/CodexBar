@@ -1579,3 +1579,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Masquer les hôtes inaccessibles";
 "agent_sessions_hide_unreachable_subtitle" = "Masquer les hôtes lorsque la récupération de leurs sessions échoue.";
+/* Focused app provider selection */
+"auto_provider_title" = "Sélectionner automatiquement le fournisseur selon l’app active";
+"auto_provider_subtitle" = "La sélection manuelle reste prioritaire jusqu’à l’activation d’une autre app associée. Cette option exclut l’affichage du fournisseur le plus utilisé.";
+"auto_provider_configure" = "Configurer les associations d’apps…";
+"auto_provider_mapping_help" = "Choisissez un fournisseur pour chaque app. Seuls les fournisseurs activés sont sélectionnés. Les onglets et commandes du terminal ne sont pas inspectés.";
+"auto_provider_provider" = "Fournisseur";
+"auto_provider_remove" = "Supprimer l’association";
+"auto_provider_add" = "Ajouter une app…";
+"auto_provider_restore" = "Rétablir les valeurs par défaut";
+"auto_provider_done" = "Terminé";
+"auto_provider_invalid_app" = "Choisissez une application avec un identifiant de bundle.";

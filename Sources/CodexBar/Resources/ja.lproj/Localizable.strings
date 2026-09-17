@@ -1580,3 +1580,14 @@
 
 "agent_sessions_hide_unreachable_title" = "接続できないホストを非表示";
 "agent_sessions_hide_unreachable_subtitle" = "セッションの取得に失敗したホストを非表示にします。";
+/* Focused app provider selection */
+"auto_provider_title" = "アクティブなアプリに応じてプロバイダーを自動選択";
+"auto_provider_subtitle" = "別の割り当て済みアプリがアクティブになるまで手動選択が優先されます。この設定と使用量が最も多いプロバイダーの表示は同時に有効にできません。";
+"auto_provider_configure" = "アプリの割り当てを設定…";
+"auto_provider_mapping_help" = "各アプリのプロバイダーを選択します。有効なプロバイダーのみ選択されます。ブラウザーのタブやターミナルのコマンドは調べません。";
+"auto_provider_provider" = "プロバイダー";
+"auto_provider_remove" = "割り当てを削除";
+"auto_provider_add" = "アプリを追加…";
+"auto_provider_restore" = "デフォルトに戻す";
+"auto_provider_done" = "完了";
+"auto_provider_invalid_app" = "バンドル識別子のあるアプリを選択してください。";

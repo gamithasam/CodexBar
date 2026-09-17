@@ -214,6 +214,7 @@ extension StatusItemController {
             self.applyDeferredMergedIconRenderAfterTrackingIfNeeded()
         }
         if menuTrackingEnded {
+            self.applyPendingFocusedAppProviderSelection()
             self.prepareAttachedClosedMenusIfNeeded()
         }
     }
@@ -1011,6 +1012,16 @@ extension StatusItemController {
             onSelect: { [weak self, weak menu] selection in
                 guard let self, let menu else { return }
                 MenuSwitchFlickerProbe.debugLog("onSelect \(selection)")
+                switch selection {
+                case .overview:
+                    self.recordManualProviderSelection(nil)
+                    if self.settings.mergedMenuLastSelectedWasOverview { return }
+                case let .provider(instanceID):
+                    self.recordManualProviderSelection(instanceID.firstPartyProvider)
+                    if !self.settings.mergedMenuLastSelectedWasOverview, self.selectedMenuProvider == instanceID {
+                        return
+                    }
+                }
                 var provider: UsageProvider?
                 self.preservingMergedSwitcherContentCachesDuringInvalidation {
                     switch selection {

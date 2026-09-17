@@ -49,7 +49,7 @@ struct StatusMenuSwitcherRefreshTests {
     }
 
     @Test
-    func `native switcher action restores active tab after native toggle`() {
+    func `native switcher action restores active tab and records manual intent after native toggle`() {
         var selections: [ProviderSwitcherSelection] = []
         let switcher = ProviderSwitcherView(
             providers: [.codex, .claude],
@@ -62,7 +62,7 @@ struct StatusMenuSwitcherRefreshTests {
             onSelect: { selections.append($0) })
 
         #expect(switcher._test_simulateNativeAction(buttonTag: 0, state: .off))
-        #expect(selections.isEmpty)
+        #expect(selections == [.provider(.codex)])
         #expect(Self.switcherButtons(in: switcher).first { $0.tag == 0 }?.state == .on)
     }
 

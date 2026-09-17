@@ -1581,3 +1581,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Скрывать недоступные узлы";
 "agent_sessions_hide_unreachable_subtitle" = "Скрывать узлы, если не удалось получить их сеансы.";
+/* Focused app provider selection */
+"auto_provider_title" = "Автоматически выбирать провайдера по активному приложению";
+"auto_provider_subtitle" = "Ручной выбор действует до перехода к другому сопоставленному приложению. Эта настройка исключает показ самого используемого провайдера.";
+"auto_provider_configure" = "Настроить сопоставления приложений…";
+"auto_provider_mapping_help" = "Выберите провайдера для каждого приложения. Выбираются только включённые провайдеры. Вкладки браузера и команды терминала не проверяются.";
+"auto_provider_provider" = "Провайдер";
+"auto_provider_remove" = "Удалить сопоставление";
+"auto_provider_add" = "Добавить приложение…";
+"auto_provider_restore" = "Восстановить по умолчанию";
+"auto_provider_done" = "Готово";
+"auto_provider_invalid_app" = "Выберите приложение с идентификатором пакета.";

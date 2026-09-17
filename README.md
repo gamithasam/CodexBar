@@ -69,6 +69,7 @@ Or download release tarballs from GitHub Releases:
 - Open Settings → Providers and enable what you use.
 - Install/sign in to the provider sources you rely on: CLIs, browser sessions, OAuth/device flow, API keys, local app files, or provider apps depending on the provider.
 - Optional: Settings → Providers → Codex → OpenAI cookies (Automatic or Manual) to add dashboard extras.
+- Optional: Settings → Menu Bar → Merge Icons → Automatically select provider based on focused app. Configure app mappings to choose the provider for each native app. Manual selection takes priority until a different mapped app gains focus. This option and Show most used provider cannot be enabled together.
 
 ### Set API keys from the CLI
 Provider toggles and API keys live in the resolved CodexBar config file. New installs use

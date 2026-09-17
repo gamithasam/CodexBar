@@ -1580,3 +1580,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Приховувати недоступні вузли";
 "agent_sessions_hide_unreachable_subtitle" = "Приховувати вузли, якщо не вдалося отримати їхні сеанси.";
+/* Focused app provider selection */
+"auto_provider_title" = "Автоматично вибирати провайдера за активним застосунком";
+"auto_provider_subtitle" = "Ручний вибір діє до переходу до іншого зіставленого застосунку. Ця опція виключає показ найбільш використовуваного провайдера.";
+"auto_provider_configure" = "Налаштувати зіставлення застосунків…";
+"auto_provider_mapping_help" = "Виберіть провайдера для кожного застосунку. Вибираються лише ввімкнені провайдери. Вкладки браузера й команди термінала не перевіряються.";
+"auto_provider_provider" = "Провайдер";
+"auto_provider_remove" = "Видалити зіставлення";
+"auto_provider_add" = "Додати застосунок…";
+"auto_provider_restore" = "Відновити типові";
+"auto_provider_done" = "Готово";
+"auto_provider_invalid_app" = "Виберіть застосунок з ідентифікатором пакета.";

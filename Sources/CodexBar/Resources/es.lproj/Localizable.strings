@@ -1578,3 +1578,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Ocultar hosts inaccesibles";
 "agent_sessions_hide_unreachable_subtitle" = "Oculta los hosts cuando falla la consulta de sus sesiones.";
+/* Focused app provider selection */
+"auto_provider_title" = "Seleccionar el proveedor según la app activa automáticamente";
+"auto_provider_subtitle" = "La selección manual tiene prioridad hasta que se active otra app asignada. Esta opción y mostrar el proveedor más usado son excluyentes.";
+"auto_provider_configure" = "Configurar asignaciones de apps…";
+"auto_provider_mapping_help" = "Elige un proveedor para cada app. Solo se seleccionan proveedores habilitados. No se inspeccionan pestañas ni comandos del terminal.";
+"auto_provider_provider" = "Proveedor";
+"auto_provider_remove" = "Eliminar asignación";
+"auto_provider_add" = "Añadir app…";
+"auto_provider_restore" = "Restaurar valores predeterminados";
+"auto_provider_done" = "Listo";
+"auto_provider_invalid_app" = "Elige una aplicación con identificador de paquete.";

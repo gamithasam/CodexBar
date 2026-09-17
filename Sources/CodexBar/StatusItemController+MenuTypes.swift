@@ -13,6 +13,11 @@ extension StatusItemController {
         // can actually work, ensuring at least a codex icon is always visible.
         self.store.enabledProviders().isEmpty ? .codex : nil
     }
+
+    func isVisible(_ provider: UsageProvider) -> Bool {
+        self.store.debugForceAnimation || self.isEnabled(provider)
+            || self.fallbackProvider == provider
+    }
 }
 
 extension ProviderSwitcherSelection {

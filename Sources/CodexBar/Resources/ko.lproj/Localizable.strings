@@ -1549,3 +1549,14 @@
 
 "agent_sessions_hide_unreachable_title" = "연결할 수 없는 호스트 숨기기";
 "agent_sessions_hide_unreachable_subtitle" = "세션을 가져오지 못한 호스트를 숨깁니다.";
+/* Focused app provider selection */
+"auto_provider_title" = "활성 앱에 따라 공급자 자동 선택";
+"auto_provider_subtitle" = "다른 매핑된 앱이 활성화될 때까지 수동 선택이 우선합니다. 이 옵션은 가장 많이 사용한 공급자 표시와 동시에 켤 수 없습니다.";
+"auto_provider_configure" = "앱 매핑 설정…";
+"auto_provider_mapping_help" = "각 앱의 공급자를 선택하세요. 활성화된 공급자만 선택됩니다. 브라우저 탭과 터미널 명령은 확인하지 않습니다.";
+"auto_provider_provider" = "공급자";
+"auto_provider_remove" = "매핑 삭제";
+"auto_provider_add" = "앱 추가…";
+"auto_provider_restore" = "기본값 복원";
+"auto_provider_done" = "완료";
+"auto_provider_invalid_app" = "번들 식별자가 있는 앱을 선택하세요.";

@@ -165,6 +165,7 @@ extension StatusItemController {
 
     func removeMenuLifecycleState(_ key: ObjectIdentifier) {
         self.openMenus.removeValue(forKey: key)
+        self.applyPendingFocusedAppProviderSelection()
         self.cancelMenuWork(key)
         self.clearMenuHighlight(key)
         self.removeMenuTrackingState(key)

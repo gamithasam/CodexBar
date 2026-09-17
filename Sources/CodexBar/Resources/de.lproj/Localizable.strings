@@ -1580,3 +1580,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Nicht erreichbare Hosts ausblenden";
 "agent_sessions_hide_unreachable_subtitle" = "Hosts ausblenden, wenn ihre Sitzungen nicht abgerufen werden können.";
+/* Focused app provider selection */
+"auto_provider_title" = "Anbieter anhand der aktiven App automatisch auswählen";
+"auto_provider_subtitle" = "Die manuelle Auswahl hat Vorrang, bis eine andere zugeordnete App aktiv wird. Diese Option und der meistgenutzte Anbieter schließen sich aus.";
+"auto_provider_configure" = "App-Zuordnungen konfigurieren…";
+"auto_provider_mapping_help" = "Wähle den Anbieter für jede App. Nur aktivierte Anbieter werden ausgewählt. Browser-Tabs und Terminalbefehle werden nicht geprüft.";
+"auto_provider_provider" = "Anbieter";
+"auto_provider_remove" = "Zuordnung entfernen";
+"auto_provider_add" = "App hinzufügen…";
+"auto_provider_restore" = "Standardwerte wiederherstellen";
+"auto_provider_done" = "Fertig";
+"auto_provider_invalid_app" = "Wähle eine Anwendung mit einer Bundle-ID.";

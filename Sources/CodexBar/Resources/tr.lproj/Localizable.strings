@@ -1582,3 +1582,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Erişilemeyen ana bilgisayarları gizle";
 "agent_sessions_hide_unreachable_subtitle" = "Oturumları alınamadığında ana bilgisayarları gizle.";
+/* Focused app provider selection */
+"auto_provider_title" = "Etkin uygulamaya göre sağlayıcıyı otomatik seç";
+"auto_provider_subtitle" = "Başka bir eşlenen uygulama etkinleşene kadar elle seçim önceliklidir. Bu seçenek en çok kullanılan sağlayıcı seçeneğiyle birlikte açılamaz.";
+"auto_provider_configure" = "Uygulama eşlemelerini yapılandır…";
+"auto_provider_mapping_help" = "Her uygulama için sağlayıcı seçin. Yalnızca etkin sağlayıcılar seçilir. Tarayıcı sekmeleri ve terminal komutları incelenmez.";
+"auto_provider_provider" = "Sağlayıcı";
+"auto_provider_remove" = "Eşlemeyi kaldır";
+"auto_provider_add" = "Uygulama ekle…";
+"auto_provider_restore" = "Varsayılanları geri yükle";
+"auto_provider_done" = "Bitti";
+"auto_provider_invalid_app" = "Paket kimliği olan bir uygulama seçin.";

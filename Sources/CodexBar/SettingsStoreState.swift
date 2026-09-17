@@ -76,6 +76,8 @@ struct SettingsDefaultsState {
     var backgroundWorkLowPowerModePreference: LowPowerModePreference
     var providerStorageFootprintsEnabled: Bool
     var jetbrainsIDEBasePath: String
+    var automaticProviderSelectionEnabled: Bool = false
+    var appProviderMappings: [AppProviderMapping] = AppProviderMapping.defaults
     var mergeIcons: Bool
     var switcherShowsIcons: Bool
     var mergedMenuLastSelectedWasOverview: Bool

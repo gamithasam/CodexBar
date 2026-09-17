@@ -345,10 +345,6 @@ final class ProviderSwitcherView: NSView {
 
     private func applySelection(at index: Int) {
         let selection = self.segments[index].selection
-        guard self.selectedSegmentIndex != index else {
-            self.updateSelection(selection)
-            return
-        }
         self.updateSelection(selection)
         self.onSelect(selection)
     }

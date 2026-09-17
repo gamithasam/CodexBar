@@ -6,6 +6,7 @@ struct MenuBarPane: View {
     private static let maxOverviewProviders = SettingsStore.mergedOverviewProviderLimit
 
     @State private var isOverviewProviderPopoverPresented = false
+    @State private var isAppMappingEditorPresented = false
     @Bindable var settings: SettingsStore
     @Bindable var store: UsageStore
 
@@ -88,6 +89,18 @@ struct MenuBarPane: View {
                 }
                 .disabled(!self.settings.mergeIcons)
 
+                Toggle(isOn: self.$settings.automaticProviderSelectionEnabled) {
+                    SettingsRowLabel(
+                        L("auto_provider_title"),
+                        subtitle: L("auto_provider_subtitle"))
+                }
+                .disabled(!self.settings.mergeIcons)
+
+                Button(L("auto_provider_configure")) {
+                    self.isAppMappingEditorPresented = true
+                }
+                .disabled(!self.settings.mergeIcons)
+
                 self.overviewProviderRow
                     .disabled(!self.settings.mergeIcons)
             } header: {
@@ -101,6 +114,9 @@ struct MenuBarPane: View {
             } header: {
                 Text(L("section_animation"))
             }
+        }
+        .sheet(isPresented: self.$isAppMappingEditorPresented) {
+            AppProviderMappingsView(settings: self.settings)
         }
         .formStyle(.grouped)
         .toggleStyle(.switch)

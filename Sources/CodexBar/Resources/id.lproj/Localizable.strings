@@ -1583,3 +1583,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Sembunyikan host yang tidak terjangkau";
 "agent_sessions_hide_unreachable_subtitle" = "Sembunyikan host saat pengambilan sesinya gagal.";
+/* Focused app provider selection */
+"auto_provider_title" = "Pilih penyedia otomatis berdasarkan aplikasi aktif";
+"auto_provider_subtitle" = "Pilihan manual diutamakan sampai aplikasi lain yang dipetakan aktif. Opsi ini tidak dapat diaktifkan bersama penyedia paling banyak digunakan.";
+"auto_provider_configure" = "Atur pemetaan aplikasi…";
+"auto_provider_mapping_help" = "Pilih penyedia untuk setiap aplikasi. Hanya penyedia aktif yang dipilih. Tab browser dan perintah terminal tidak diperiksa.";
+"auto_provider_provider" = "Penyedia";
+"auto_provider_remove" = "Hapus pemetaan";
+"auto_provider_add" = "Tambah aplikasi…";
+"auto_provider_restore" = "Pulihkan bawaan";
+"auto_provider_done" = "Selesai";
+"auto_provider_invalid_app" = "Pilih aplikasi dengan pengenal bundel.";

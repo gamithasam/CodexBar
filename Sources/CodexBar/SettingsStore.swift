@@ -384,6 +384,10 @@ final class SettingsStore {
             userDefaults: userDefaults,
             hadPreviousInstallationState: hadPreviousInstallationState)
         self.defaultsState = defaultsState
+        if defaultsState.automaticProviderSelectionEnabled {
+            self.defaultsState.menuBarShowsHighestUsage = false
+            userDefaults.set(false, forKey: "menuBarShowsHighestUsage")
+        }
         self.mergedMenuLastSelectedWasOverviewStorage = defaultsState.mergedMenuLastSelectedWasOverview
         self.selectedMenuProviderRawStorage = defaultsState.selectedMenuProviderRaw
         self.updateProviderState(config: config)
@@ -722,6 +726,8 @@ extension SettingsStore {
             backgroundWorkLowPowerModePreference: backgroundWorkLowPowerModePreference,
             providerStorageFootprintsEnabled: providerStorageFootprintsEnabled,
             jetbrainsIDEBasePath: jetbrainsIDEBasePath,
+            automaticProviderSelectionEnabled: userDefaults.bool(forKey: "automaticProviderSelectionEnabled"),
+            appProviderMappings: Self.loadAppProviderMappings(userDefaults: userDefaults),
             mergeIcons: mergeIcons,
             switcherShowsIcons: switcherShowsIcons,
             mergedMenuLastSelectedWasOverview: mergedMenuLastSelectedWasOverview,

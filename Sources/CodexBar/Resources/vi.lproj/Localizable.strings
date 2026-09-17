@@ -1581,3 +1581,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Ẩn máy chủ không thể truy cập";
 "agent_sessions_hide_unreachable_subtitle" = "Ẩn máy chủ khi không lấy được các phiên của máy chủ đó.";
+/* Focused app provider selection */
+"auto_provider_title" = "Tự động chọn nhà cung cấp theo ứng dụng đang hoạt động";
+"auto_provider_subtitle" = "Lựa chọn thủ công được ưu tiên đến khi ứng dụng đã ánh xạ khác hoạt động. Tùy chọn này không thể bật cùng nhà cung cấp được dùng nhiều nhất.";
+"auto_provider_configure" = "Cấu hình ánh xạ ứng dụng…";
+"auto_provider_mapping_help" = "Chọn nhà cung cấp cho mỗi ứng dụng. Chỉ chọn nhà cung cấp đã bật. Không kiểm tra thẻ trình duyệt hay lệnh terminal.";
+"auto_provider_provider" = "Nhà cung cấp";
+"auto_provider_remove" = "Xóa ánh xạ";
+"auto_provider_add" = "Thêm ứng dụng…";
+"auto_provider_restore" = "Khôi phục mặc định";
+"auto_provider_done" = "Xong";
+"auto_provider_invalid_app" = "Chọn ứng dụng có mã định danh gói.";

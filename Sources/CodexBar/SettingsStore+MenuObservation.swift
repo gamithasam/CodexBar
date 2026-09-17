@@ -32,6 +32,8 @@ extension SettingsStore {
         _ = self.menuBarHidesCritters
         _ = self.menuBarColorPace
         _ = self.menuBarHighContrastOnInactiveDisplays
+        _ = self.automaticProviderSelectionEnabled
+        _ = self.appProviderMappings
         _ = self.menuBarShowsHighestUsage
         _ = self.menuBarDisplayMode
         _ = self.menuBarShowsResetTimeWhenExhausted

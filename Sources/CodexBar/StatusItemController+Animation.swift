@@ -1326,6 +1326,13 @@ extension StatusItemController {
             .first { $0.windowMinutes == minutes }
     }
 
+    private func isSelectedUnifiedIconProviderEnabled(_ provider: UsageProvider) -> Bool {
+        if self.settings.automaticProviderSelectionEnabled {
+            return self.store.enabledFirstPartyProvidersForDisplay().contains(provider)
+        }
+        return self.store.isEnabled(provider)
+    }
+
     func primaryProviderForUnifiedIcon() -> UsageProvider {
         // When "show highest usage" is enabled, rank the existing Overview subset by proximity to its limit.
         if self.settings.menuBarShowsHighestUsage, self.shouldMergeIcons {
@@ -1353,7 +1360,7 @@ extension StatusItemController {
         }
         if self.shouldMergeIcons,
            let selected = self.selectedMenuProvider?.firstPartyProvider,
-           self.store.isEnabled(selected)
+           self.isSelectedUnifiedIconProviderEnabled(selected)
         {
             return selected
         }

@@ -1584,3 +1584,14 @@
 
 "agent_sessions_hide_unreachable_title" = "ซ่อนโฮสต์ที่เข้าถึงไม่ได้";
 "agent_sessions_hide_unreachable_subtitle" = "ซ่อนโฮสต์เมื่อดึงข้อมูลเซสชันไม่สำเร็จ";
+/* Focused app provider selection */
+"auto_provider_title" = "เลือกผู้ให้บริการอัตโนมัติตามแอปที่ใช้งานอยู่";
+"auto_provider_subtitle" = "การเลือกด้วยตนเองมีความสำคัญจนกว่าแอปอื่นที่จับคู่ไว้จะใช้งานอยู่ ตัวเลือกนี้เปิดพร้อมกับการแสดงผู้ให้บริการที่ใช้มากที่สุดไม่ได้";
+"auto_provider_configure" = "ตั้งค่าการจับคู่แอป…";
+"auto_provider_mapping_help" = "เลือกผู้ให้บริการสำหรับแต่ละแอป เลือกเฉพาะผู้ให้บริการที่เปิดใช้งาน ไม่ตรวจสอบแท็บเบราว์เซอร์หรือคำสั่งเทอร์มินัล";
+"auto_provider_provider" = "ผู้ให้บริการ";
+"auto_provider_remove" = "ลบการจับคู่";
+"auto_provider_add" = "เพิ่มแอป…";
+"auto_provider_restore" = "คืนค่าเริ่มต้น";
+"auto_provider_done" = "เสร็จสิ้น";
+"auto_provider_invalid_app" = "เลือกแอปที่มีตัวระบุบันเดิล";

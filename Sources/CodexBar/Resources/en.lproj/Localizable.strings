@@ -1582,3 +1582,15 @@
 "Color Pace Indicator" = "Color Pace Indicator";
 "Green pace indicator when behind pace, red when ahead of pace (risk of running out early)" = "Green pace indicator when behind pace, red when ahead of pace (risk of running out early)";
 "%@ weekly" = "%@ weekly";
+
+/* Focused app provider selection */
+"auto_provider_title" = "Automatically select provider based on focused app";
+"auto_provider_subtitle" = "Manual selection takes priority until a different mapped app gains focus. This option and Show most used provider cannot be enabled together.";
+"auto_provider_configure" = "Configure app mappings…";
+"auto_provider_mapping_help" = "Choose the provider for each app. Only enabled providers are selected. Browser tabs and terminal commands are not inspected.";
+"auto_provider_provider" = "Provider";
+"auto_provider_remove" = "Remove mapping";
+"auto_provider_add" = "Add app…";
+"auto_provider_restore" = "Restore defaults";
+"auto_provider_done" = "Done";
+"auto_provider_invalid_app" = "Choose an application with a bundle identifier.";

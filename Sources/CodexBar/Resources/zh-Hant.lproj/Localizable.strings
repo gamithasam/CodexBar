@@ -1611,3 +1611,14 @@
 
 "agent_sessions_hide_unreachable_title" = "隱藏無法連線的主機";
 "agent_sessions_hide_unreachable_subtitle" = "擷取工作階段失敗時隱藏該主機。";
+/* Focused app provider selection */
+"auto_provider_title" = "依目前應用程式自動選擇供應商";
+"auto_provider_subtitle" = "手動選擇優先，直到另一個已對應的應用程式取得焦點。此選項與顯示使用最多的供應商不能同時啟用。";
+"auto_provider_configure" = "設定應用程式對應…";
+"auto_provider_mapping_help" = "為每個應用程式選擇供應商。僅選擇已啟用的供應商。不檢查瀏覽器分頁或終端機指令。";
+"auto_provider_provider" = "供應商";
+"auto_provider_remove" = "移除對應";
+"auto_provider_add" = "新增應用程式…";
+"auto_provider_restore" = "還原預設值";
+"auto_provider_done" = "完成";
+"auto_provider_invalid_app" = "請選擇具有套件識別碼的應用程式。";

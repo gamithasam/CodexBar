@@ -1579,3 +1579,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Onbereikbare hosts verbergen";
 "agent_sessions_hide_unreachable_subtitle" = "Verberg hosts wanneer het ophalen van hun sessies mislukt.";
+/* Focused app provider selection */
+"auto_provider_title" = "Provider automatisch kiezen op basis van de actieve app";
+"auto_provider_subtitle" = "Handmatige selectie heeft voorrang totdat een andere gekoppelde app actief wordt. Deze optie sluit de meest gebruikte provider uit.";
+"auto_provider_configure" = "App-koppelingen instellen…";
+"auto_provider_mapping_help" = "Kies een provider voor elke app. Alleen ingeschakelde providers worden geselecteerd. Browsertabbladen en terminalopdrachten worden niet bekeken.";
+"auto_provider_provider" = "Provider";
+"auto_provider_remove" = "Koppeling verwijderen";
+"auto_provider_add" = "App toevoegen…";
+"auto_provider_restore" = "Standaardwaarden herstellen";
+"auto_provider_done" = "Gereed";
+"auto_provider_invalid_app" = "Kies een app met een bundle-ID.";

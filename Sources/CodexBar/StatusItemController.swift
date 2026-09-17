@@ -447,6 +447,7 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
         self.lastMenuAdjunctReadinessSignature = self.menuAdjunctReadinessSignature()
         self.lastMenuAdjunctReadinessBaselineVersion = self.menuSession.contentVersion
         self.lastWidgetDisplaySettingsSignature = self.widgetDisplaySettingsSignature()
+        self.installFocusedAppProviderObservation()
         self.wireBindings()
         self.wireAgentSessionUpdates()
         if !SettingsStore.isRunningTests {
@@ -691,6 +692,7 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
         #if DEBUG
         guard !self.isReleasedForTesting else { return }
         #endif
+        self.synchronizeFocusedAppProviderSelection()
         self.synchronizeAgentSessionsForSettingsChange()
         let configChanged = self.settings.configRevision != self.lastConfigRevision
         let orderChanged = self.settings.providerOrder != self.lastProviderOrder
@@ -911,11 +913,6 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
         self.statusBar.removeStatusItem(item)
     }
 
-    func isVisible(_ provider: UsageProvider) -> Bool {
-        self.store.debugForceAnimation || self.isEnabled(provider)
-            || self.fallbackProvider == provider
-    }
-
     func switchAccountSubtitle(for target: UsageProvider) -> String? {
         guard self.loginTask != nil, let provider = self.activeLoginProvider, provider == target
         else { return nil }
@@ -929,6 +926,9 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
         return "\(prefix): \(base)"
     }
 
+    var focusedAppSelection = FocusedAppProviderSelection()
+    var focusedAppSelectionIsActive = false
+
     deinit {
         let animationDriver = self.animationDriver
         Task { @MainActor in
@@ -940,6 +940,7 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
         self.screenChangeVisibilityTask?.cancel()
         self.pendingScreenChangePreviousCount = nil
         NotificationCenter.default.removeObserver(self)
+        NSWorkspace.shared.notificationCenter.removeObserver(self)
     }
 }
 

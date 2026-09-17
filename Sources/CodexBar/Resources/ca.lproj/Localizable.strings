@@ -1582,3 +1582,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Amaga els amfitrions inaccessibles";
 "agent_sessions_hide_unreachable_subtitle" = "Amaga els amfitrions quan falla la consulta de les seves sessions.";
+/* Focused app provider selection */
+"auto_provider_title" = "Selecciona automàticament el proveïdor segons l’app activa";
+"auto_provider_subtitle" = "La selecció manual té prioritat fins que s’activi una altra app assignada. Aquesta opció exclou mostrar el proveïdor més utilitzat.";
+"auto_provider_configure" = "Configura les assignacions d’apps…";
+"auto_provider_mapping_help" = "Tria un proveïdor per a cada app. Només se seleccionen proveïdors habilitats. No s’inspeccionen pestanyes ni ordres del terminal.";
+"auto_provider_provider" = "Proveïdor";
+"auto_provider_remove" = "Elimina l’assignació";
+"auto_provider_add" = "Afegeix una app…";
+"auto_provider_restore" = "Restaura els valors per defecte";
+"auto_provider_done" = "Fet";
+"auto_provider_invalid_app" = "Tria una aplicació amb identificador de paquet.";

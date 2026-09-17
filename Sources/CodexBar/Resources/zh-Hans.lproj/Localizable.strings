@@ -1595,3 +1595,14 @@
 
 "agent_sessions_hide_unreachable_title" = "隐藏无法连接的主机";
 "agent_sessions_hide_unreachable_subtitle" = "获取会话失败时隐藏该主机。";
+/* Focused app provider selection */
+"auto_provider_title" = "根据当前应用自动选择提供商";
+"auto_provider_subtitle" = "手动选择优先，直到另一个已映射的应用获得焦点。此选项与显示使用最多的提供商不能同时启用。";
+"auto_provider_configure" = "配置应用映射…";
+"auto_provider_mapping_help" = "为每个应用选择提供商。仅选择已启用的提供商。不检查浏览器标签页或终端命令。";
+"auto_provider_provider" = "提供商";
+"auto_provider_remove" = "移除映射";
+"auto_provider_add" = "添加应用…";
+"auto_provider_restore" = "恢复默认设置";
+"auto_provider_done" = "完成";
+"auto_provider_invalid_app" = "请选择具有包标识符的应用。";

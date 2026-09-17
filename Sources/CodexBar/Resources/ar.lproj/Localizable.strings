@@ -1584,3 +1584,14 @@
 
 "agent_sessions_hide_unreachable_title" = "إخفاء المضيفين غير المتاحين";
 "agent_sessions_hide_unreachable_subtitle" = "إخفاء المضيفين عند تعذّر جلب جلساتهم.";
+/* Focused app provider selection */
+"auto_provider_title" = "اختيار المزوّد تلقائيًا حسب التطبيق النشط";
+"auto_provider_subtitle" = "يبقى الاختيار اليدوي أولوية حتى تنشيط تطبيق مرتبط آخر. لا يمكن تفعيل هذا الخيار مع عرض المزوّد الأكثر استخدامًا.";
+"auto_provider_configure" = "إعداد ربط التطبيقات…";
+"auto_provider_mapping_help" = "اختر مزوّدًا لكل تطبيق. يتم اختيار المزوّدين المفعّلين فقط. لا يتم فحص علامات المتصفح أو أوامر الطرفية.";
+"auto_provider_provider" = "المزوّد";
+"auto_provider_remove" = "إزالة الربط";
+"auto_provider_add" = "إضافة تطبيق…";
+"auto_provider_restore" = "استعادة الإعدادات الافتراضية";
+"auto_provider_done" = "تم";
+"auto_provider_invalid_app" = "اختر تطبيقًا يحتوي على معرّف حزمة.";

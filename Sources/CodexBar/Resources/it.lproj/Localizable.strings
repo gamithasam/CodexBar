@@ -1583,3 +1583,14 @@
 
 "agent_sessions_hide_unreachable_title" = "Nascondi gli host irraggiungibili";
 "agent_sessions_hide_unreachable_subtitle" = "Nascondi gli host quando il recupero delle loro sessioni non riesce.";
+/* Focused app provider selection */
+"auto_provider_title" = "Seleziona automaticamente il fornitore in base all’app attiva";
+"auto_provider_subtitle" = "La selezione manuale ha priorità finché non si attiva un’altra app associata. Questa opzione esclude il fornitore più utilizzato.";
+"auto_provider_configure" = "Configura associazioni app…";
+"auto_provider_mapping_help" = "Scegli un fornitore per ogni app. Vengono selezionati solo quelli abilitati. Schede del browser e comandi del terminale non vengono esaminati.";
+"auto_provider_provider" = "Fornitore";
+"auto_provider_remove" = "Rimuovi associazione";
+"auto_provider_add" = "Aggiungi app…";
+"auto_provider_restore" = "Ripristina valori predefiniti";
+"auto_provider_done" = "Fine";
+"auto_provider_invalid_app" = "Scegli un’applicazione con un identificatore bundle.";
