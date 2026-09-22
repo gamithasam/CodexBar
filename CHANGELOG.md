@@ -2,9 +2,28 @@
 
 ## 0.64.2 — Unreleased
 
+### Added
+
+- Omarchy: identify providers with theme-tinted logos in the compact bar, retaining text fallback for missing logos and older backends (#3795). Thanks @jsonMartin!
+- GitKraken AI: track personal weekly credits and organization pool sharing through a bundled provider plugin (#3842). Thanks @RyanTheTechMan!
+
 ### Fixed
 
 - Antigravity: explain failed live fetches when falling back to offline history, keep diagnostics free of raw process and account details, and show the active source in settings instead of misleading detection warnings (#3865, fixes #3861). Thanks @vincent-peng!
+- Provider plugins: preserve unknown usage on named quota windows and numeric progress in detail rows.
+- Claude: dismiss open CLI panels before reading account identity or refreshing usage in a reused session (#3821). Thanks @sczhui!
+- Performance: reuse code-signature checks across browser-cookie preflights, coalesce concurrent checks, and revalidate after app updates while preserving no-UI Keychain access (#3837, #3838). Thanks @jeffloo886!
+- Cost history: reuse quota-week projections across menu card builds and warm them off the main thread (#3831, fixes #3827). Thanks @giuseppebisemi!
+- Codex costs: reuse decoded scan baselines while the local database is unchanged, avoiding repeated usage-row decoding on warm refreshes (#3840). Thanks @CodingCanuck!
+- Antigravity: retain account-scoped quota observations without a reset duration, including replenishment within an hour, and avoid assuming a five-hour pace (#3619). Thanks @hhh2210!
+- Antigravity: honor unusable `ANTIGRAVITY_CLI_PATH` overrides instead of discovering another CLI that could start interactive login during background refresh (#3689). Thanks @hhh2210!
+- Claude: respect read-only account adapters, preserving usage and account details while hiding switching and re-authentication actions (#3658). Thanks @benedictfrancis!
+- OpenCode Go: use per-account API keys for multi-account usage, preserving Cookie accounts and saved cookie-source preferences while isolating selected credentials from provider-wide keys (#3841).
+- Claude: include claude-swap session homes in local Usage & Spend totals without counting shared or copied history twice (#2954). Thanks @Newarr!
+- LiteLLM: show clearly scoped month-to-date spend when management routes are disabled, without inventing budgets or account identity (#3834). Thanks @xiaoxianma!
+- Codex: confirm unused weekly resets across normal refresh intervals when the provider advances the reset date with each zero-use observation, preventing stale pre-reset usage from persisting (#3248). Thanks @kcharlan!
+- Codex costs: read local Priority/Fast trace evidence on Linux so supported usage retains Priority pricing, including after refreshing existing history (#3820). Thanks @A-l-an!
+- CLI: keep `last30DaysTokens` and `last30DaysCostUSD` scoped to 30 local calendar days when requesting longer cost histories, while retaining full-window totals (#3824). Thanks @tillstriegel!
 
 ## 0.64.1 — 2026-09-22
 
