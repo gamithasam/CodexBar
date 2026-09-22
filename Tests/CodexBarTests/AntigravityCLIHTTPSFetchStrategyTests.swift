@@ -990,6 +990,7 @@ extension AntigravityCLIHTTPSFetchStrategyTests {
         .apiError("quota request rejected"),
         .timedOut,
         .parseFailed("missing quota fields"),
+        .cliReportFailed(.exited(code: 1, reason: .unspecified)),
         .portDetectionFailed("no listening ports found"),
         .accountMismatch(expected: "selected@example.com", found: "other@example.com"),
     ])
@@ -997,30 +998,35 @@ extension AntigravityCLIHTTPSFetchStrategyTests {
         ideError: AntigravityStatusProbeError,
         cliError: AntigravityStatusProbeError) async
     {
-        let pipeline = ProviderFetchPipeline(
-            resolveStrategies: { _ in
-                [
-                    AntigravityFallbackFixtureStrategy(id: "antigravity.app-local", error: .notRunning),
-                    AntigravityFallbackFixtureStrategy(
-                        id: "antigravity.cli-https",
-                        error: cliError),
-                    AntigravityFallbackFixtureStrategy(
-                        id: "antigravity.ide-local",
-                        error: ideError),
-                ]
-            },
-            resolveFallbackError: AntigravityProviderDescriptor.resolveFallbackError)
+        for allowsFallback in [true, false] {
+            let pipeline = ProviderFetchPipeline(
+                resolveStrategies: { _ in
+                    [
+                        AntigravityFallbackFixtureStrategy(id: "antigravity.app-local", error: .notRunning),
+                        AntigravityFallbackFixtureStrategy(
+                            id: "antigravity.cli-https",
+                            error: cliError),
+                        AntigravityFallbackFixtureStrategy(
+                            id: "antigravity.ide-local",
+                            error: ideError,
+                            allowsFallback: allowsFallback),
+                    ]
+                },
+                resolveFallbackError: AntigravityProviderDescriptor.resolveFallbackError)
 
-        let outcome = await pipeline.fetch(context: self.makeFetchContext(), provider: .antigravity)
+            let outcome = await pipeline.fetch(context: self.makeFetchContext(), provider: .antigravity)
 
-        #expect(outcome.attempts.map(\.strategyID) == [
-            "antigravity.app-local", "antigravity.cli-https", "antigravity.ide-local",
-        ])
-        do {
-            _ = try outcome.result.get()
-            Issue.record("Expected the attempted CLI failure")
-        } catch {
-            #expect((error as? AntigravityStatusProbeError) == cliError)
+            #expect(outcome.attempts.map(\.strategyID) == [
+                "antigravity.app-local",
+                "antigravity.cli-https",
+                "antigravity.ide-local",
+            ])
+            do {
+                _ = try outcome.result.get()
+                Issue.record("Expected the attempted CLI failure")
+            } catch {
+                #expect((error as? AntigravityStatusProbeError) == cliError)
+            }
         }
     }
 
@@ -1035,7 +1041,8 @@ extension AntigravityCLIHTTPSFetchStrategyTests {
     func `first error and newly detected fallback remain authoritative`(current: AntigravityStatusProbeError) {
         let first = AntigravityProviderDescriptor.resolveFallbackError(nil, current)
         let detected = AntigravityProviderDescriptor.resolveFallbackError(
-            AntigravityStatusProbeError.notRunning, current)
+            AntigravityStatusProbeError.notRunning,
+            current)
         #expect((first as? AntigravityStatusProbeError) == current)
         #expect((detected as? AntigravityStatusProbeError) == current)
     }
@@ -1059,13 +1066,223 @@ extension AntigravityCLIHTTPSFetchStrategyTests {
         #expect(outcome.attempts.count == 2)
     }
 
-    @Test
-    func `specific later fallback error replaces signed out CLI error`() {
-        let result = AntigravityProviderDescriptor.resolveFallbackError(
-            AntigravityStatusProbeError.authenticationRequired,
-            AntigravityStatusProbeError.apiError("OAuth credentials expired"))
+    @Test(arguments: [
+        AntigravityStatusProbeError.authenticationRequired,
+        .apiError("OAuth credentials expired"),
+        .parseFailed("empty quota payload"),
+    ])
+    func `later substantive fallback retains its existing precedence`(oauthError: AntigravityStatusProbeError) {
+        let appError = AntigravityStatusProbeError.apiError("quota request rejected")
+        let result = AntigravityProviderDescriptor.resolveFallbackError(appError, oauthError)
 
-        #expect((result as? AntigravityStatusProbeError) == .apiError("OAuth credentials expired"))
+        #expect((result as? AntigravityStatusProbeError) == oauthError)
+    }
+
+    @Test
+    func `auto keeps later substantive error and every source outcome`() async {
+        let appError = AntigravityStatusProbeError.apiError("quota request rejected")
+        let pipeline = ProviderFetchPipeline(
+            resolveStrategies: { _ in
+                [
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.app-local",
+                        error: appError),
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.cli-https",
+                        error: .timedOut,
+                        available: false),
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.ide-local",
+                        error: .notRunning),
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.oauth",
+                        error: .authenticationRequired),
+                ]
+            },
+            resolveFallbackError: AntigravityProviderDescriptor.resolveFallbackError)
+
+        let outcome = await pipeline.fetch(context: self.makeFetchContext(), provider: .antigravity)
+
+        #expect(outcome.attempts.map(\.strategyID) == [
+            "antigravity.app-local", "antigravity.cli-https", "antigravity.ide-local", "antigravity.oauth",
+        ])
+        #expect(outcome.attempts.map(\.outcome) == [.failed, .skipped, .failed, .failed])
+        do {
+            _ = try outcome.result.get()
+            Issue.record("Expected the later OAuth failure to surface")
+        } catch {
+            #expect((error as? AntigravityStatusProbeError) == .authenticationRequired)
+        }
+    }
+
+    @Test(arguments: [false, true])
+    func `mismatch followed by OAuth failure never claims successful fallback`(allowsFallback: Bool) async {
+        let mismatch = AntigravityStatusProbeError.accountMismatch(
+            expected: "selected@example.com", found: "other@example.com")
+        let oauthError = AntigravityStatusProbeError.apiError("OAuth credentials expired")
+        let pipeline = ProviderFetchPipeline(
+            resolveStrategies: { _ in
+                [
+                    AntigravityFallbackFixtureStrategy(id: "antigravity.app-local", error: mismatch),
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.oauth", error: oauthError, allowsFallback: allowsFallback),
+                ]
+            },
+            resolveFallbackError: AntigravityProviderDescriptor.resolveFallbackError)
+        let outcome = await pipeline.fetch(context: self.makeFetchContext(), provider: .antigravity)
+        #expect(outcome.attempts.first?.errorDescription?.contains("local usage cannot be used") == true)
+        #expect(outcome.attempts.first?.errorDescription?.contains("OAuth data instead") == false)
+        do {
+            _ = try outcome.result.get()
+            Issue.record("Expected the later OAuth failure")
+        } catch {
+            #expect(error as? AntigravityStatusProbeError == oauthError)
+        }
+        #expect(!AntigravityStatusProbeError.accountMismatch(expected: nil, found: nil)
+            .localizedDescription.contains("OAuth data instead"))
+    }
+
+    @Test
+    func `a successful later source suppresses error surfacing entirely`() async throws {
+        let pipeline = ProviderFetchPipeline(
+            resolveStrategies: { _ in
+                [
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.app-local",
+                        error: .apiError("quota request rejected")),
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.cli-https",
+                        error: nil),
+                ]
+            },
+            resolveFallbackError: AntigravityProviderDescriptor.resolveFallbackError)
+
+        let outcome = await pipeline.fetch(context: self.makeFetchContext(), provider: .antigravity)
+
+        let result = try outcome.result.get()
+        #expect(result.sourceLabel == "ide")
+        #expect(result.diagnostic == nil)
+        #expect(outcome.attempts.map(\.outcome) == [.failed, .succeeded])
+    }
+
+    @Test
+    func `offline fallback explains the masked live failure`() async throws {
+        let tmp = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try FileManager.default.createDirectory(at: tmp, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: tmp) }
+        let conversations = AntigravityOfflineStore.conversationsDirectory(home: tmp, env: [:])
+        try FileManager.default.createDirectory(at: conversations, withIntermediateDirectories: true)
+        FileManager.default.createFile(atPath: conversations.appendingPathComponent("a.db").path, contents: Data())
+
+        // Mirror the production chain: earlier probes fail as `.notRunning`,
+        // so the diagnostic must survive `resolveFallbackError` precedence.
+        let cliError = AntigravityStatusProbeError.cliReportFailed(
+            .exited(code: 1, reason: .eligibilityNetwork))
+        let pipeline = ProviderFetchPipeline(
+            resolveStrategies: { _ in
+                [
+                    AntigravityFallbackFixtureStrategy(id: "antigravity.app-local", error: .notRunning),
+                    AntigravityFallbackFixtureStrategy(id: "antigravity.cli-https", error: cliError),
+                    AntigravityFallbackFixtureStrategy(id: "antigravity.ide-local", error: .notRunning),
+                    AntigravityOfflineFetchStrategy(),
+                ]
+            },
+            resolveFallbackError: AntigravityProviderDescriptor.resolveFallbackError)
+
+        let outcome = await pipeline.fetch(
+            context: self.makeFetchContext(sourceMode: .cli, env: ["HOME": tmp.path]),
+            provider: .antigravity)
+
+        let result = try outcome.result.get()
+        #expect(result.sourceLabel == "offline")
+        #expect(result.diagnostic == "Live Antigravity usage is unavailable; showing offline data. "
+            + "Antigravity CLI usage report failed: agy exited 1; "
+            + "the eligibility check failed on a network request (check network or proxy settings)")
+    }
+
+    @Test
+    func `offline diagnostic never leaks raw process output`() async throws {
+        let tmp = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try FileManager.default.createDirectory(at: tmp, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: tmp) }
+        let conversations = AntigravityOfflineStore.conversationsDirectory(home: tmp, env: [:])
+        try FileManager.default.createDirectory(at: conversations, withIntermediateDirectories: true)
+        FileManager.default.createFile(atPath: conversations.appendingPathComponent("a.db").path, contents: Data())
+
+        // `apiError` can embed a raw response body; the sink must keep only
+        // the safe HTTP status, not the payload.
+        let pipeline = ProviderFetchPipeline(
+            resolveStrategies: { _ in
+                [
+                    AntigravityFallbackFixtureStrategy(id: "antigravity.app-local", error: .notRunning),
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.cli-https",
+                        error: AntigravityStatusProbeError.apiError("HTTP 500: {\"secret\":\"token-value\"}")),
+                    AntigravityOfflineFetchStrategy(),
+                ]
+            },
+            resolveFallbackError: AntigravityProviderDescriptor.resolveFallbackError)
+
+        let outcome = await pipeline.fetch(
+            context: self.makeFetchContext(sourceMode: .cli, env: ["HOME": tmp.path]),
+            provider: .antigravity)
+
+        let result = try outcome.result.get()
+        #expect(result.sourceLabel == "offline")
+        #expect(result.diagnostic?.contains("token-value") == false)
+        #expect(result.diagnostic?.contains("HTTP 500") == true)
+    }
+
+    @Test
+    func `a winner's own diagnostic outranks the prior failure note`() async throws {
+        let pipeline = ProviderFetchPipeline(
+            resolveStrategies: { _ in
+                [
+                    AntigravityFallbackFixtureStrategy(id: "antigravity.app-local", error: .notRunning),
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.ide-local",
+                        error: nil,
+                        diagnostic: "winner-note",
+                        priorFailureDiagnostic: "competing-fallback-note"),
+                ]
+            },
+            resolveFallbackError: AntigravityProviderDescriptor.resolveFallbackError)
+
+        let outcome = await pipeline.fetch(context: self.makeFetchContext(), provider: .antigravity)
+
+        let result = try outcome.result.get()
+        #expect(result.diagnostic == "winner-note")
+    }
+
+    @Test
+    func `clean offline fallback stays silent about earlier sources`() async throws {
+        let tmp = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try FileManager.default.createDirectory(at: tmp, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: tmp) }
+        let conversations = AntigravityOfflineStore.conversationsDirectory(home: tmp, env: [:])
+        try FileManager.default.createDirectory(at: conversations, withIntermediateDirectories: true)
+        FileManager.default.createFile(atPath: conversations.appendingPathComponent("a.db").path, contents: Data())
+
+        let pipeline = ProviderFetchPipeline(
+            resolveStrategies: { _ in
+                [
+                    AntigravityFallbackFixtureStrategy(
+                        id: "antigravity.cli-https",
+                        error: .notRunning,
+                        available: false),
+                    AntigravityOfflineFetchStrategy(),
+                ]
+            },
+            resolveFallbackError: AntigravityProviderDescriptor.resolveFallbackError)
+
+        let outcome = await pipeline.fetch(
+            context: self.makeFetchContext(sourceMode: .cli, env: ["HOME": tmp.path]),
+            provider: .antigravity)
+
+        let result = try outcome.result.get()
+        #expect(result.sourceLabel == "offline")
+        #expect(result.diagnostic == nil)
+        #expect(outcome.attempts.map(\.outcome) == [.skipped, .succeeded])
     }
 }
 
@@ -1131,10 +1348,30 @@ extension AntigravityCLIHTTPSFetchStrategyTests {
 private struct AntigravityFallbackFixtureStrategy: ProviderFetchStrategy {
     let id: String
     let error: AntigravityStatusProbeError?
+    let available: Bool
+    var allowsFallback = true
+    let diagnostic: String?
+    let priorFailureDiagnostic: String?
     let kind: ProviderFetchKind = .localProbe
 
+    init(
+        id: String,
+        error: AntigravityStatusProbeError?,
+        available: Bool = true,
+        allowsFallback: Bool = true,
+        diagnostic: String? = nil,
+        priorFailureDiagnostic: String? = nil)
+    {
+        self.id = id
+        self.error = error
+        self.available = available
+        self.allowsFallback = allowsFallback
+        self.diagnostic = diagnostic
+        self.priorFailureDiagnostic = priorFailureDiagnostic
+    }
+
     func isAvailable(_: ProviderFetchContext) async -> Bool {
-        true
+        self.available
     }
 
     func fetch(_: ProviderFetchContext) async throws -> ProviderFetchResult {
@@ -1143,10 +1380,15 @@ private struct AntigravityFallbackFixtureStrategy: ProviderFetchStrategy {
         }
         return self.makeResult(
             usage: UsageSnapshot(primary: nil, secondary: nil, updatedAt: Date()),
-            sourceLabel: "ide")
+            sourceLabel: "ide",
+            diagnostic: self.diagnostic)
     }
 
     func shouldFallback(on _: Error, context _: ProviderFetchContext) -> Bool {
-        true
+        self.allowsFallback
+    }
+
+    func diagnostic(forPriorFailure _: Error) -> String? {
+        self.priorFailureDiagnostic
     }
 }

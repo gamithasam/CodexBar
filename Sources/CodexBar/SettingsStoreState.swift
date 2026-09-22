@@ -38,6 +38,7 @@ struct SettingsDefaultsState {
     var kiroMenuBarDisplayModeRaw: String?
     var historicalTrackingEnabled: Bool
     var multiAccountMenuLayoutRaw: String
+    var accountWidgetsEnabled: Bool
     var menuBarMetricPreferencesRaw: [String: String]
     var storedMenuBarLayout: MenuBarLayout?
     var menuBarLayoutConditionals: [MenuBarLayoutConditional]
@@ -79,7 +80,11 @@ struct SettingsDefaultsState {
     var automaticProviderSelectionEnabled: Bool = false
     var appProviderMappings: [AppProviderMapping] = AppProviderMapping.defaults
     var mergeIcons: Bool
+    var mergedOverviewLayoutRaw: String
     var switcherShowsIcons: Bool
+    var mergeIconsStacked: Bool
+    var mergeIconStackedTopProviderRaw: String?
+    var mergeIconStackedBottomProviderRaw: String?
     var mergedMenuLastSelectedWasOverview: Bool
     var mergedOverviewSelectedProvidersRaw: [String]
     var selectedMenuProviderRaw: String?

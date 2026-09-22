@@ -767,6 +767,8 @@ public enum AntigravityStatusProbeError: LocalizedError, Sendable, Equatable {
     case portDetectionFailed(String)
     case apiError(String)
     case parseFailed(String)
+    /// A failed `agy` print-usage invocation, without raw subprocess output.
+    case cliReportFailed(AntigravityCLIPrintFailure)
     case timedOut
     case authenticationRequired
     case accountMismatch(expected: String?, found: String?)
@@ -783,6 +785,8 @@ public enum AntigravityStatusProbeError: LocalizedError, Sendable, Equatable {
             Self.apiErrorDescription(message)
         case let .parseFailed(message):
             "Could not parse Antigravity quota: \(message)"
+        case let .cliReportFailed(failure):
+            "Antigravity CLI usage report failed: \(failure.message)"
         case .timedOut:
             "Antigravity quota request timed out."
         case .authenticationRequired:
@@ -796,10 +800,10 @@ public enum AntigravityStatusProbeError: LocalizedError, Sendable, Equatable {
         let selected = expected ?? "the selected account"
         if let found {
             return "Antigravity local session is signed in as \(found), not \(selected); "
-                + "using the selected account's OAuth data instead."
+                + "local usage cannot be used for the selected account."
         }
         return "Antigravity local session did not report an account matching \(selected); "
-            + "using the selected account's OAuth data instead."
+            + "local usage cannot be used for the selected account."
     }
 
     private static func portDetectionDescription(_ message: String) -> String {

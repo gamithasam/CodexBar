@@ -812,6 +812,17 @@ struct MenuBarLayoutTests {
     }
 
     @Test
+    func `named extra token persists labels and drops for older releases`() throws {
+        let token = MenuBarLayoutToken.extraPercent(id: "cursor-grok-bot")
+
+        #expect(try JSONDecoder().decode(MenuBarLayoutToken.self, from: JSONEncoder().encode(token)) == token)
+        #expect(token.editorLabel(provider: .cursor) == "Grok Bot %")
+        #expect(!token.hasReleasedRepresentation)
+        #expect(!token.hasLegacyRepresentation)
+        #expect(MenuBarLayout(lines: [[.icon, token]]).legacyCompatible() == MenuBarLayout(lines: [[.icon]]))
+    }
+
+    @Test
     func `Amp lane tokens use snapshot presentation labels`() {
         let snapshot = UsageSnapshot(
             primary: RateWindow(usedPercent: 10, windowMinutes: nil, resetsAt: nil, resetDescription: nil),
@@ -827,7 +838,7 @@ struct MenuBarLayoutTests {
     @Test
     func `direct lane tokens only expose provider supported metrics`() {
         #expect(MenuBarLayoutLane.available(for: nil).isEmpty)
-        #expect(MenuBarLayoutLane.available(for: .mistral).isEmpty)
+        #expect(MenuBarLayoutLane.available(for: .mistral) == [.primary])
         #expect(MenuBarLayoutLane.available(for: .openrouter) == [.primary])
         #expect(MenuBarLayoutLane.available(for: .cursor) == [.primary, .secondary])
 
@@ -847,8 +858,8 @@ struct MenuBarLayoutTests {
     }
 
     @Test
-    func `opencode go exposes the monthly tertiary lane once a window exists`() {
-        #expect(MenuBarLayoutLane.available(for: .opencodego) == [.primary, .secondary])
+    func `opencode go exposes the monthly tertiary lane before data arrives`() {
+        #expect(MenuBarLayoutLane.available(for: .opencodego) == [.primary, .secondary, .tertiary])
 
         let usageSnapshot = UsageSnapshot(
             primary: nil,
