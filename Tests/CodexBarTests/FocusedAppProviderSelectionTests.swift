@@ -105,7 +105,7 @@ struct FocusedAppProviderSelectionTests {
         mappings.removeAll { $0.bundleIdentifier == self.codex }
         #expect(self.focus(self.codex, policy: &policy, mappings: mappings) == nil)
         #expect(self.focus(self.codex, policy: &policy) == .codex)
-        #expect(AppProviderMapping.defaults.count == 17)
+        #expect(AppProviderMapping.defaults.count == 18)
     }
 
     @Test
@@ -122,6 +122,7 @@ struct FocusedAppProviderSelectionTests {
         #expect(mappings["com.exafunction.windsurf"] == .windsurf)
         #expect(mappings["com.qoder.qoder"] == .qoder)
         #expect(mappings["dev.zed.Zed"] == .zed)
+        #expect(mappings["ai.perplexity.mac"] == .perplexity)
         #expect(mappings["ai.perplexity.comet"] == .perplexity)
         #expect(mappings["com.microsoft.VSCodeInsiders"] == .copilot)
     }

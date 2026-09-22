@@ -26,6 +26,7 @@ struct AppProviderMapping: Codable, Equatable, Identifiable, Sendable {
         Self(bundleIdentifier: "com.exafunction.windsurf", displayName: "Windsurf", provider: .windsurf),
         Self(bundleIdentifier: "com.qoder.qoder", displayName: "Qoder", provider: .qoder),
         Self(bundleIdentifier: "dev.zed.Zed", displayName: "Zed", provider: .zed),
+        Self(bundleIdentifier: "ai.perplexity.mac", displayName: "Perplexity", provider: .perplexity),
         Self(bundleIdentifier: "ai.perplexity.comet", displayName: "Comet", provider: .perplexity),
         Self(bundleIdentifier: "com.electron.ollama", displayName: "Ollama", provider: .ollama),
         Self(bundleIdentifier: "dev.warp.Warp-Stable", displayName: "Warp", provider: .warp),
