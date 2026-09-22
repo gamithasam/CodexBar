@@ -13,10 +13,20 @@ struct AppProviderMapping: Codable, Equatable, Identifiable, Sendable {
     /// Provider-specific by design: dedicated native app bundle IDs map to matching usage providers.
     static let defaults: [Self] = [
         Self(bundleIdentifier: "com.openai.codex", displayName: "Codex", provider: .codex),
+        Self(bundleIdentifier: "com.openai.chat", displayName: "ChatGPT", provider: .openai),
         Self(bundleIdentifier: "com.anthropic.claudefordesktop", displayName: "Claude", provider: .claude),
         Self(bundleIdentifier: "com.todesktop.230313mzl4w4u92", displayName: "Cursor", provider: .cursor),
         Self(bundleIdentifier: "com.google.antigravity", displayName: "Antigravity", provider: .antigravity),
+        Self(bundleIdentifier: "com.google.antigravity-ide", displayName: "Antigravity IDE", provider: .antigravity),
+        Self(bundleIdentifier: "com.google.GeminiMacOS", displayName: "Gemini", provider: .gemini),
+        Self(bundleIdentifier: "dev.kiro.desktop", displayName: "Kiro", provider: .kiro),
+        Self(bundleIdentifier: "ai.opencode.desktop", displayName: "OpenCode", provider: .opencode),
         Self(bundleIdentifier: "com.microsoft.VSCode", displayName: "Visual Studio Code", provider: .copilot),
+        Self(bundleIdentifier: "com.microsoft.VSCodeInsiders", displayName: "Visual Studio Code Insiders", provider: .copilot),
+        Self(bundleIdentifier: "com.exafunction.windsurf", displayName: "Windsurf", provider: .windsurf),
+        Self(bundleIdentifier: "com.qoder.qoder", displayName: "Qoder", provider: .qoder),
+        Self(bundleIdentifier: "dev.zed.Zed", displayName: "Zed", provider: .zed),
+        Self(bundleIdentifier: "ai.perplexity.comet", displayName: "Comet", provider: .perplexity),
         Self(bundleIdentifier: "com.electron.ollama", displayName: "Ollama", provider: .ollama),
         Self(bundleIdentifier: "dev.warp.Warp-Stable", displayName: "Warp", provider: .warp),
     ]

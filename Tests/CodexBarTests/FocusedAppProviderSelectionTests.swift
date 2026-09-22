@@ -105,6 +105,24 @@ struct FocusedAppProviderSelectionTests {
         mappings.removeAll { $0.bundleIdentifier == self.codex }
         #expect(self.focus(self.codex, policy: &policy, mappings: mappings) == nil)
         #expect(self.focus(self.codex, policy: &policy) == .codex)
-        #expect(AppProviderMapping.defaults.count == 7)
+        #expect(AppProviderMapping.defaults.count == 17)
+    }
+
+    @Test
+    func `defaults include verified native provider applications`() {
+        let mappings = Dictionary(uniqueKeysWithValues: AppProviderMapping.defaults.map {
+            ($0.bundleIdentifier, $0.provider)
+        })
+
+        #expect(mappings["com.openai.chat"] == .openai)
+        #expect(mappings["com.google.GeminiMacOS"] == .gemini)
+        #expect(mappings["com.google.antigravity-ide"] == .antigravity)
+        #expect(mappings["dev.kiro.desktop"] == .kiro)
+        #expect(mappings["ai.opencode.desktop"] == .opencode)
+        #expect(mappings["com.exafunction.windsurf"] == .windsurf)
+        #expect(mappings["com.qoder.qoder"] == .qoder)
+        #expect(mappings["dev.zed.Zed"] == .zed)
+        #expect(mappings["ai.perplexity.comet"] == .perplexity)
+        #expect(mappings["com.microsoft.VSCodeInsiders"] == .copilot)
     }
 }
