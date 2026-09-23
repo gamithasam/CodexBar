@@ -6,6 +6,48 @@ import Testing
 @MainActor
 struct AppProviderSelectionSettingsTests {
     @Test
+    func `fresh install starts with automatic selection disabled and default mappings`() throws {
+        try self.withStores { defaults, makeStore in
+            #expect(defaults.object(forKey: "automaticProviderSelectionEnabled") == nil)
+            #expect(defaults.object(forKey: "appProviderMappings") == nil)
+
+            let freshInstall = makeStore()
+
+            #expect(!freshInstall.automaticProviderSelectionEnabled)
+            #expect(freshInstall.appProviderMappings == AppProviderMapping.defaults)
+            #expect(freshInstall.selectedMenuProvider == nil)
+            #expect(!freshInstall.mergedMenuLastSelectedWasOverview)
+        }
+    }
+
+    @Test
+    func `upgrade preserves existing preferences while automatic selection stays opt in`() throws {
+        try self.withStores { defaults, makeStore in
+            defaults.set(ProviderInstanceID.copilot.rawValue, forKey: "selectedMenuProvider")
+            defaults.set(true, forKey: "mergedMenuLastSelectedWasOverview")
+            defaults.set(true, forKey: "menuBarShowsHighestUsage")
+
+            #expect(defaults.object(forKey: "automaticProviderSelectionEnabled") == nil)
+            #expect(defaults.object(forKey: "appProviderMappings") == nil)
+
+            let upgraded = makeStore()
+
+            #expect(!upgraded.automaticProviderSelectionEnabled)
+            #expect(upgraded.selectedMenuProvider == .copilot)
+            #expect(upgraded.mergedMenuLastSelectedWasOverview)
+            #expect(upgraded.menuBarShowsHighestUsage)
+            #expect(upgraded.appProviderMappings == AppProviderMapping.defaults)
+
+            upgraded.automaticProviderSelectionEnabled = true
+
+            #expect(upgraded.automaticProviderSelectionEnabled)
+            #expect(!upgraded.menuBarShowsHighestUsage)
+            #expect(upgraded.selectedMenuProvider == .copilot)
+            #expect(upgraded.mergedMenuLastSelectedWasOverview)
+        }
+    }
+
+    @Test
     func `automatic selection persists and is mutually exclusive with highest usage`() throws {
         try self.withStores { defaults, makeStore in
             let store = makeStore()

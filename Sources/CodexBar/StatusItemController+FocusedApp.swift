@@ -54,6 +54,17 @@ extension StatusItemController {
         self.focusedAppSelection.recordManualSelection(provider: provider)
     }
 
+    func shouldApplyManualProviderSelection(_ selection: ProviderSwitcherSelection) -> Bool {
+        switch selection {
+        case .overview:
+            self.recordManualProviderSelection(nil)
+            return !self.settings.mergedMenuLastSelectedWasOverview
+        case let .provider(instanceID):
+            self.recordManualProviderSelection(instanceID.firstPartyProvider)
+            return self.settings.mergedMenuLastSelectedWasOverview || self.selectedMenuProvider != instanceID
+        }
+    }
+
     func applyPendingFocusedAppProviderSelection() {
         guard self.focusedAppSelectionIsActive, self.openMenus.isEmpty, !self.hasPreparedForAppShutdown else { return }
         let provider = self.focusedAppSelection.menuClosed(

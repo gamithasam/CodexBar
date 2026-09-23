@@ -22,7 +22,10 @@ struct AppProviderMapping: Codable, Equatable, Identifiable, Sendable {
         Self(bundleIdentifier: "dev.kiro.desktop", displayName: "Kiro", provider: .kiro),
         Self(bundleIdentifier: "ai.opencode.desktop", displayName: "OpenCode", provider: .opencode),
         Self(bundleIdentifier: "com.microsoft.VSCode", displayName: "Visual Studio Code", provider: .copilot),
-        Self(bundleIdentifier: "com.microsoft.VSCodeInsiders", displayName: "Visual Studio Code Insiders", provider: .copilot),
+        Self(
+            bundleIdentifier: "com.microsoft.VSCodeInsiders",
+            displayName: "Visual Studio Code Insiders",
+            provider: .copilot),
         Self(bundleIdentifier: "com.exafunction.windsurf", displayName: "Windsurf", provider: .windsurf),
         Self(bundleIdentifier: "com.qoder.qoder", displayName: "Qoder", provider: .qoder),
         Self(bundleIdentifier: "dev.zed.Zed", displayName: "Zed", provider: .zed),

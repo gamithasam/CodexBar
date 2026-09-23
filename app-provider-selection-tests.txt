@@ -1,0 +1,2697 @@
+Building for debugging...
+[0/50] Copying ProviderIcon-coderabbit.svg
+[0/50] Write sources
+[0/50] Copying elevenlabs.js
+[0/51] Write sources
+[1/60] Copying PrivacyInfo.xcprivacy
+[1/60] Write sources
+[3/60] Copying Localizable.strings
+[3/60] Write sources
+[25/63] Copying Fixtures
+[26/63] Copying Sparkle.framework
+[26/63] Copying Documentation.docc
+[26/63] Copying Localizable.strings
+[26/63] Copying elevenlabs.ts
+[26/63] Copying ProviderIcon-gitkraken.svg
+[26/63] /Users/gamitha/Developer/CodexBar/.build/arm64-apple-macosx/debug/CodexBarPackageTests.derived/runner.swift
+[26/63] Copying Assets.xcassets
+[33/67] Copying Localizable.strings
+[33/67] Copying Info.plist
+[33/67] Copying gitkraken.js
+[34/67] Write sources
+[35/67] Copying ProviderIcon-helmcode.svg
+[38/70] Copying gitkraken.ts
+[39/71] Copying Localizable.strings
+[40/71] Copying ProviderIcon-huggingface.svg
+[41/73] Copying helmcode.js
+[41/73] Copying Localizable.strings
+[43/75] Copying ProviderIcon-muse.svg
+[44/76] Copying Localizable.strings
+[45/77] Copying helmcode.ts
+[46/78] Copying Localizable.strings
+[47/78] Copying ProviderIcon-nous.svg
+[48/80] Copying huggingface.js
+[49/81] Copying ProviderIcon-pi.svg
+[50/81] Copying Localizable.strings
+[51/83] Copying huggingface.ts
+[52/84] Copying ProviderIcon-replicate.svg
+[53/85] Copying Localizable.strings
+[53/85] Copying litellm.js
+[55/87] Copying ProviderIcon-typesafe.svg
+[55/87] Copying litellm.ts
+[57/89] Copying Localizable.strings
+[57/89] Copying llmproxy.js
+[57/89] Copying ProviderIcon-v0.svg
+[60/92] Copying Localizable.strings
+[60/92] Copying llmproxy.ts
+[62/93] Copying Info.plist
+[63/94] Copying Localizable.strings
+[63/94] Copying muse.js
+[65/207] Copying muse.ts
+[66/208] Copying Localizable.strings
+[66/208] Copying Localizable.stringsdict
+[66/208] Copying neuralwatt.js
+[66/208] Copying Localizable.strings
+[66/208] Copying Localizable.stringsdict
+[66/208] Copying Localizable.strings
+[66/208] Copying Localizable.stringsdict
+[66/208] Copying Localizable.strings
+[66/208] Copying Localizable.stringsdict
+[66/208] Copying Localizable.strings
+[66/208] Copying Localizable.stringsdict
+[66/208] Copying Localizable.strings
+[66/208] Copying Localizable.stringsdict
+[66/208] Copying Localizable.strings
+[66/208] Copying Localizable.stringsdict
+[66/208] Copying Localizable.strings
+[84/210] Copying Localizable.stringsdict
+[84/210] Copying Localizable.strings
+[84/210] Copying nous.js
+[84/210] Copying Localizable.strings
+[84/210] Copying Localizable.stringsdict
+[84/210] Copying Localizable.strings
+[84/210] Copying Localizable.stringsdict
+[84/210] Copying Localizable.strings
+[84/210] Copying Localizable.stringsdict
+[94/212] Copying Localizable.strings
+[94/212] Copying nous.ts
+[94/212] Copying Localizable.stringsdict
+[94/212] Copying Localizable.strings
+[94/212] Copying Localizable.stringsdict
+[94/212] Copying Localizable.strings
+[94/212] Copying Localizable.stringsdict
+[94/212] Copying Localizable.strings
+[94/212] Copying Localizable.stringsdict
+[94/212] Copying Localizable.strings
+[94/212] Copying Localizable.stringsdict
+[94/212] Copying Localizable.strings
+[94/212] Copying Localizable.stringsdict
+[94/212] Copying Localizable.strings
+[95/212] Copying Localizable.stringsdict
+[111/212] Copying Localizable.strings
+[115/214] Copying Localizable.stringsdict
+[115/214] Copying Localizable.strings
+[117/215] Copying replicate.js
+[118/216] Copying Localizable.strings
+[118/216] Copying Localizable.stringsdict
+[120/216] Copying Localizable.strings
+[120/216] Copying replicate.ts
+[120/216] Copying ProviderIcon-zoommate.svg
+[120/216] Copying ProviderIcon-zenmux.svg
+[124/218] Copying ProviderIcon-zai.svg
+[125/218] Copying ProviderIcon-xai.svg
+[125/218] Copying Info.plist
+[125/218] Copying typesafe.js
+[125/218] Copying ProviderIcon-zed.svg
+[125/218] Copying ProviderIcon-windsurf.svg
+[125/218] Copying ProviderIcon-wayfinder.svg
+[125/218] Copying ProviderIcon-warp.svg
+[128/218] Copying ProviderIcon-venice.svg
+[133/219] Copying ProviderIcon-vertexai.svg
+[133/219] Copying ProviderIcon-t3chat.svg
+[135/219] Copying typesafe.ts
+[136/220] Copying ProviderIcon-sub2api.svg
+[136/220] Copying ProviderIcon-synthetic.svg
+[138/220] Copying v0.js
+[138/220] Copying ProviderIcon-stepfun.svg
+[140/221] Copying ProviderIcon-sakana.svg
+[141/221] Copying v0.ts
+[142/221] Copying ProviderIcon-qwencloud.svg
+[143/222] Copying ProviderIcon-qoder.svg
+[144/222] Copying ProviderIcon-poe.svg
+[145/222] Copying Info.plist
+[146/222] Copying ProviderIcon-openrouter.svg
+[146/222] Copying ProviderIcon-perplexity.svg
+[148/230] Copying ProviderIcon-opencodego.svg
+[148/235] Copying ProviderIcon-ollama.svg
+[148/235] Copying ProviderIcon-opencode.svg
+[148/236] Copying ProviderIcon-neuralwatt.svg
+[148/241] Copying ProviderIcon-mistral.svg
+[148/241] Copying ProviderIcon-notion.svg
+[154/241] Copying ProviderIcon-mimo.svg
+[154/241] Copying ProviderIcon-minimax.svg
+[154/241] Copying xai.js
+[154/241] Copying zai.js
+[158/241] Copying t3chat.js
+[158/241] Copying synthetic.js
+[158/241] Copying venice.js
+[161/241] Copying sucrase-3.35.1.min.js
+[162/241] Copying sub2api.js
+[162/241] Copying qoder.js
+[164/241] Copying provider-plugin-prelude.js
+[165/241] Copying poe.js
+[165/241] Copying perplexity.js
+[167/241] Copying openrouter.js
+[167/241] Copying openai.js
+[169/241] Copying manus.js
+[170/241] Copying deepgram.js
+[170/241] Copying codexbar-plugin.d.ts
+[172/241] Copying clinepass.ts
+[173/241] Copying clinepass.js
+[174/241] Copying ProviderIcon-manus.svg
+[174/241] Copying clawrouter.js
+[176/241] Copying ProviderIcon-longcat.svg
+[176/241] Copying ProviderIcon-llmproxy.svg
+[178/241] Copying ProviderIcon-litellm.svg
+[179/241] Copying ProviderIcon-kimi.svg
+[180/241] Copying ProviderIcon-kiro.svg
+[181/241] Copying ProviderIcon-kilo.svg
+[182/241] Copying ProviderIcon-ibmbob.svg
+[182/241] Copying ProviderIcon-jetbrains.svg
+[184/241] Copying ProviderIcon-groq.svg
+[185/241] Copying ProviderIcon-grok.svg
+[185/241] Copying ProviderIcon-gemini.svg
+[187/241] Copying ProviderIcon-factory.svg
+[187/241] Copying ProviderIcon-fireworks.svg
+[188/241] Copying ProviderIcon-elevenlabs.svg
+[190/241] Copying ProviderIcon-doubao.svg
+[190/241] Copying ProviderIcon-devin.svg
+[190/241] Copying ProviderIcon-deepseek.svg
+[193/241] Copying ProviderIcon-deepgram.svg
+[193/241] Copying ProviderIcon-deepinfra.svg
+[194/241] Copying ProviderIcon-cursor.svg
+[196/241] Copying ProviderIcon-copilot.svg
+[196/241] Copying ProviderIcon-commandcode.svg
+[198/241] Copying ProviderIcon-codex.svg
+[198/241] Copying ProviderIcon-codebuff.svg
+[200/241] Copying ProviderIcon-clawrouter.svg
+[201/241] Copying ProviderIcon-claude.svg
+[201/241] Copying ProviderIcon-clinepass.svg
+[203/241] Copying ProviderIcon-chutes.svg
+[203/241] Copying ProviderIcon-bedrock.svg
+[203/241] Copying ProviderIcon-augment.svg
+[203/241] Copying ProviderIcon-antigravity.svg
+[203/241] Copying ProviderIcon-amp.svg
+[203/241] Copying ProviderIcon-alibaba.svg
+[203/241] Copying ProviderIcon-aiand.svg
+[203/241] Copying ProviderIcon-abacus.svg
+[210/241] Copying Icon-classic.icns
+[212/241] Write swift-version--58304C5D6DBC2206.txt
+[213/289] Compiling CQuickJS CQuickJSHost.c
+[214/301] Compiling CQuickJS libregexp.c
+[215/386] Compiling CQuickJS dtoa.c
+[216/386] Compiling CQuickJS libunicode.c
+[218/397] Compiling Logging Logger+Attributes.swift
+[219/397] Compiling Logging Logger+With.swift
+[220/397] Compiling Logging LoggingSystem.swift
+[221/397] Compiling Commander CommandSignature.swift
+[222/397] Compiling Commander Errors.swift
+[223/397] Compiling Crypto ASN1Strings.swift
+[224/397] Compiling Crypto ArraySliceBigint.swift
+[225/397] Compiling Crypto GeneralizedTime.swift
+[226/397] Compiling Crypto ObjectIdentifier.swift
+[227/397] Emitting module Logging
+[228/397] Compiling Logging Logger.swift
+[229/398] Compiling Logging MetadataProvider.swift
+[230/400] Emitting module Crypto
+[230/411] Compiling CQuickJS quickjs.c
+[232/411] Compiling Crypto HPKE-LabeledExtract.swift
+[233/411] Compiling Crypto HPKE-Utils.swift
+[234/411] Compiling Crypto DHKEM.swift
+[235/411] Compiling Crypto HPKE-KEM-Curve25519.swift
+[236/411] Compiling Crypto HPKE-NIST-EC-KEMs.swift
+[237/411] Compiling Crypto HPKE-KEM.swift
+[238/411] Compiling Crypto HPKE-Errors.swift
+[239/411] Compiling Crypto HPKE.swift
+[240/411] Compiling Crypto HPKE-Context.swift
+[241/411] Compiling Crypto HPKE-KeySchedule.swift
+[242/411] Compiling Crypto HPKE-Modes.swift
+[243/411] Compiling Crypto Insecure.swift
+[244/411] Compiling Crypto Insecure_HashFunctions.swift
+[245/411] Compiling Crypto MLKEM_boring.swift
+[246/411] Compiling Crypto MLKEM_wrapper.swift
+[247/411] Compiling Crypto XWing_boring.swift
+[248/411] Compiling Crypto KEM-Errors.swift
+[249/411] Compiling Crypto KEM.swift
+[250/411] Compiling Crypto MLKEM.swift
+[251/411] Compiling Crypto XWing.swift
+[252/411] Compiling Crypto ECDH_boring.swift
+[253/411] Compiling Crypto DH.swift
+[254/411] Compiling Crypto ECDH.swift
+[255/411] Compiling Crypto ANSIx963.swift
+[256/411] Compiling Crypto HKDF.swift
+[257/411] Compiling Crypto AESWrap.swift
+[258/411] Compiling Crypto AESWrap_boring.swift
+[259/411] Compiling Crypto Ed25519_boring.swift
+[260/411] Compiling Crypto NISTCurvesKeys_boring.swift
+[261/411] Compiling Crypto X25519Keys_boring.swift
+[262/411] Compiling Crypto Curve25519.swift
+[263/411] Compiling Crypto Ed25519Keys.swift
+[264/411] Compiling Crypto NISTCurvesKeys.swift
+[265/411] Compiling Crypto X25519Keys.swift
+[266/411] Compiling Crypto SymmetricKeys.swift
+[267/411] Compiling Crypto HMAC.swift
+[268/411] Compiling Crypto MACFunctions.swift
+[269/411] Compiling Crypto MessageAuthenticationCode.swift
+[270/411] Compiling Crypto AES.swift
+[271/411] Compiling Crypto ECDSASignature_boring.swift
+[272/411] Compiling Crypto ECDSA_boring.swift
+[273/411] Compiling Crypto EdDSA_boring.swift
+[274/411] Compiling Crypto MLDSA_boring.swift
+[275/411] Compiling Crypto MLDSA_wrapper.swift
+[276/411] Compiling Crypto ECDSA.swift
+[277/411] Compiling Crypto Ed25519.swift
+[278/411] Compiling Crypto MLDSA.swift
+[279/411] Compiling Crypto Signature.swift
+[286/411] Compiling Crypto ECDSASignature.swift
+[287/411] Compiling Crypto PEMDocument.swift
+[288/411] Compiling Crypto PKCS8PrivateKey.swift
+[289/411] Compiling Crypto SEC1PrivateKey.swift
+[290/411] Compiling Crypto SubjectPublicKeyInfo.swift
+[291/411] Compiling Crypto CryptoError_boring.swift
+[292/411] Compiling Crypto CryptoKitErrors.swift
+[293/411] Compiling Crypto Digest_boring.swift
+[294/411] Compiling Crypto Digest.swift
+[295/411] Compiling Crypto Digests.swift
+[296/411] Compiling Crypto HashFunctions.swift
+[297/411] Compiling Crypto HashFunctions_SHA2.swift
+[298/411] Compiling Crypto HashFunctions_SHA3.swift
+[299/411] Compiling Crypto Digest_xkcp.swift
+[300/411] Compiling Crypto HPKE-AEAD.swift
+[301/411] Compiling Crypto HPKE-Ciphersuite.swift
+[302/411] Compiling Crypto HPKE-KDF.swift
+[303/411] Compiling Crypto HPKE-KexKeyDerivation.swift
+[304/411] Compiling Crypto AES-GCM.swift
+[305/411] Compiling Crypto AES-GCM_boring.swift
+[306/411] Compiling Crypto ChaChaPoly_boring.swift
+[307/411] Compiling Crypto ChaChaPoly.swift
+[308/411] Compiling Crypto Cipher.swift
+[309/411] Compiling Crypto Nonces.swift
+[310/411] Compiling Crypto ASN1.swift
+[311/411] Compiling Crypto ASN1Any.swift
+[312/411] Compiling Crypto ASN1BitString.swift
+[313/411] Compiling Crypto ASN1Boolean.swift
+[314/411] Compiling Crypto ASN1Identifier.swift
+[315/411] Compiling Crypto ASN1Integer.swift
+[316/411] Compiling Crypto CryptoKitErrors_boring.swift
+[317/411] Compiling Crypto Optional+withUnsafeBytes_boring.swift
+[318/411] Compiling Crypto RNG_boring.swift
+[319/411] Compiling Crypto SafeCompare_boring.swift
+[320/411] Compiling Crypto Zeroization_boring.swift
+[321/411] Compiling Crypto _CryptoModuleAnchor.swift
+[322/411] Compiling Crypto PrettyBytes.swift
+[323/411] Compiling Crypto SafeCompare.swift
+[324/411] Compiling Crypto SecureBytes.swift
+[325/411] Compiling Crypto Zeroization.swift
+[326/411] Compiling Crypto resource_bundle_accessor.swift
+[327/411] Compiling SweetCookieKit SnappyDecoder.swift
+[328/412] Compiling SweetCookieKit resource_bundle_accessor.swift
+[333/412] Compiling SweetCookieKit SafariCookieImporter.swift
+[334/412] Compiling SweetCookieKit GeckoCookieImporter.swift
+[339/412] Emitting module SweetCookieKit
+[340/412] Emitting module CodexBarClaudeWatchdog
+[341/412] Compiling CodexBarClaudeWatchdog main.swift
+[341/412] Write Objects.LinkFileList
+[343/412] Compiling Commander Program.swift
+[344/412] Compiling Commander NameSpecification.swift
+[345/412] Emitting module Commander
+[348/413] Emitting module AdaptiveRefreshCore
+[349/413] Compiling AdaptiveRefreshCore AdaptiveRefreshPolicyCore.swift
+[350/413] Compiling Commander ExpressibleFromArgument.swift
+[351/413] Compiling Commander ParsableCommand.swift
+[352/413] Compiling Commander Tokenizer.swift
+[353/413] Compiling Commander CommandParser.swift
+[354/423] Compiling Commander PropertyWrappers.swift
+[354/423] Linking CodexBarClaudeWatchdog
+[355/424] Write CodexBarClaudeWatchdog-entitlement.plist
+[356/463] Applying CodexBarClaudeWatchdog
+[358/600] Compiling AdaptiveReplayKit ReplayPolicy.swift
+[359/600] Compiling AdaptiveReplayKit ReplayMetrics.swift
+[360/601] Compiling CodexBarCore AbacusUsageSnapshot.swift
+[361/601] Compiling CodexBarCore AiAndProviderDescriptor.swift
+[362/601] Compiling AdaptiveReplayKit ReplayTraceSegmentation.swift
+[363/601] Compiling AdaptiveReplayKit BaselinePolicies.swift
+[364/601] Compiling CodexBarCore AiAndSettingsReader.swift
+[365/601] Compiling CodexBarCore AiAndUsageFetcher.swift
+[366/601] Emitting module AdaptiveReplayKit
+[367/601] Compiling AdaptiveReplayKit RecordedScheduleAudit.swift
+[368/601] Compiling AdaptiveReplayKit ReplayEngine.swift
+[369/612] Emitting module Vortex
+[370/615] Compiling AdaptiveReplayCLI main.swift
+[371/615] Emitting module AdaptiveReplayCLI
+[372/615] Compiling AdaptiveReplayCLI CLIArguments.swift
+[372/615] Write Objects.LinkFileList
+[373/615] Linking AdaptiveReplayCLI
+[374/616] Write AdaptiveReplayCLI-entitlement.plist
+[375/616] Applying AdaptiveReplayCLI
+[377/618] Compiling AdaptiveReplayCLITests CLIArgumentsTests.swift
+[378/618] Emitting module AdaptiveReplayCLITests
+[379/618] Compiling CodexBarCore AlibabaTokenPlanProviderDescriptor.swift
+[380/618] Compiling CodexBarCore AlibabaTokenPlanSettingsReader.swift
+[381/618] Compiling CodexBarCore AlibabaTokenPlanUsageFetcher.swift
+[382/618] Compiling CodexBarCore AlibabaTokenPlanUsageSnapshot.swift
+[383/618] Compiling CodexBarCore AmpCLIProbe.swift
+[384/618] Compiling CodexBarCore AmpProviderDescriptor.swift
+[385/618] Compiling CodexBarCore AmpProviderSettings.swift
+[386/618] Compiling CodexBarCore AmpSettingsReader.swift
+[387/618] Compiling CodexBarCore AmpUsageFetcher.swift
+[388/618] Compiling Vortex VortexView.swift
+[389/618] Compiling Vortex VortexViewReader.swift
+[390/618] Compiling Vortex resource_bundle_accessor.swift
+[391/618] Compiling CodexBarCore AlibabaCodingPlanUsageFetcher.swift
+[392/618] Compiling CodexBarCore AlibabaCodingPlanUsageSnapshot.swift
+[393/618] Compiling CodexBarCore AlibabaProviderSettings.swift
+[394/618] Compiling CodexBarCore AlibabaTokenPlanAPIRegion.swift
+[395/618] Compiling CodexBarCore AlibabaTokenPlanCLIUsageFetcher.swift
+[396/618] Compiling CodexBarCore AlibabaTokenPlanCookieHeader.swift
+[397/618] Compiling CodexBarCore AlibabaTokenPlanPersonalUsageParser.swift
+[398/618] Compiling CodexBarCore AlibabaCodingPlanAPIRegion.swift
+[399/618] Compiling CodexBarCore AlibabaCodingPlanCookieImporter.swift
+[400/618] Compiling CodexBarCore AlibabaCodingPlanProviderDescriptor.swift
+[401/618] Compiling CodexBarCore AlibabaCodingPlanSettingsReader.swift
+[406/618] Compiling KeyboardShortcuts ViewModifiers.swift
+[413/619] Compiling KeyboardShortcuts Shortcut.swift
+[414/619] Compiling KeyboardShortcuts Utilities.swift
+[415/619] Emitting module KeyboardShortcuts
+[418/619] Compiling AdaptiveReplayKitTests RecordedScheduleAuditTests.swift
+[419/619] Compiling AdaptiveReplayKitTests MenuOnlyAdaptivePolicyTests.swift
+[420/620] Compiling KeyboardShortcuts resource_bundle_accessor.swift
+[421/620] Emitting module AdaptiveReplayKitTests
+[422/620] Compiling AdaptiveReplayKitTests ActivityCoverageStatsTests.swift
+[423/620] Compiling AdaptiveReplayKitTests ReplayTraceSegmentationTests.swift
+[424/620] Compiling AdaptiveReplayKitTests AdaptiveReplayPolicyTests.swift
+[425/620] Compiling AdaptiveReplayKitTests AdaptiveReplayEngineTests.swift
+[426/620] Compiling AdaptiveReplayKitTests AdaptiveReplayTraceParserTests.swift
+[427/620] Compiling AdaptiveReplayKitTests AdaptiveRefreshPolicyCoreTests.swift
+[455/620] Compiling CodexBarCore AppGroupSupport.swift
+[456/620] Compiling CodexBarCore AsyncOperationGate.swift
+[457/620] Compiling CodexBarCore AutoreleasePoolCompat.swift
+[458/620] Compiling CodexBarCore BoundedTaskJoin.swift
+[459/620] Compiling CodexBarCore BrowserCookieAccessGate.swift
+[460/620] Compiling CodexBarCore BrowserCookieImportOrder.swift
+[461/620] Compiling CodexBarCore BrowserCookieImportSupport.swift
+[462/620] Compiling CodexBarCore BrowserCookieProfiles.swift
+[463/620] Compiling CodexBarCore BrowserDetection.swift
+[464/620] Compiling CodexBarCore BrowserLocalStorageAPI.swift
+[465/620] Compiling CodexBarCore CheckedSum.swift
+[466/620] Compiling CodexBarCore ChromiumLocalStorageDiscovery.swift
+[467/620] Compiling CodexBarCore CodexBarCoreResourceSmoke.swift
+[468/620] Compiling CodexBarCore CodexBarCoreResources.swift
+[469/620] Compiling CodexBarCore CodexCredentialFileAccess.swift
+[470/620] Compiling CodexBarCore CodexExecutableResolver.swift
+[471/620] Compiling CodexBarCore CodexHomeScope.swift
+[472/620] Compiling CodexBarCore CodexLocalDataScope.swift
+[473/620] Compiling CodexBarCore CodexLocalProjectRootResolver.swift
+[474/620] Compiling CodexBarCore CodexLocalProjectUsageIndexer.swift
+[475/620] Compiling CodexBarCore CodexLocalProjectUsageModels.swift
+[476/620] Compiling CodexBarCore CodexLocalProjectUsageProjection.swift
+[477/620] Compiling CodexBarCore CodexManagedAccounts.swift
+[478/670] Compiling CodexBarCore CostUsageQuotaResetObservation.swift
+[479/670] Compiling CodexBarCore CostUsageReportContext.swift
+[480/670] Compiling CodexBarCore CostUsageScanExecutor.swift
+[481/670] Compiling CodexBarCore CostUsageTemporalTotals.swift
+[482/670] Compiling CodexBarCore CredentialFileWriter.swift
+[483/670] Compiling CodexBarCore CreditsModels.swift
+[484/670] Compiling CodexBarCore CurrencyExchange.swift
+[485/670] Compiling CodexBarCore DarwinProcessEnumerator.swift
+[486/670] Compiling CodexBarCore Double+Clamped.swift
+[487/670] Compiling CodexBarCore ExpiringValueCache.swift
+[488/670] Compiling CodexBarCore FormURLEncoding.swift
+[489/670] Compiling CodexBarCore CodexParserHash.generated.swift
+[490/670] Compiling CodexBarCore HookEvent+UsageUpdated.swift
+[491/670] Compiling CodexBarCore HookEvent.swift
+[492/670] Compiling CodexBarCore HookRateLimiter.swift
+[493/670] Compiling CodexBarCore HookRule.swift
+[494/670] Compiling CodexBarCore HookRunner.swift
+[495/670] Compiling CodexBarCore HookTransitionDetector.swift
+[496/670] Compiling CodexBarCore StreamScanBuffer.swift
+[497/670] Compiling CodexBarCore TTYCommandRunner.swift
+[498/670] Compiling CodexBarCore BoundedOutputBuffer.swift
+[499/670] Compiling CodexBarCore PosixSpawnFileActionsCloseFrom.swift
+[500/670] Compiling CodexBarCore PosixSpawnFileActionsCompatibility.swift
+[501/670] Compiling CodexBarCore ProcessPipeCapture.swift
+[502/670] Compiling CodexBarCore ProcessTermination.swift
+[503/670] Compiling CodexBarCore ProviderPluginHTTPResponse.swift
+[504/670] Compiling CodexBarCore ProviderPluginManifest.swift
+[505/670] Compiling CodexBarCore ProviderPluginRuntime.swift
+[506/670] Compiling CodexBarCore ProviderPluginSnapshotMapper.swift
+[507/670] Compiling CodexBarCore QuickJSProviderPluginEngine.swift
+[508/670] Compiling CodexBarCore QuickJSTypeScriptTranspiler.swift
+[509/670] Compiling CodexBarCore ScriptFetchStrategy.swift
+[510/670] Compiling CodexBarCore UserProviderPlugins.swift
+[511/670] Compiling CodexBarCore ProviderAccountSnapshot.swift
+[512/670] Compiling CodexBarCore ProviderCostSnapshot.swift
+[513/670] Compiling CodexBarCore ProviderDetailSection.swift
+[514/670] Compiling CodexBarCore ProviderEndpointOverrideValidator.swift
+[515/670] Compiling CodexBarCore ProviderHTTPClient.swift
+[516/670] Compiling CodexBarCore ProviderIdentitySnapshot.swift
+[517/670] Compiling CodexBarCore ProviderSessionStoreFile.swift
+[518/670] Compiling CodexBarCore ProviderStatus.swift
+[519/670] Compiling CodexBarCore ProviderStatusFetcher.swift
+[520/670] Compiling CodexBarCore ProviderStorageFootprint.swift
+[521/670] Compiling CodexBarCore ProviderTransportError.swift
+[522/670] Compiling CodexBarCore APITokenFetchStrategy.swift
+[523/670] Compiling CodexBarCore AbacusCookieImporter.swift
+[524/670] Compiling CodexBarCore AbacusProviderDescriptor.swift
+[525/670] Compiling CodexBarCore AbacusProviderSettings.swift
+[526/670] Compiling CodexBarCore AbacusUsageError.swift
+[527/670] Compiling CodexBarCore AbacusUsageFetcher.swift
+[528/720] Emitting module CodexBarCore
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Plugins/UserProviderPlugins.swift:586:10: warning: instance method 'urlSession(_:task:didReceive:completionHandler:)' nearly matches optional requirement 'urlSession(_:task:didReceive:completionHandler:)' of protocol 'URLSessionTaskDelegate'
+584 |     }
+585 | 
+586 |     func urlSession(
+    |          |- warning: instance method 'urlSession(_:task:didReceive:completionHandler:)' nearly matches optional requirement 'urlSession(_:task:didReceive:completionHandler:)' of protocol 'URLSessionTaskDelegate'
+    |          |- note: candidate has non-matching type '(URLSession, URLSessionTask, URLAuthenticationChallenge, @escaping @Sendable (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) -> ()'
+    |          `- note: move 'urlSession(_:task:didReceive:completionHandler:)' to an extension to silence this warning
+587 |         _: URLSession,
+588 |         task _: URLSessionTask,
+
+Foundation.URLSessionTaskDelegate.urlSession:2:15: note: requirement 'urlSession(_:task:didReceive:completionHandler:)' declared here
+1 | protocol URLSessionTaskDelegate {
+2 | optional func urlSession(_ session: URLSession, task: URLSessionTask, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping @MainActor @Sendable (URLSession.AuthChallengeDisposition, URLCredential?) -> Void)}
+  |               `- note: requirement 'urlSession(_:task:didReceive:completionHandler:)' declared here
+3 | 
+[529/745] Compiling CodexBarCore RPCChildProcessTeardown.swift
+[530/745] Compiling CodexBarCore RPCRequestTimeout.swift
+[531/745] Compiling CodexBarCore SpawnedProcessGroup.swift
+[532/745] Compiling CodexBarCore SubprocessRunner.swift
+[533/745] Compiling CodexBarCore ISO8601DateParser.swift
+[534/745] Compiling CodexBarCore KeychainAccessGate.swift
+[535/745] Compiling CodexBarCore KeychainAccessPreflight+ValidationMemo.swift
+[536/745] Compiling CodexBarCore KeychainAccessPreflight.swift
+[537/745] Compiling CodexBarCore KeychainCacheStore+ApplicationPaths.swift
+[538/745] Compiling CodexBarCore KeychainCacheStore.swift
+[539/745] Compiling CodexBarCore KeychainNoUIQuery.swift
+[540/745] Compiling CodexBarCore KeychainSecurity.swift
+[541/745] Compiling CodexBarCore KeychainStringStore.swift
+[542/745] Compiling CodexBarCore LocalAgentSessionScanner.swift
+[543/745] Compiling CodexBarCore CodexBarLog.swift
+[544/745] Compiling CodexBarCore CompositeLogHandler.swift
+[545/745] Compiling CodexBarCore FileLogHandler.swift
+[546/745] Compiling CodexBarCore JSONStderrLogHandler.swift
+[547/745] Compiling CodexBarCore LogCategories.swift
+[548/745] Compiling CodexBarCore LogMetadata.swift
+[549/745] Compiling CodexBarCore LogRedactor.swift
+[550/745] Compiling CodexBarCore OSLogLogHandler.swift
+[551/745] Compiling CodexBarCore ProviderLogging.swift
+[552/745] Compiling CodexBarCore ManagedCodexAccountStore.swift
+[553/745] Compiling CodexBarCore OpenAIDashboardModels.swift
+[554/770] Compiling CodexBarCore OpenAISubscriptionMetadataModels.swift
+[555/770] Compiling CodexBarCore OpenAIDashboardBrowserCookieImporter+Deadline.swift
+[556/770] Compiling CodexBarCore OpenAIDashboardBrowserCookieImporter.swift
+[557/770] Compiling CodexBarCore OpenAIDashboardFetcher+PageScrape.swift
+[558/770] Compiling CodexBarCore OpenAIDashboardFetcher+ReturnableData.swift
+[559/770] Compiling CodexBarCore OpenAIDashboardFetcher+SessionAuthorization.swift
+[560/770] Compiling CodexBarCore OpenAIDashboardFetcher.swift
+[561/770] Compiling CodexBarCore OpenAIDashboardNavigationDelegate.swift
+[562/770] Compiling CodexBarCore OpenAIDashboardParser.swift
+[563/770] Compiling CodexBarCore OpenAIDashboardReadinessScript.swift
+[564/770] Compiling CodexBarCore OpenAIDashboardScrapeScript.swift
+[565/770] Compiling CodexBarCore OpenAIDashboardWebViewCache.swift
+[566/770] Compiling CodexBarCore OpenAIDashboardWebsiteDataStore.swift
+[567/770] Compiling CodexBarCore OpenAISubscriptionMetadata.swift
+[568/770] Compiling CodexBarCore PathEnvironment.swift
+[569/770] Compiling CodexBarCore PiFamilySessionRootResolver.swift
+[570/770] Compiling CodexBarCore PiFamilySessionScanner.swift
+[571/770] Compiling CodexBarCore PiProcessEnvironment.swift
+[572/770] Compiling CodexBarCore PiSessionCostCache.swift
+[573/770] Compiling CodexBarCore PiSessionCostScanner+Aggregation.swift
+[574/770] Compiling CodexBarCore PiSessionCostScanner.swift
+[575/770] Compiling CodexBarCore PiSessionProcessContext.swift
+[576/770] Compiling CodexBarCore PiSnapshotAccounting.swift
+[577/770] Compiling CodexBarCore ProviderPluginCookieBroker.swift
+[578/770] Compiling CodexBarCore ProviderPluginEngine.swift
+[579/770] Compiling CodexBarCore CodexModelsAnalyticsModels.swift
+[580/770] Compiling CodexBarCore CodexModelsCSVExporter.swift
+[581/770] Compiling CodexBarCore CodexModelsTelemetry.swift
+[582/770] Compiling CodexBarCore CodexPriorityDatabasePath.swift
+[583/770] Compiling CodexBarCore CodexThreadCatalogReader.swift
+[584/770] Compiling CodexBarCore CodexThreadMetadataReader.swift
+[585/770] Compiling CodexBarCore CodexWorkspaceUsageFingerprint.swift
+[586/770] Compiling CodexBarCore CodexWorkspaceUsageSidecar.swift
+[587/770] Compiling CodexBarCore CodexActiveSource.swift
+[588/770] Compiling CodexBarCore CodexBarConfig.swift
+[589/770] Compiling CodexBarCore CodexBarConfigStore.swift
+[590/770] Compiling CodexBarCore CodexBarConfigValidation.swift
+[591/770] Compiling CodexBarCore ProviderConfigCoding.swift
+[592/770] Compiling CodexBarCore ProviderConfigEnvironment.swift
+[593/770] Compiling CodexBarCore SettingsValue.swift
+[594/770] Compiling CodexBarCore CookieHeaderCache+Fingerprint.swift
+[595/770] Compiling CodexBarCore CookieHeaderCache+TestingOverrides.swift
+[596/770] Compiling CodexBarCore CookieHeaderCache.swift
+[597/770] Compiling CodexBarCore CookieHeaderNormalizer.swift
+[598/770] Compiling CodexBarCore CookiePropertyJSON.swift
+[599/770] Compiling CodexBarCore CopilotUsageModels.swift
+[600/770] Compiling CodexBarCore CostProvenance.swift
+[601/770] Compiling CodexBarCore CostUsageFetcher.swift
+[602/770] Compiling CodexBarCore CostUsageModels+QuotaWindows.swift
+[603/770] Compiling CodexBarCore CostUsageModels.swift
+[604/820] Compiling CodexBarCore AuggieCLIProbe.swift
+[605/820] Compiling CodexBarCore AugmentKeepaliveDependencies.swift
+[606/820] Compiling CodexBarCore AugmentProviderDescriptor.swift
+[607/820] Compiling CodexBarCore AugmentProviderSettings.swift
+[608/820] Compiling CodexBarCore AugmentSessionKeepalive.swift
+[609/820] Compiling CodexBarCore AugmentStatusProbe.swift
+[610/820] Compiling CodexBarCore AzureOpenAIProviderDescriptor.swift
+[611/820] Compiling CodexBarCore AzureOpenAISettingsReader.swift
+[612/820] Compiling CodexBarCore AzureOpenAIUsageFetcher.swift
+[613/820] Compiling CodexBarCore BedrockAWSSigner.swift
+[614/820] Compiling CodexBarCore BedrockCloudWatchUsage.swift
+[615/820] Compiling CodexBarCore BedrockCredentialResolver.swift
+[616/820] Compiling CodexBarCore BedrockProfileCredentialProvider.swift
+[617/820] Compiling CodexBarCore BedrockProviderConfig.swift
+[618/820] Compiling CodexBarCore BedrockProviderDescriptor.swift
+[619/820] Compiling CodexBarCore BedrockSettingsReader.swift
+[620/820] Compiling CodexBarCore BedrockUsageStats.swift
+[621/820] Compiling CodexBarCore CLIProbeSessionResetter.swift
+[622/820] Compiling CodexBarCore ChutesProviderDescriptor.swift
+[623/820] Compiling CodexBarCore ChutesSettingsReader.swift
+[624/820] Compiling CodexBarCore ChutesUsageStats.swift
+[625/820] Compiling CodexBarCore ClaudeAccountProfile.swift
+[626/820] Compiling CodexBarCore ClaudeAdminAPISettingsReader.swift
+[627/820] Compiling CodexBarCore ClaudeAdminAPIUsageFetcher.swift
+[628/820] Compiling CodexBarCore ClaudeAdminAPIUsageSnapshot.swift
+[629/845] Compiling CodexBarCore CodeRabbitProviderDescriptor.swift
+[630/845] Compiling CodexBarCore CodeRabbitUsageError.swift
+[631/845] Compiling CodexBarCore CodeRabbitUsageParser.swift
+[632/845] Compiling CodexBarCore CodeRabbitUsageSnapshot.swift
+[633/845] Compiling CodexBarCore CodebuffProviderDescriptor.swift
+[634/845] Compiling CodexBarCore CodebuffSettingsReader.swift
+[635/845] Compiling CodexBarCore CodebuffUsageError.swift
+[636/845] Compiling CodexBarCore CodebuffUsageFetcher.swift
+[637/845] Compiling CodexBarCore CodebuffUsageSnapshot.swift
+[638/845] Compiling CodexBarCore CodexAccountReconciliation.swift
+[639/845] Compiling CodexBarCore CodexAdditionalRateLimitMapper.swift
+[640/845] Compiling CodexBarCore CodexAuthenticatedHTTPTransport.swift
+[641/845] Compiling CodexBarCore CodexCLIBackendConfiguration.swift
+[642/845] Compiling CodexBarCore CodexCLIDashboardAuthorityContext.swift
+[643/845] Compiling CodexBarCore CodexCLILaunchGate.swift
+[644/845] Compiling CodexBarCore CodexCLISession.swift
+[645/845] Compiling CodexBarCore CodexDashboardAuthority.swift
+[646/845] Compiling CodexBarCore CodexExtraUsageCost.swift
+[647/845] Compiling CodexBarCore CodexIdentity.swift
+[648/845] Compiling CodexBarCore CodexOAuthCredentials.swift
+[649/845] Compiling CodexBarCore CodexOAuthUsageFetcher.swift
+[650/845] Compiling CodexBarCore CodexTokenRefresher.swift
+[651/845] Compiling CodexBarCore CodexOpenAIWorkspaceIdentityCache.swift
+[652/845] Compiling CodexBarCore CodexOpenAIWorkspaceResolver.swift
+[653/845] Compiling CodexBarCore CodexCLIUserAgent.swift
+[654/870] Compiling CodexBarCore CodexPATCredentials.swift
+[655/870] Compiling CodexBarCore CodexPATFetchStrategy.swift
+[656/870] Compiling CodexBarCore CodexPATUsageFetcher.swift
+[657/870] Compiling CodexBarCore CodexPlanFormatting.swift
+[658/870] Compiling CodexBarCore CodexProviderConfig.swift
+[659/870] Compiling CodexBarCore CodexProviderDescriptor.swift
+[660/870] Compiling CodexBarCore CodexProviderSettings.swift
+[661/870] Compiling CodexBarCore CodexProviderSettingsBuilder.swift
+[662/870] Compiling CodexBarCore CodexRateWindowNormalizer.swift
+[663/870] Compiling CodexBarCore CodexReconciledState.swift
+[664/870] Compiling CodexBarCore CodexSpendControlLimitMapping.swift
+[665/870] Compiling CodexBarCore CodexSpendControlNumber.swift
+[666/870] Compiling CodexBarCore CodexSpendControlsMonthlyUsage.swift
+[667/870] Compiling CodexBarCore CodexStatusMarkers.swift
+[668/870] Compiling CodexBarCore CodexStatusProbe.swift
+[669/870] Compiling CodexBarCore CodexStatusProbeIsolation.swift
+[670/870] Compiling CodexBarCore CodexSystemAccountObserver.swift
+[671/870] Compiling CodexBarCore CodexUsageDataSource.swift
+[672/870] Compiling CodexBarCore CodexVisibleAccountProjection.swift
+[673/870] Compiling CodexBarCore CodexWebDashboardStrategy.swift
+[674/870] Compiling CodexBarCore RemoteCodexCostFetcher.swift
+[675/870] Compiling CodexBarCore CommandCodeCookieHeader.swift
+[676/870] Compiling CodexBarCore CommandCodeCookieImporter.swift
+[677/870] Compiling CodexBarCore CommandCodePlanCache.swift
+[678/870] Compiling CodexBarCore CommandCodePlanCatalog.swift
+[679/895] Compiling CodexBarCore ClaudeCLIAuthStatusProbe.swift
+[680/895] Compiling CodexBarCore ClaudeCLIRateLimitGate.swift
+[681/895] Compiling CodexBarCore ClaudeCLISession.swift
+[682/895] Compiling CodexBarCore ClaudeCLIUsageSpawnThrottle.swift
+[683/895] Compiling CodexBarCore ClaudeConfigPaths.swift
+[684/895] Compiling CodexBarCore ClaudeCredentialRouting.swift
+[685/895] Compiling CodexBarCore ClaudeDesktopProjectsLocator.swift
+[686/895] Compiling CodexBarCore ClaudeOAuthCredentialModels.swift
+[687/895] Compiling CodexBarCore ClaudeOAuthCredentials+Hashing.swift
+[688/895] Compiling CodexBarCore ClaudeOAuthCredentials+SecurityCLIReader.swift
+[689/895] Compiling CodexBarCore ClaudeOAuthCredentials+TestingOverrides.swift
+[690/895] Compiling CodexBarCore ClaudeOAuthCredentials.swift
+[691/895] Compiling CodexBarCore ClaudeOAuthDelegatedRefreshCoordinator.swift
+[692/895] Compiling CodexBarCore ClaudeOAuthDirectKeychainReadConsent.swift
+[693/895] Compiling CodexBarCore ClaudeOAuthKeychainAccessGate.swift
+[694/895] Compiling CodexBarCore ClaudeOAuthKeychainPreAlertGate.swift
+[695/895] Compiling CodexBarCore ClaudeOAuthKeychainPromptMode.swift
+[696/895] Compiling CodexBarCore ClaudeOAuthKeychainQueryTiming.swift
+[697/895] Compiling CodexBarCore ClaudeOAuthKeychainReadStrategy.swift
+[698/895] Compiling CodexBarCore ClaudeOAuthMutableKeychainOverrides.swift
+[699/895] Compiling CodexBarCore ClaudeOAuthPendingCacheClearStore.swift
+[700/895] Compiling CodexBarCore ClaudeOAuthRefreshFailureGate.swift
+[701/895] Compiling CodexBarCore ClaudeOAuthUsageFetcher.swift
+[702/895] Compiling CodexBarCore ClaudeOAuthUsageRateLimitGate.swift
+[703/895] Compiling CodexBarCore ClaudePlan.swift
+[704/920] Compiling CodexBarCore AmpUsageSnapshot.swift
+[705/920] Compiling CodexBarCore AntigravityCLIPrintFailure.swift
+[706/920] Compiling CodexBarCore AntigravityCLISession.swift
+[707/920] Compiling CodexBarCore AntigravityJSONLObject.swift
+[708/920] Compiling CodexBarCore AntigravityLocalJSONL.swift
+[709/920] Compiling CodexBarCore AntigravityLocalReader.swift
+[710/920] Compiling CodexBarCore AntigravityLocalSQLite.swift
+[711/920] Compiling CodexBarCore AntigravityLocalSQLiteSchema.swift
+[712/920] Compiling CodexBarCore AntigravityLocalScan.swift
+[713/920] Compiling CodexBarCore AntigravityLocalSnapshotSelection.swift
+[714/920] Compiling CodexBarCore AntigravityLocalhostSession.swift
+[715/920] Compiling CodexBarCore AntigravityOAuthCredentialsStore.swift
+[716/920] Compiling CodexBarCore AntigravityOfflineStore.swift
+[717/920] Compiling CodexBarCore AntigravityProtoReader.swift
+[718/920] Compiling CodexBarCore AntigravityProviderConfig.swift
+[719/920] Compiling CodexBarCore AntigravityProviderDescriptor.swift
+[720/920] Compiling CodexBarCore AntigravityQuotaFamilyVisibility.swift
+[721/920] Compiling CodexBarCore AntigravityQuotaSummaryParser.swift
+[722/920] Compiling CodexBarCore AntigravityRemoteUsageFetcher.swift
+[723/920] Compiling CodexBarCore AntigravityStatusProbe+Deadline.swift
+[724/920] Compiling CodexBarCore AntigravityStatusProbe+LocalEndpoints.swift
+[725/920] Compiling CodexBarCore AntigravityStatusProbe+PortDetection.swift
+[726/920] Compiling CodexBarCore AntigravityStatusProbe+ResponseModels.swift
+[727/920] Compiling CodexBarCore AntigravityStatusProbe.swift
+[728/920] Compiling CodexBarCore AntigravityUsageDataSource.swift
+[729/945] Compiling CodexBarCore ClaudeProbeSessionArtifactCleaner.swift
+[730/945] Compiling CodexBarCore ClaudeProviderConfig.swift
+[731/945] Compiling CodexBarCore ClaudeProviderDescriptor.swift
+[732/945] Compiling CodexBarCore ClaudeProviderSettings.swift
+[733/945] Compiling CodexBarCore ClaudeScopedWeeklyLimitMapper.swift
+[734/945] Compiling CodexBarCore ClaudeSourcePlanner.swift
+[735/945] Compiling CodexBarCore ClaudeStatusProbe.swift
+[736/945] Compiling CodexBarCore ClaudeSwapAccountList.swift
+[737/945] Compiling CodexBarCore ClaudeSwapAccountProjection.swift
+[738/945] Compiling CodexBarCore ClaudeSwapAccountReader.swift
+[739/945] Compiling CodexBarCore ClaudeSwapAccountSwitch.swift
+[740/945] Compiling CodexBarCore ClaudeSwapRetainedUsageStore.swift
+[741/945] Compiling CodexBarCore ClaudeSwapUsageMeasurement.swift
+[742/945] Compiling CodexBarCore ClaudeUsageDataSource.swift
+[743/945] Compiling CodexBarCore ClaudeUsageFetcher+DelegatedRefreshMessages.swift
+[744/945] Compiling CodexBarCore ClaudeUsageFetcher.swift
+[745/945] Compiling CodexBarCore ClaudeUsageSnapshot+WebExtras.swift
+[746/945] Compiling CodexBarCore ClaudeVerifiedAccountOwner.swift
+[747/945] Compiling CodexBarCore ClaudeWebAPIFetcher.swift
+[748/945] Compiling CodexBarCore ClaudeWebExtraRateWindowParser.swift
+[749/945] Compiling CodexBarCore ClawRouterProviderDescriptor.swift
+[750/945] Compiling CodexBarCore ClawRouterSettingsReader.swift
+[751/945] Compiling CodexBarCore ClinePassProviderDescriptor.swift
+[752/945] Compiling CodexBarCore ClinePassSettingsReader.swift
+[753/945] Compiling CodexBarCore CodeRabbitCLIProbe.swift
+[754/970] Compiling CodexBarCore FactoryManualCredentials.swift
+[755/970] Compiling CodexBarCore FactoryProviderDescriptor.swift
+[756/970] Compiling CodexBarCore FactoryProviderSettings.swift
+[757/970] Compiling CodexBarCore FactorySessionStore.swift
+[758/970] Compiling CodexBarCore FactorySettingsReader.swift
+[759/970] Compiling CodexBarCore FactoryStatusProbe+APIKey.swift
+[760/970] Compiling CodexBarCore FactoryStatusProbe.swift
+[761/970] Compiling CodexBarCore FactoryStatusProbeError.swift
+[762/970] Compiling CodexBarCore FireworksProviderConfig.swift
+[763/970] Compiling CodexBarCore FireworksProviderDescriptor.swift
+[764/970] Compiling CodexBarCore FireworksProviderSettings.swift
+[765/970] Compiling CodexBarCore FireworksSettingsReader.swift
+[766/970] Compiling CodexBarCore FireworksUsageFetcher.swift
+[767/970] Compiling CodexBarCore GeminiConsumerTierMigration.swift
+[768/970] Compiling CodexBarCore GeminiOAuthConfig.swift
+[769/970] Compiling CodexBarCore GeminiProviderDescriptor.swift
+[770/970] Compiling CodexBarCore GeminiStatusProbe+DataLoader.swift
+[771/970] Compiling CodexBarCore GeminiStatusProbe.swift
+[772/970] Compiling CodexBarCore GitKrakenProviderDescriptor.swift
+[773/970] Compiling CodexBarCore GrokAuth.swift
+[774/970] Compiling CodexBarCore GrokCLISettingsFetcher.swift
+[775/970] Compiling CodexBarCore GrokCookieImporter.swift
+[776/970] Compiling CodexBarCore GrokCredentialRouting.swift
+[777/970] Compiling CodexBarCore GrokCreditsProxyFetcher.swift
+[778/970] Compiling CodexBarCore GrokLocalSessionScanner.swift
+[779/995] Compiling CodexBarCore LLMProxySettingsReader.swift
+[780/995] Compiling CodexBarCore LiteLLMProviderDescriptor.swift
+[781/995] Compiling CodexBarCore LiteLLMSettingsReader.swift
+[782/995] Compiling CodexBarCore LongCatAPIError.swift
+[783/995] Compiling CodexBarCore LongCatCookieHeader.swift
+[784/995] Compiling CodexBarCore LongCatCookieImporter.swift
+[785/995] Compiling CodexBarCore LongCatModels.swift
+[786/995] Compiling CodexBarCore LongCatProviderDescriptor.swift
+[787/995] Compiling CodexBarCore LongCatProviderSettings.swift
+[788/995] Compiling CodexBarCore LongCatSettingsReader.swift
+[789/995] Compiling CodexBarCore LongCatUsageFetcher.swift
+[790/995] Compiling CodexBarCore LongCatUsageSnapshot.swift
+[791/995] Compiling CodexBarCore ManusCookieHeader.swift
+[792/995] Compiling CodexBarCore ManusCookieImporter.swift
+[793/995] Compiling CodexBarCore ManusProviderDescriptor.swift
+[794/995] Compiling CodexBarCore ManusProviderSettings.swift
+[795/995] Compiling CodexBarCore ManusSettingsReader.swift
+[796/995] Compiling CodexBarCore ManusUsageFetcher.swift
+[797/995] Compiling CodexBarCore MiMoCookieImporter.swift
+[798/995] Compiling CodexBarCore MiMoLocalUsageFallback.swift
+[799/995] Compiling CodexBarCore MiMoProviderDescriptor.swift
+[800/995] Compiling CodexBarCore MiMoProviderSettings.swift
+[801/995] Compiling CodexBarCore MiMoUsageFetcher.swift
+[802/995] Compiling CodexBarCore MiMoUsageSnapshot.swift
+[803/995] Compiling CodexBarCore MiniMaxAPIRegion.swift
+[804/1020] Compiling CodexBarCore GrokPlan.swift
+[805/1020] Compiling CodexBarCore GrokProviderDescriptor.swift
+[806/1020] Compiling CodexBarCore GrokProviderSettings.swift
+[807/1020] Compiling CodexBarCore GrokRPCClient.swift
+[808/1020] Compiling CodexBarCore GrokRemainingResetsFetcher.swift
+[809/1020] Compiling CodexBarCore GrokSettingsReader.swift
+[810/1020] Compiling CodexBarCore GrokStatusProbe.swift
+[811/1020] Compiling CodexBarCore GrokWebBillingFetcher.swift
+[812/1020] Compiling CodexBarCore GroqConsoleFetcher.swift
+[813/1020] Compiling CodexBarCore GroqConsoleSession.swift
+[814/1020] Compiling CodexBarCore GroqConsoleStytch.swift
+[815/1020] Compiling CodexBarCore GroqConsoleUsageSnapshot.swift
+[816/1020] Compiling CodexBarCore GroqProviderDescriptor.swift
+[817/1020] Compiling CodexBarCore GroqSettingsReader.swift
+[818/1020] Compiling CodexBarCore GroqUsageFetcher.swift
+[819/1020] Compiling CodexBarCore HelmcodeProviderDescriptor.swift
+[820/1020] Compiling CodexBarCore HelmcodeProviderSettings.swift
+[821/1020] Compiling CodexBarCore HuggingFaceProviderDescriptor.swift
+[822/1020] Compiling CodexBarCore HuggingFaceSettingsReader.swift
+[823/1020] Compiling CodexBarCore IBMBobProviderDescriptor.swift
+[824/1020] Compiling CodexBarCore IBMBobSettingsReader.swift
+[825/1020] Compiling CodexBarCore IBMBobUsageFetcher.swift
+[826/1020] Compiling CodexBarCore JetBrainsIDEDetector.swift
+[827/1020] Compiling CodexBarCore JetBrainsProviderDescriptor.swift
+[828/1020] Compiling CodexBarCore JetBrainsProviderSettings.swift
+[829/1045] Compiling CodexBarCore CommandCodeProviderDescriptor.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[830/1045] Compiling CodexBarCore CommandCodeProviderSettings.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[831/1045] Compiling CodexBarCore CommandCodeUsageError.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[832/1045] Compiling CodexBarCore CommandCodeUsageFetcher.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[833/1045] Compiling CodexBarCore CommandCodeUsageSnapshot.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[834/1045] Compiling CodexBarCore CopilotBudgetWebFetcher.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[835/1045] Compiling CodexBarCore CopilotCreditEntitlementParser.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[836/1045] Compiling CodexBarCore CopilotDeviceFlow.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[837/1045] Compiling CodexBarCore CopilotProviderDescriptor.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[838/1045] Compiling CodexBarCore CopilotProviderSettings.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[839/1045] Compiling CodexBarCore CopilotUsageFetcher.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[840/1045] Compiling CodexBarCore CursorAppAuth.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[841/1045] Compiling CodexBarCore CursorBrowserLoginModels.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[842/1045] Compiling CodexBarCore CursorInteractiveLoginBrowser.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[843/1045] Compiling CodexBarCore CursorLocalCSVReader.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[844/1045] Compiling CodexBarCore CursorProviderDescriptor.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[845/1045] Compiling CodexBarCore CursorProviderSettings.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[846/1045] Compiling CodexBarCore CursorRequestUsage.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[847/1045] Compiling CodexBarCore CursorSandUsage.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[848/1045] Compiling CodexBarCore CursorStatusProbe+AppAuth.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[849/1045] Compiling CodexBarCore CursorStatusProbe+SessionResolution.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[850/1045] Compiling CodexBarCore CursorStatusProbe+UsageSummary.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[851/1045] Compiling CodexBarCore CursorStatusProbe.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[852/1045] Compiling CodexBarCore CursorTeamSpend.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[853/1045] Compiling CodexBarCore CursorUsageEventsFetcher.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Providers/Cursor/CursorLocalCSVReader.swift:94:17: warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 92 |             let key = CostUsageLocalDay.key(from: row.date, calendar: calendar)
+ 93 |             let existing = byDay[key]
+ 94 |             var e = existing ?? CostUsageDailyReport.Entry(
+    |                 `- warning: variable 'e' was never mutated; consider changing to 'let' constant
+ 95 |                 date: key,
+ 96 |                 inputTokens: 0,
+[854/1045] Compiling CodexBarCore DeepInfraProviderDescriptor.swift
+[855/1045] Compiling CodexBarCore DeepInfraSettingsReader.swift
+[856/1045] Compiling CodexBarCore DeepInfraUsageFetcher.swift
+[857/1045] Compiling CodexBarCore DeepSeekPlatformBalanceOwner.swift
+[858/1045] Compiling CodexBarCore DeepSeekPlatformTokenImporter.swift
+[859/1045] Compiling CodexBarCore DeepSeekProviderConfig.swift
+[860/1045] Compiling CodexBarCore DeepSeekProviderDescriptor.swift
+[861/1045] Compiling CodexBarCore DeepSeekSettingsReader.swift
+[862/1045] Compiling CodexBarCore DeepSeekUsageCostParser.swift
+[863/1045] Compiling CodexBarCore DeepSeekUsageFetcher.swift
+[864/1045] Compiling CodexBarCore UsageSnapshot+DeepSeek.swift
+[865/1045] Compiling CodexBarCore DeepgramProviderDescriptor.swift
+[866/1045] Compiling CodexBarCore DeepgramSettingsReader.swift
+[867/1045] Compiling CodexBarCore DevinProviderDescriptor.swift
+[868/1045] Compiling CodexBarCore DevinProviderSettings.swift
+[869/1045] Compiling CodexBarCore DevinSessionImporter.swift
+[870/1045] Compiling CodexBarCore DevinUsageFetcher.swift
+[871/1045] Compiling CodexBarCore DevinUsageSnapshot.swift
+[872/1045] Compiling CodexBarCore DoubaoProviderDescriptor.swift
+[873/1045] Compiling CodexBarCore DoubaoSettingsReader.swift
+[874/1045] Compiling CodexBarCore DoubaoUsageFetcher.swift
+[875/1045] Compiling CodexBarCore DoubaoVolcengineSigner.swift
+[876/1045] Compiling CodexBarCore ElevenLabsProviderDescriptor.swift
+[877/1045] Compiling CodexBarCore ElevenLabsSettingsReader.swift
+[878/1045] Compiling CodexBarCore FactoryLocalStorageImporter.swift
+[879/1095] Compiling CodexBarCore JetBrainsStatusProbe.swift
+[880/1095] Compiling CodexBarCore KiloBearerTokenResolver.swift
+[881/1095] Compiling CodexBarCore KiloOrganization.swift
+[882/1095] Compiling CodexBarCore KiloProviderConfig.swift
+[883/1095] Compiling CodexBarCore KiloProviderDescriptor.swift
+[884/1095] Compiling CodexBarCore KiloProviderSettings.swift
+[885/1095] Compiling CodexBarCore KiloSettingsReader.swift
+[886/1095] Compiling CodexBarCore KiloUsageDataSource.swift
+[887/1095] Compiling CodexBarCore KiloUsageFetcher.swift
+[888/1095] Compiling CodexBarCore KiloUsageScope.swift
+[889/1095] Compiling CodexBarCore KimiAPIError.swift
+[890/1095] Compiling CodexBarCore KimiCookieHeader.swift
+[891/1095] Compiling CodexBarCore KimiCookieImporter.swift
+[892/1095] Compiling CodexBarCore KimiDesktopAuthToken.swift
+[893/1095] Compiling CodexBarCore KimiModels.swift
+[894/1095] Compiling CodexBarCore KimiProviderDescriptor.swift
+[895/1095] Compiling CodexBarCore KimiProviderSettings.swift
+[896/1095] Compiling CodexBarCore KimiRegion.swift
+[897/1095] Compiling CodexBarCore KimiSettingsReader.swift
+[898/1095] Compiling CodexBarCore KimiUsageFetcher.swift
+[899/1095] Compiling CodexBarCore KimiUsageSnapshot.swift
+[900/1095] Compiling CodexBarCore KiroProviderDescriptor.swift
+[901/1095] Compiling CodexBarCore KiroStatusProbe.swift
+[902/1095] Compiling CodexBarCore KiroUsageLimitsAPI.swift
+[903/1095] Compiling CodexBarCore LLMProxyProviderDescriptor.swift
+[904/1119] Compiling CodexBarCore MistralUsageFetcher.swift
+[905/1119] Compiling CodexBarCore MoonshotProviderConfig.swift
+[906/1119] Compiling CodexBarCore MoonshotProviderDescriptor.swift
+[907/1119] Compiling CodexBarCore MoonshotProviderSettings.swift
+[908/1119] Compiling CodexBarCore MoonshotRegion.swift
+[909/1119] Compiling CodexBarCore MoonshotSettingsReader.swift
+[910/1119] Compiling CodexBarCore MoonshotUsageFetcher.swift
+[911/1119] Compiling CodexBarCore CostUsageFetcher+Muse.swift
+[912/1119] Compiling CodexBarCore MuseCredentials.swift
+[913/1119] Compiling CodexBarCore MuseLocalUsageCache.swift
+[914/1119] Compiling CodexBarCore MuseLocalUsageReader.swift
+[915/1119] Compiling CodexBarCore MuseProviderDescriptor.swift
+[916/1119] Compiling CodexBarCore MuseUsageError.swift
+[917/1119] Compiling CodexBarCore NeuralWattProviderDescriptor.swift
+[918/1119] Compiling CodexBarCore NeuralWattSettingsReader.swift
+[919/1119] Compiling CodexBarCore NotionProviderDescriptor.swift
+[920/1119] Compiling CodexBarCore NotionProviderSettings.swift
+[921/1119] Compiling CodexBarCore NotionSessionStore.swift
+[922/1119] Compiling CodexBarCore NotionUsageFetcher.swift
+[923/1119] Compiling CodexBarCore NotionUsageSnapshot.swift
+[924/1119] Compiling CodexBarCore NousProviderDescriptor.swift
+[925/1119] Compiling CodexBarCore NousSettingsReader.swift
+[926/1119] Compiling CodexBarCore NousUsageError.swift
+[927/1119] Compiling CodexBarCore OllamaProviderDescriptor.swift
+[928/1119] Compiling CodexBarCore OllamaProviderSettings.swift
+[929/1143] Compiling CodexBarCore MiniMaxAPISettingsReader.swift
+[930/1143] Compiling CodexBarCore MiniMaxAuthMode.swift
+[931/1143] Compiling CodexBarCore MiniMaxBillingHistory.swift
+[932/1143] Compiling CodexBarCore MiniMaxCookieHeader.swift
+[933/1143] Compiling CodexBarCore MiniMaxCookieImporter.swift
+[934/1143] Compiling CodexBarCore MiniMaxDecoding.swift
+[935/1143] Compiling CodexBarCore MiniMaxLocalStorageImporter.swift
+[936/1143] Compiling CodexBarCore MiniMaxModelRemains.swift
+[937/1143] Compiling CodexBarCore MiniMaxProviderDescriptor.swift
+[938/1143] Compiling CodexBarCore MiniMaxProviderSettings.swift
+[939/1143] Compiling CodexBarCore MiniMaxServiceUsage.swift
+[940/1143] Compiling CodexBarCore MiniMaxSettingsReader.swift
+[941/1143] Compiling CodexBarCore MiniMaxSubscriptionMetadata.swift
+[942/1143] Compiling CodexBarCore MiniMaxUsageError.swift
+[943/1143] Compiling CodexBarCore MiniMaxUsageFetcher+ModelMapping.swift
+[944/1143] Compiling CodexBarCore MiniMaxUsageFetcher.swift
+[945/1143] Compiling CodexBarCore MiniMaxUsageSnapshot+Metadata.swift
+[946/1143] Compiling CodexBarCore MiniMaxUsageSnapshot.swift
+[947/1143] Compiling CodexBarCore MistralCookieImporter.swift
+[948/1143] Compiling CodexBarCore MistralErrors.swift
+[949/1143] Compiling CodexBarCore MistralModels.swift
+[950/1143] Compiling CodexBarCore MistralProviderDescriptor.swift
+[951/1143] Compiling CodexBarCore MistralProviderSettings.swift
+[952/1143] Compiling CodexBarCore MistralSubscriptionBudgetParser.swift
+[953/1143] Compiling CodexBarCore MistralTokenMath.swift
+[954/1167] Compiling CodexBarCore SyntheticSettingsReader.swift
+[955/1167] Compiling CodexBarCore T3ChatProviderDescriptor.swift
+[956/1167] Compiling CodexBarCore T3ChatProviderSettings.swift
+[957/1167] Compiling CodexBarCore T3ChatUsageFetcher.swift
+[958/1167] Compiling CodexBarCore T3ChatUsageSnapshot.swift
+[959/1167] Compiling CodexBarCore TypeSafeCookieImporter.swift
+[960/1167] Compiling CodexBarCore TypeSafeProviderDescriptor.swift
+[961/1167] Compiling CodexBarCore TypeSafeProviderSettings.swift
+[962/1167] Compiling CodexBarCore TypeSafeWebFetchStrategy.swift
+[963/1167] Compiling CodexBarCore V0ProviderDescriptor.swift
+[964/1167] Compiling CodexBarCore V0SettingsReader.swift
+[965/1167] Compiling CodexBarCore VeniceCookieHeader.swift
+[966/1167] Compiling CodexBarCore VeniceCookieImporter.swift
+[967/1167] Compiling CodexBarCore VeniceProviderDescriptor.swift
+[968/1167] Compiling CodexBarCore VeniceProviderSettings.swift
+[969/1167] Compiling CodexBarCore VeniceSettingsReader.swift
+[970/1167] Compiling CodexBarCore VeniceUsageDataSource.swift
+[971/1167] Compiling CodexBarCore VeniceUsageError.swift
+[972/1167] Compiling CodexBarCore VeniceWebFetchStrategy.swift
+[973/1167] Compiling CodexBarCore VeniceWebUsageFetcher.swift
+[974/1167] Compiling CodexBarCore VertexAIIDToken.swift
+[975/1167] Compiling CodexBarCore VertexAIOAuthCredentials.swift
+[976/1167] Compiling CodexBarCore VertexAITokenRefresher.swift
+[977/1167] Compiling CodexBarCore VertexAIUsageFetcher.swift
+[978/1167] Compiling CodexBarCore VertexAIProviderDescriptor.swift
+[979/1191] Compiling CodexBarCore OpenRouterProviderDescriptor.swift
+[980/1191] Compiling CodexBarCore OpenRouterSettingsReader.swift
+[981/1191] Compiling CodexBarCore PerplexityAPIError.swift
+[982/1191] Compiling CodexBarCore PerplexityCookieHeader.swift
+[983/1191] Compiling CodexBarCore PerplexityCookieImporter.swift
+[984/1191] Compiling CodexBarCore PerplexityModels.swift
+[985/1191] Compiling CodexBarCore PerplexityProviderDescriptor.swift
+[986/1191] Compiling CodexBarCore PerplexityProviderSettings.swift
+[987/1191] Compiling CodexBarCore PerplexitySettingsReader.swift
+[988/1191] Compiling CodexBarCore PerplexityUsageFetcher.swift
+[989/1191] Compiling CodexBarCore PerplexityUsageSnapshot.swift
+[990/1191] Compiling CodexBarCore PiProviderDescriptor.swift
+[991/1191] Compiling CodexBarCore PoeProviderDescriptor.swift
+[992/1191] Compiling CodexBarCore PoeSettingsReader.swift
+[993/1191] Compiling CodexBarCore ProviderAccentColors.swift
+[994/1191] Compiling CodexBarCore ProviderBranding.swift
+[995/1191] Compiling CodexBarCore ProviderCLIConfig.swift
+[996/1191] Compiling CodexBarCore ProviderCandidateRetryRunner.swift
+[997/1191] Compiling CodexBarCore ProviderCookieSettingsResolver.swift
+[998/1191] Compiling CodexBarCore ProviderCookieSource.swift
+[999/1191] Compiling CodexBarCore ProviderCredentialAdapter.swift
+[1000/1191] Compiling CodexBarCore ProviderDescriptor.swift
+[1001/1191] Compiling CodexBarCore ProviderDiagnosticExport.swift
+[1002/1191] Compiling CodexBarCore ProviderEnvironmentResolver.swift
+[1003/1191] Compiling CodexBarCore ProviderFetchPlan.swift
+[1004/1191] Compiling CodexBarCore ProviderInstanceID.swift
+[1005/1191] Compiling CodexBarCore ProviderInstanceIDAliases.generated.swift
+[1006/1191] Compiling CodexBarCore ProviderInteractionContext.swift
+[1007/1191] Compiling CodexBarCore ProviderManifest.swift
+[1008/1191] Compiling CodexBarCore ProviderSettingsSnapshot.swift
+[1009/1191] Compiling CodexBarCore ProviderTokenResolver.swift
+[1010/1191] Compiling CodexBarCore ProviderUsagePresentation.swift
+[1011/1191] Compiling CodexBarCore ProviderVersionDetector.swift
+[1012/1191] Compiling CodexBarCore Providers.swift
+[1013/1191] Compiling CodexBarCore QoderCookieImporter.swift
+[1014/1191] Compiling CodexBarCore QoderProviderDescriptor.swift
+[1015/1191] Compiling CodexBarCore QoderProviderSettings.swift
+[1016/1191] Compiling CodexBarCore QoderUsageError.swift
+[1017/1191] Compiling CodexBarCore QoderUsageFetcher.swift
+[1018/1191] Compiling CodexBarCore QoderUsageSnapshot.swift
+[1019/1191] Compiling CodexBarCore QwenCloudCookieHeader.swift
+[1020/1191] Compiling CodexBarCore QwenCloudCookieImporter.swift
+[1021/1191] Compiling CodexBarCore QwenCloudHTTPTransport.swift
+[1022/1191] Compiling CodexBarCore QwenCloudProviderDescriptor.swift
+[1023/1191] Compiling CodexBarCore QwenCloudProviderSettings.swift
+[1024/1191] Compiling CodexBarCore QwenCloudSettingsReader.swift
+[1025/1191] Compiling CodexBarCore QwenCloudTokenPlanAPIClient.swift
+[1026/1191] Compiling CodexBarCore QwenCloudUsageFetcher.swift
+[1027/1191] Compiling CodexBarCore QwenCloudUsageParser.swift
+[1028/1191] Compiling CodexBarCore QwenCloudUsageSnapshot.swift
+[1029/1191] Compiling CodexBarCore OllamaUsageFetcher.swift
+[1030/1191] Compiling CodexBarCore OllamaUsageParser.swift
+[1031/1191] Compiling CodexBarCore OllamaUsageSnapshot.swift
+[1032/1191] Compiling CodexBarCore OpenAIAPICreditBalanceFetcher.swift
+[1033/1191] Compiling CodexBarCore OpenAIAPIProviderDescriptor.swift
+[1034/1191] Compiling CodexBarCore OpenAIAPISettingsReader.swift
+[1035/1191] Compiling CodexBarCore OpenAIAPIUsageFetcher.swift
+[1036/1191] Compiling CodexBarCore OpenAIAPIUsageResponses.swift
+[1037/1191] Compiling CodexBarCore OpenAIAPIUsageSnapshot.swift
+[1038/1191] Compiling CodexBarCore OpenCodeCookieImporter.swift
+[1039/1191] Compiling CodexBarCore OpenCodeProviderDescriptor.swift
+[1040/1191] Compiling CodexBarCore OpenCodeProviderSettings.swift
+[1041/1191] Compiling CodexBarCore OpenCodeUsageFetcher.swift
+[1042/1191] Compiling CodexBarCore OpenCodeUsageSnapshot.swift
+[1043/1191] Compiling CodexBarCore OpenCodeWebCookieSupport.swift
+[1044/1191] Compiling CodexBarCore OpenCodeZenBillingParser.swift
+[1045/1191] Compiling CodexBarCore OpenCodeGoLegacyFallback.swift
+[1046/1191] Compiling CodexBarCore OpenCodeGoLocalUsageReader.swift
+[1047/1191] Compiling CodexBarCore OpenCodeGoProviderDescriptor.swift
+[1048/1191] Compiling CodexBarCore OpenCodeGoProviderSettings.swift
+[1049/1191] Compiling CodexBarCore OpenCodeGoSettingsReader.swift
+[1050/1191] Compiling CodexBarCore OpenCodeGoUsageFetcher.swift
+[1051/1191] Compiling CodexBarCore OpenCodeGoUsageSnapshot.swift
+[1052/1191] Compiling CodexBarCore OpenCodeGoZenBalanceFetcher.swift
+[1053/1191] Compiling CodexBarCore OpenCodeGoZenBalanceParser.swift
+[1054/1191] Compiling CodexBarCore ReplicateCookieImporter.swift
+[1055/1191] Compiling CodexBarCore ReplicateProviderDescriptor.swift
+[1056/1191] Compiling CodexBarCore ReplicateProviderSettings.swift
+[1057/1191] Compiling CodexBarCore ReplicateWebFetchStrategy.swift
+[1058/1191] Compiling CodexBarCore SakanaProviderDescriptor.swift
+[1059/1191] Compiling CodexBarCore SakanaSettingsReader.swift
+[1060/1191] Compiling CodexBarCore SakanaUsageFetcher.swift
+[1061/1191] Compiling CodexBarCore AliyunOneConsoleChromiumCookieFallbackImporter.swift
+[1062/1191] Compiling CodexBarCore AliyunOneConsoleCookieHeaders.swift
+[1063/1191] Compiling CodexBarCore AliyunOneConsoleCookieImporter.swift
+[1064/1191] Compiling CodexBarCore OneConsoleCookieRouting.swift
+[1065/1191] Compiling CodexBarCore OneConsoleJSON.swift
+[1066/1191] Compiling CodexBarCore OneConsoleSECTokenResolver.swift
+[1067/1191] Compiling CodexBarCore OneConsoleTokenPlanSnapshot.swift
+[1068/1191] Compiling CodexBarCore CreditUsage.swift
+[1069/1191] Compiling CodexBarCore CurlCaptureParser.swift
+[1070/1191] Compiling CodexBarCore OpenCodeWebParsing.swift
+[1071/1191] Compiling CodexBarCore ProviderCookieSettings.swift
+[1072/1191] Compiling CodexBarCore StepFunProviderDescriptor.swift
+[1073/1191] Compiling CodexBarCore StepFunProviderSettings.swift
+[1074/1191] Compiling CodexBarCore StepFunSettingsReader.swift
+[1075/1191] Compiling CodexBarCore StepFunUsageFetcher.swift
+[1076/1191] Compiling CodexBarCore Sub2APIProviderDescriptor.swift
+[1077/1191] Compiling CodexBarCore Sub2APISettingsReader.swift
+[1078/1191] Compiling CodexBarCore SyntheticProviderDescriptor.swift
+[1079/1191] Compiling CodexBarCore WarpProviderDescriptor.swift
+[1080/1191] Compiling CodexBarCore WarpSettingsReader.swift
+[1081/1191] Compiling CodexBarCore WarpUsageFetcher.swift
+[1082/1191] Compiling CodexBarCore WayfinderProviderDescriptor.swift
+[1083/1191] Compiling CodexBarCore WayfinderSettingsReader.swift
+[1084/1191] Compiling CodexBarCore WayfinderUsageFetcher.swift
+[1085/1191] Compiling CodexBarCore WindsurfDevinSessionImporter.swift
+[1086/1191] Compiling CodexBarCore WindsurfProviderDescriptor.swift
+[1087/1191] Compiling CodexBarCore WindsurfProviderSettings.swift
+[1088/1191] Compiling CodexBarCore WindsurfStatusProbe.swift
+[1089/1191] Compiling CodexBarCore WindsurfUsageDataSource.swift
+[1090/1191] Compiling CodexBarCore WindsurfWebFetcher.swift
+[1091/1191] Compiling CodexBarCore XAICostUsageMapping.swift
+[1092/1191] Compiling CodexBarCore XAIProviderDescriptor.swift
+[1093/1191] Compiling CodexBarCore XAISettingsReader.swift
+[1094/1191] Compiling CodexBarCore ZaiAPIRegion.swift
+[1095/1191] Compiling CodexBarCore ZaiProviderDescriptor.swift
+[1096/1191] Compiling CodexBarCore ZaiProviderSettings.swift
+[1097/1191] Compiling CodexBarCore ZaiSettingsReader.swift
+[1098/1191] Compiling CodexBarCore ZedProviderDescriptor.swift
+[1099/1191] Compiling CodexBarCore ZedStatusProbe.swift
+[1100/1191] Compiling CodexBarCore ZenMuxProviderDescriptor.swift
+[1101/1191] Compiling CodexBarCore ZenMuxSettingsReader.swift
+[1102/1191] Compiling CodexBarCore ZenMuxUsageFetcher.swift
+[1103/1191] Compiling CodexBarCore ZoomMateBearerTokenCache.swift
+[1104/1191] Compiling CodexBarCore ZoomMateCookieImporter.swift
+[1105/1191] Compiling CodexBarCore ZoomMateCreditsHistoryFetcher.swift
+[1106/1191] Compiling CodexBarCore ZoomMateModels.swift
+[1107/1191] Compiling CodexBarCore ZoomMateProviderDescriptor.swift
+[1108/1191] Compiling CodexBarCore ZoomMateProviderSettings.swift
+[1109/1191] Compiling CodexBarCore ZoomMateUsageFetcher.swift
+[1110/1191] Compiling CodexBarCore RateWindow+BindingCap.swift
+[1111/1191] Compiling CodexBarCore RemoteSessionFetcher.swift
+[1112/1191] Compiling CodexBarCore SessionWindowFocuser.swift
+[1113/1191] Compiling CodexBarCore CanonicalSyncJSON.swift
+[1114/1191] Compiling CodexBarCore SyncModels.swift
+[1115/1191] Compiling CodexBarCore TestProcessSafety.swift
+[1116/1191] Compiling CodexBarCore TextParsing.swift
+[1117/1191] Compiling CodexBarCore TokenAccountSupport.swift
+[1118/1191] Compiling CodexBarCore TokenAccounts.swift
+[1119/1191] Compiling CodexBarCore UsageChartScale.swift
+[1120/1191] Compiling CodexBarCore UsageFetcher.swift
+[1121/1191] Compiling CodexBarCore UsageFormatter.swift
+[1122/1191] Compiling CodexBarCore UsagePace.swift
+[1123/1191] Compiling CodexBarCore UsagePercent.swift
+[1124/1191] Compiling CodexBarCore UsageSnapshot+AccountLabel.swift
+[1125/1191] Compiling CodexBarCore UsageSnapshot+SwitcherWeeklyWindow.swift
+[1126/1191] Compiling CodexBarCore CodexSubagentRolloutShape.swift
+[1127/1191] Compiling CodexBarCore CostUsageCacheModels.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1128/1191] Compiling CodexBarCore CostUsageClaudeCache.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1129/1191] Compiling CodexBarCore CostUsageClaudeJSON.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1130/1191] Compiling CodexBarCore CostUsageCustomPricing.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1131/1191] Compiling CodexBarCore CostUsageJsonl.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1132/1191] Compiling CodexBarCore CostUsagePricing+CodexResolver.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1133/1191] Compiling CodexBarCore CostUsagePricing+Overlay.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1134/1191] Compiling CodexBarCore CostUsagePricing+Provider.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1135/1191] Compiling CodexBarCore CostUsagePricing.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1136/1191] Compiling CodexBarCore CostUsagePricingKey.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1137/1191] Compiling CodexBarCore CostUsageScanner+CacheHelpers.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1138/1191] Compiling CodexBarCore CostUsageScanner+Claude.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1139/1191] Compiling CodexBarCore CostUsageScanner+CodexFastJSON.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1140/1191] Compiling CodexBarCore CostUsageScanner+CodexPriority.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1141/1191] Compiling CodexBarCore CostUsageScanner+CodexTruncatedPrefix.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1142/1191] Compiling CodexBarCore CostUsageScanner+ForkCoverage.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1143/1191] Compiling CodexBarCore CostUsageScanner+LogicalTarget.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1144/1191] Compiling CodexBarCore CostUsageScanner+PricingRows.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1145/1191] Compiling CodexBarCore CostUsageScanner+Projects.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1146/1191] Compiling CodexBarCore CostUsageScanner+ReportReconciliation.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1147/1191] Compiling CodexBarCore CostUsageScanner+SourceRowRecovery.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1148/1191] Compiling CodexBarCore CostUsageScanner+TemporalBuckets.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1149/1191] Compiling CodexBarCore CostUsageScanner+Timestamp.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1150/1191] Compiling CodexBarCore CostUsageScanner+TimestampOrder.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:146:46: warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+144 |         if let decoded {
+145 |             guard CFGetTypeID(decoded) == Self.dictionaryID else { return nil }
+146 |             return ClaudeJSONObject(decoded: unsafeBitCast(decoded, to: NSDictionary.self))
+    |                                              `- warning: 'unsafeBitCast' from 'AnyObject' to 'NSDictionary' can be replaced with 'unsafeDowncast'
+147 |         }
+148 |         #endif
+
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCore/Vendored/CostUsage/CostUsageClaudeJSON.swift:157:29: warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+155 |             guard CFGetTypeID(decoded) == Self.arrayID else { return false }
+156 |             return withExtendedLifetime(decoded) {
+157 |                 let array = unsafeBitCast(decoded, to: CFArray.self)
+    |                             `- warning: 'unsafeBitCast' from 'AnyObject' to 'CFArray' can be replaced with 'unsafeDowncast'
+158 |                 for index in 0..<CFArrayGetCount(array) {
+159 |                     guard let pointer = CFArrayGetValueAtIndex(array, index),
+[1151/1191] Compiling CodexBarCore CostUsageScanner.swift
+[1152/1191] Compiling CodexBarCore CostUsageStore+CodexBaseline.swift
+[1153/1191] Compiling CodexBarCore CostUsageStore+CodexCache.swift
+[1154/1191] Compiling CodexBarCore CostUsageStore+ReadView.swift
+[1155/1191] Compiling CodexBarCore CostUsageStore+ReadWork.swift
+[1156/1191] Compiling CodexBarCore CostUsageStore+Reads.swift
+[1157/1191] Compiling CodexBarCore CostUsageStore+Retention.swift
+[1158/1191] Compiling CodexBarCore CostUsageStore+Writes.swift
+[1159/1191] Compiling CodexBarCore CostUsageStore.swift
+[1160/1191] Compiling CodexBarCore CostUsageStoreCrashHarness.swift
+[1161/1191] Compiling CodexBarCore CostUsageStoreModels.swift
+[1162/1191] Compiling CodexBarCore ModelsDevPricing.swift
+[1163/1191] Compiling CodexBarCore ModelsDevPricingTargetResolver.swift
+[1164/1191] Compiling CodexBarCore OpenCodexRouteDispatcher.swift
+[1165/1191] Compiling CodexBarCore OpenCodexUsageAggregator.swift
+[1166/1191] Compiling CodexBarCore OpenCodexUsageFanOut.swift
+[1167/1191] Compiling CodexBarCore OpenCodexUsageModels.swift
+[1168/1191] Compiling CodexBarCore OpenCodexUsageParser.swift
+[1169/1191] Compiling CodexBarCore OpenCodexUsagePricing.swift
+[1170/1191] Compiling CodexBarCore OpenCodexUsageStore.swift
+[1171/1191] Compiling CodexBarCore WebKitTeardown.swift
+[1172/1191] Compiling CodexBarCore WidgetAccountSnapshot.swift
+[1173/1191] Compiling CodexBarCore WidgetSnapshot.swift
+[1174/1191] Compiling CodexBarCore resource_bundle_accessor.swift
+[1175/1261] Emitting module CodexBarCostStoreCrashProbe
+[1176/1261] Compiling CodexBarCostStoreCrashProbe main.swift
+[1176/1261] Write Objects.LinkFileList
+[1178/1432] Emitting module CodexBarClaudeWebProbe
+[1179/1432] Compiling CodexBarClaudeWebProbe ClaudeWebProbeEntry.swift
+[1179/1432] Write Objects.LinkFileList
+[1181/1432] Compiling CodexBarWidget WidgetTilePlan.swift
+[1182/1433] Emitting module CodexBarCLI
+[1183/1438] Compiling CodexBar Notifications+CodexBar.swift
+[1184/1438] Compiling CodexBar OpenAICreditsPurchaseWindowController.swift
+[1185/1438] Compiling CodexBar PersistentRefreshRowMetrics.swift
+[1186/1438] Compiling CodexBar PersonalInfoRedactor.swift
+[1187/1438] Compiling CodexBar PlaceholderSettingsWindowGuard.swift
+[1188/1438] Emitting module CodexBarPluginTests
+[1189/1440] Compiling CodexBarWidget WidgetDesignSystem.swift
+[1190/1440] Compiling CodexBarWidget WidgetAccountEntity.swift
+[1191/1440] Compiling CodexBarWidget WidgetTiles.swift
+[1192/1440] Compiling CodexBar MenuBarStatusItemPlacementPreservation.swift
+[1193/1440] Compiling CodexBar MenuBarStatusItemWindowProbe.swift
+[1194/1440] Compiling CodexBar MenuBarVisibilityWatcher.swift
+[1195/1440] Compiling CodexBar MenuCardCompactAccountRow.swift
+[1196/1440] Compiling CodexBar MenuCardHeightFingerprint.swift
+[1197/1440] Compiling CodexBar MenuOpenRefreshPlan.swift
+[1198/1440] Compiling CodexBar MenuSessionCoordinator.swift
+[1199/1440] Compiling CodexBar MenuSwitchFlickerProbe.swift
+[1200/1440] Compiling CodexBar MergedIconPresentation.swift
+[1201/1440] Emitting module CodexBarWidget
+[1202/1440] Compiling CodexBar MenuCardView.swift
+[1203/1440] Compiling CodexBar MenuDescriptor+ProviderUsage.swift
+[1204/1440] Compiling CodexBar MenuDescriptor.swift
+[1205/1440] Compiling CodexBar MenuHighlightStyle.swift
+[1209/1440] Linking CodexBarCostStoreCrashProbe
+[1210/1441] Write CodexBarCostStoreCrashProbe-entitlement.plist
+[1212/1441] Compiling CodexBarPluginTests ZaiPluginBalanceTests.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCLI/CLIIO.swift:86:16: warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 84 |         guard _NSGetExecutablePath(&buffer, &size) == 0 else { return nil }
+ 85 |         let bytes = buffer.map { UInt8(bitPattern: $0) }
+ 86 |         return String(decodingCString: bytes, as: UTF8.self)
+    |                `- warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 87 |         #elseif os(Linux)
+ 88 |         let path = "/proc/self/exe"
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[1213/1441] Compiling CodexBarPluginTests ZaiPluginResetTests.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCLI/CLIIO.swift:86:16: warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 84 |         guard _NSGetExecutablePath(&buffer, &size) == 0 else { return nil }
+ 85 |         let bytes = buffer.map { UInt8(bitPattern: $0) }
+ 86 |         return String(decodingCString: bytes, as: UTF8.self)
+    |                `- warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 87 |         #elseif os(Linux)
+ 88 |         let path = "/proc/self/exe"
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[1214/1441] Compiling CodexBar PredictivePaceWarnings.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCLI/CLIIO.swift:86:16: warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 84 |         guard _NSGetExecutablePath(&buffer, &size) == 0 else { return nil }
+ 85 |         let bytes = buffer.map { UInt8(bitPattern: $0) }
+ 86 |         return String(decodingCString: bytes, as: UTF8.self)
+    |                `- warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 87 |         #elseif os(Linux)
+ 88 |         let path = "/proc/self/exe"
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[1215/1441] Compiling CodexBar PreferencesAboutPane.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCLI/CLIIO.swift:86:16: warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 84 |         guard _NSGetExecutablePath(&buffer, &size) == 0 else { return nil }
+ 85 |         let bytes = buffer.map { UInt8(bitPattern: $0) }
+ 86 |         return String(decodingCString: bytes, as: UTF8.self)
+    |                `- warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 87 |         #elseif os(Linux)
+ 88 |         let path = "/proc/self/exe"
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[1216/1441] Compiling CodexBar PreferencesAdvancedPane.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBarCLI/CLIIO.swift:86:16: warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 84 |         guard _NSGetExecutablePath(&buffer, &size) == 0 else { return nil }
+ 85 |         let bytes = buffer.map { UInt8(bitPattern: $0) }
+ 86 |         return String(decodingCString: bytes, as: UTF8.self)
+    |                `- warning: 'init(decodingCString:as:)' is deprecated: Use String(decoding: array, as: Encoding.self) instead, after truncating the null termination. [#DeprecatedDeclaration]
+ 87 |         #elseif os(Linux)
+ 88 |         let path = "/proc/self/exe"
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[1216/1441] Applying CodexBarCostStoreCrashProbe
+[1218/1441] Compiling CodexBar MenuBarLayoutRenderer.swift
+[1219/1441] Compiling CodexBar MenuBarMetricWindowResolver.swift
+[1220/1441] Compiling CodexBar MenuBarPercentWindowPreference.swift
+[1221/1441] Compiling CodexBar MenuBarStatusItemDefaultsRepair.swift
+[1222/1441] Compiling CodexBar MenuBarStatusItemPlacementPreflight.swift
+[1223/1441] Compiling CodexBar PreferencesCodexAccountsSection.swift
+[1224/1441] Compiling CodexBar PreferencesComponents.swift
+[1225/1441] Compiling CodexBar PreferencesDebugPane.swift
+[1226/1441] Compiling CodexBar MenuBarLayoutEditorChip.swift
+[1227/1441] Compiling CodexBar MenuBarLayoutNativeProof.swift
+[1231/1441] Linking CodexBarClaudeWebProbe
+[1232/1442] Write CodexBarClaudeWebProbe-entitlement.plist
+[1233/1442] Write Objects.LinkFileList
+[1234/1442] Applying CodexBarClaudeWebProbe
+[1241/1442] Compiling CodexBar MouseLocationReader.swift
+[1243/1442] Compiling CodexBarCLI DashboardPayloads.swift
+[1244/1442] Compiling CodexBarCLI DashboardSnapshotBuilder.swift
+[1245/1442] Compiling CodexBarCLI DiagnoseOptions.swift
+[1246/1442] Compiling CodexBarCLI TokenAccountCLI.swift
+[1247/1442] Compiling CodexBarCLI ToonFormatter.swift
+[1250/1442] Compiling CodexBar MiniMaxAPITokenStore.swift
+[1251/1442] Compiling CodexBar MiniMaxCookieStore.swift
+[1252/1442] Write Objects.LinkFileList
+[1257/1442] Linking CodexBarWidget
+[1258/1443] Write CodexBarWidget-entitlement.plist
+[1264/1443] Applying CodexBarWidget
+[1265/1443] Linking CodexBarCLI
+[1266/1444] Write CodexBarCLI-entitlement.plist
+[1267/1506] Applying CodexBarCLI
+[1269/1506] Emitting module CodexBar
+[1270/1530] Emitting module CodexBarLinuxTests
+[1271/1538] Compiling CodexBarLinuxTests MiniMaxLinuxTests.swift
+[1272/1538] Compiling CodexBarLinuxTests ModelsDevCacheReplacementTests.swift
+[1273/1538] Compiling CodexBarLinuxTests MuseLocalUsageReaderTests.swift
+[1274/1538] Compiling CodexBarLinuxTests OpenAIDashboardParserLinuxTests.swift
+[1275/1538] Compiling CodexBarLinuxTests OpenCodeGoLinuxTests.swift
+[1276/1538] Compiling CodexBarLinuxTests OpenCodeGoPercentUnitLinuxTests.swift
+[1277/1538] Compiling CodexBarLinuxTests OpenCodePercentUnitLinuxTests.swift
+[1278/1538] Compiling CodexBarLinuxTests PerplexityCreditFormattingTests.swift
+[1279/1538] Compiling CodexBarLinuxTests CursorAppAuthLinuxTests.swift
+[1280/1538] Compiling CodexBarLinuxTests CursorLinuxTests.swift
+[1281/1538] Compiling CodexBarLinuxTests DevinCLISettingsTests.swift
+[1282/1538] Compiling CodexBarLinuxTests FakeExecutableSupport.swift
+[1283/1538] Compiling CodexBarLinuxTests FrozenScalarCostUsageJsonl.swift
+[1284/1538] Compiling CodexBarLinuxTests HookDispatchTests.swift
+[1285/1538] Compiling CodexBarLinuxTests HookTransitionDetectorLinuxTests.swift
+[1286/1538] Compiling CodexBarLinuxTests HooksTests.swift
+[1287/1538] Compiling CodexBarLinuxTests JetBrainsParserLinuxTests.swift
+[1288/1538] Compiling CodexBarLinuxTests CLICardsRendererTests.swift
+[1289/1538] Compiling CodexBarLinuxTests CLIGuardDecisionTests.swift
+[1290/1538] Compiling CodexBarLinuxTests CLIHooksWatchArgumentPrecedenceLinuxTests.swift
+[1291/1538] Compiling CodexBarLinuxTests CLIHooksWatchSleepLinuxTests.swift
+[1292/1538] Compiling CodexBarLinuxTests CLIServeRequestDeadlineLinuxTests.swift
+[1293/1538] Compiling CodexBarLinuxTests CLITerminalCapabilitiesTests.swift
+[1294/1538] Compiling CodexBarLinuxTests CLITimeZoneBootstrapTests.swift
+[1295/1538] Compiling CodexBarLinuxTests ClaudeJSONObjectTests.swift
+[1296/1538] Compiling CodexBarLinuxTests ClaudeOAuthCredentialHistoryLinuxTests.swift
+[1297/1538] Compiling CodexBarLinuxTests AbacusUsageSnapshotLinuxTests.swift
+[1298/1538] Compiling CodexBarLinuxTests AlibabaTokenPlanLinuxTests.swift
+[1299/1538] Compiling CodexBarLinuxTests AntigravityCLIStrategyLinuxTests.swift
+[1300/1538] Compiling CodexBarLinuxTests AntigravityJSONLNumberTests.swift
+[1301/1538] Compiling CodexBarLinuxTests AntigravityLocalhostSessionLifetimeTests.swift
+[1302/1538] Compiling CodexBarLinuxTests AntigravityPortDiscoveryTests.swift
+[1303/1538] Compiling CodexBarLinuxTests AntigravityProcessLauncherLinuxTests.swift
+[1304/1538] Compiling CodexBarLinuxTests AzureEndpointOverrideSecurityTests.swift
+[1305/1538] Compiling CodexBarLinuxTests CLICardsClaudeSwapTests.swift
+[1306/1538] Compiling CodexBarLinuxTests ClaudeOAuthDelegatedRefreshLinuxTests.swift
+[1307/1538] Compiling CodexBarLinuxTests ClaudeOAuthDiagnosticsTests.swift
+[1308/1538] Compiling CodexBarLinuxTests ClaudeOAuthUsageRateLimitGateLinuxTests.swift
+[1309/1538] Compiling CodexBarLinuxTests ClaudeVerifiedAccountOwnerTests.swift
+[1310/1538] Compiling CodexBarLinuxTests CodeRabbitUsageTests.swift
+[1311/1538] Compiling CodexBarLinuxTests CodexBarLoggingPerformanceTests.swift
+[1312/1538] Compiling CodexBarLinuxTests CodexNativeJWTExpiryTests.swift
+[1313/1538] Compiling CodexBarLinuxTests CodexOAuthCredentialsStoreLinuxTests.swift
+[1314/1538] Compiling CodexBarLinuxTests CodexPrioritySQLiteTests.swift
+[1315/1538] Compiling CodexBarLinuxTests PiSessionCostCacheLinuxTests.swift
+[1316/1538] Compiling CodexBarLinuxTests PiSessionCostCacheReplacementTests.swift
+[1317/1538] Compiling CodexBarLinuxTests PlatformGatingTests.swift
+[1318/1538] Compiling CodexBarLinuxTests ProcNetTCPListeningPortParserLinuxTests.swift
+[1319/1538] Compiling CodexBarLinuxTests ProcessPipeCaptureLinuxTests.swift
+[1320/1538] Compiling CodexBarLinuxTests ProviderEndpointOverrideSecurityLinuxTests.swift
+[1321/1538] Compiling CodexBarLinuxTests ProviderNumericBoundaryTests.swift
+[1322/1538] Compiling CodexBarLinuxTests RemoteCodexCostsTests.swift
+[1323/1538] Compiling CodexBar AdaptiveActivityConsentPresenter.swift
+[1324/1538] Compiling CodexBar AdaptiveRefreshPolicy.swift
+[1325/1538] Compiling CodexBar AgentSessionsStore.swift
+[1326/1538] Compiling CodexBar AppNotifications.swift
+[1327/1538] Compiling CodexBar AppProviderMappingsView.swift
+[1328/1538] Compiling CodexBar AppVersion.swift
+[1329/1538] Compiling CodexBar BackgroundWorkPowerPolicy.swift
+[1330/1538] Compiling CodexBar CLILoginRunner.swift
+[1331/1538] Compiling CodexBar ChartAxisLabelLayout.swift
+[1332/1538] Compiling CodexBar ChartBarHoverSelection.swift
+[1333/1538] Compiling CodexBar ClaudeLoginRunner.swift
+[1334/1538] Compiling CodexBar ClickToCopyOverlay.swift
+[1335/1538] Compiling CodexBar CodexAccountMenuPresentation.swift
+[1336/1538] Compiling CodexBar CodexAccountPromotionCoordinator.swift
+[1337/1538] Compiling CodexBar CodexAccountPromotionExecution.swift
+[1338/1538] Compiling CodexBar CodexAccountPromotionPlanning.swift
+[1339/1538] Compiling CodexBar CodexAccountPromotionPreparation.swift
+[1340/1538] Compiling CodexBar CodexAccountPromotionService.swift
+[1341/1538] Compiling CodexBar CodexAccountReconciliation.swift
+[1342/1538] Compiling CodexBar CodexAccountSwitcherLabeling.swift
+[1343/1538] Compiling CodexBar CodexAccountSwitcherView.swift
+[1344/1538] Compiling CodexBar CodexAccountUsageSnapshotStore.swift
+[1345/1538] Compiling CodexBar CodexCostCatchUpPolicy.swift
+[1346/1538] Compiling CodexBar CodexHistoryOwnership.swift
+[1347/1538] Compiling CodexBar CodexLoginAlertPresentation.swift
+[1348/1562] Compiling CodexBarLinuxTests CostUsageQuotaEvidenceLinuxTests.swift
+[1349/1562] Compiling CodexBarLinuxTests CostUsageQuotaWeekLinuxTests.swift
+[1350/1562] Compiling CodexBarLinuxTests CostUsageScanExecutorLinuxTests.swift
+[1351/1562] Compiling CodexBarLinuxTests CostUsageTemporalCompletenessTests.swift
+[1352/1562] Compiling CodexBarLinuxTests CredentialFileWriterTests.swift
+[1361/1562] Compiling CodexBarLinuxTests ResetCountdownDayRolloverLinuxTests.swift
+[1362/1562] Compiling CodexBarLinuxTests SettingsReaderQuoteUnwrapTrapTests.swift
+[1363/1562] Compiling CodexBarLinuxTests SettingsValueTests.swift
+[1364/1562] Compiling CodexBarLinuxTests ShellCommandSessionLinuxTests.swift
+[1365/1562] Compiling CodexBarLinuxTests UsageFormatterLinuxTests.swift
+[1366/1562] Compiling CodexBarLinuxTests UsageSnapshotAccountLabelTests.swift
+[1367/1562] Compiling CodexBarLinuxTests UsageUpdatedHookMappingTests.swift
+[1368/1562] Compiling CodexBarLinuxTests WayfinderProviderLinuxTests.swift
+[1369/1562] Compiling CodexBar ProviderDetailSectionsContent.swift
+[1370/1562] Compiling CodexBar ProviderMenuBarPercentWindowSettingsView.swift
+[1371/1562] Compiling CodexBar ProviderRefreshCoordinator.swift
+[1372/1562] Compiling CodexBar ProviderRegistry.swift
+[1373/1562] Compiling CodexBar ProviderSwitcherButtons.swift
+[1374/1562] Compiling CodexBar ProviderUsageItemVisibility.swift
+[1375/1562] Compiling CodexBar AbacusProviderImplementation.swift
+[1376/1562] Compiling CodexBar AbacusSettingsStore.swift
+[1377/1562] Compiling CodexBar AiAndProviderImplementation.swift
+[1378/1562] Compiling CodexBar AlibabaCodingPlanProviderImplementation.swift
+[1379/1562] Compiling CodexBar AlibabaCodingPlanSettingsStore.swift
+[1380/1562] Compiling CodexBar AlibabaTokenPlanProviderImplementation.swift
+[1381/1562] Compiling CodexBar AlibabaTokenPlanSettingsStore.swift
+[1382/1562] Compiling CodexBar AmpProviderImplementation.swift
+[1383/1562] Compiling CodexBar AmpSettingsStore.swift
+[1384/1562] Compiling CodexBar AntigravityLoginFlow.swift
+[1385/1562] Compiling CodexBar AntigravityLoginRunner.swift
+[1386/1562] Compiling CodexBar AntigravityProviderImplementation.swift
+[1387/1562] Compiling CodexBar AntigravityQuotaHistory.swift
+[1388/1562] Compiling CodexBar AntigravitySettingsStore.swift
+[1389/1562] Compiling CodexBar AugmentProviderImplementation.swift
+[1390/1562] Compiling CodexBar AugmentProviderRuntime.swift
+[1391/1562] Compiling CodexBar AugmentSettingsStore.swift
+[1392/1562] Compiling CodexBar AzureOpenAIProviderImplementation.swift
+[1393/1562] Compiling CodexBar AzureOpenAISettingsStore.swift
+[1394/1562] Compiling CodexBar BedrockProviderImplementation.swift
+[1395/1562] Compiling CodexBar BedrockSettingsStore.swift
+[1396/1562] Compiling CodexBar CodexLoginRunner.swift
+[1397/1562] Compiling CodexBar CodexOwnershipContext.swift
+[1398/1562] Compiling CodexBar CodexResetCreditExpiryNotifier.swift
+[1399/1562] Compiling CodexBar CodexWorkspacesInspectorModel.swift
+[1400/1562] Compiling CodexBar CodexWorkspacesInspectorPresentation.swift
+[1401/1562] Compiling CodexBar CodexWorkspacesInspectorView.swift
+[1402/1562] Compiling CodexBar CodexWorkspacesMenuAvailability.swift
+[1403/1562] Compiling CodexBar CodexWorkspacesNavigation.swift
+[1404/1562] Compiling CodexBar CodexbarApp.swift
+[1405/1562] Compiling CodexBar CodexBarConfigMigrator.swift
+[1406/1562] Compiling CodexBar ProviderConfig+FetchIdentity.swift
+[1407/1562] Compiling CodexBar CookieHeaderStore.swift
+[1408/1562] Compiling CodexBar CopilotTokenStore.swift
+[1409/1562] Compiling CodexBar CostHistoryChartMenuView.swift
+[1410/1562] Compiling CodexBar CostHistoryIdentity.swift
+[1411/1562] Compiling CodexBar CostHistoryMenuScrollView.swift
+[1412/1562] Compiling CodexBar CreditsHistoryChartMenuView.swift
+[1413/1562] Compiling CodexBar CursorLoginAccountSelector.swift
+[1414/1562] Compiling CodexBar CursorLoginBrowserRouter.swift
+[1415/1562] Compiling CodexBar CursorLoginRunner.swift
+[1416/1562] Compiling CodexBar Date+RelativeDescription.swift
+[1417/1562] Compiling CodexBar DisplayLink.swift
+[1418/1562] Compiling CodexBar DockIconController.swift
+[1419/1562] Compiling CodexBar FleetAccountMenuProjection.swift
+[1420/1562] Compiling CodexBar FocusedAppProviderSelection.swift
+[1441/1562] Compiling CodexBarLinuxTests CodexWarmCacheResumeLinuxTests.swift
+[1442/1562] Compiling CodexBarLinuxTests CostUsageHourlyReportLinuxTests.swift
+[1443/1562] Compiling CodexBarLinuxTests CostUsageJsonlDifferentialTests.swift
+[1444/1562] Compiling CodexBarLinuxTests CostUsageJsonlParitySupport.swift
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/gamitha/Developer/CodexBar/Sources/CodexBar/MenuSwitchFlickerProbe.swift:144:29: warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+142 |                     / 1_000_000
+143 |                 // Include framing so the window shadow / material edge is captured too.
+144 |                 let image = CGWindowListCreateImage(
+    |                             `- warning: 'CGWindowListCreateImage' was deprecated in macOS 14.0: Please use ScreenCaptureKit instead. [#DeprecatedDeclaration]
+145 |                     .null,
+146 |                     .optionIncludingWindow,
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[1469/1562] Compiling CodexBar GeminiLoginRunner.swift
+[1470/1562] Compiling CodexBar HistoricalUsagePace.swift
+[1471/1562] Compiling CodexBar IconRemainingResolver.swift
+[1472/1562] Compiling CodexBar IconRenderer.swift
+[1473/1562] Compiling CodexBar InlineUsageDashboardContent.swift
+[1474/1562] Compiling CodexBar InstallOrigin.swift
+[1475/1562] Compiling CodexBar KeyboardShortcuts+Names.swift
+[1476/1562] Compiling CodexBar KeychainPromptCoordinator.swift
+[1477/1562] Compiling CodexBar KimiTokenStore.swift
+[1478/1562] Compiling CodexBar LastKnownUsagePresentation.swift
+[1479/1562] Compiling CodexBar LaunchAtLoginManager.swift
+[1480/1562] Compiling CodexBar LoadingPattern.swift
+[1481/1562] Compiling CodexBar Localization.swift
+[1482/1562] Compiling CodexBar MainThreadHangWatchdog.swift
+[1483/1562] Compiling CodexBar ManagedCodexAccountCoordinator.swift
+[1484/1562] Compiling CodexBar ManagedCodexAccountService.swift
+[1485/1562] Compiling CodexBar MemoryPressureMonitor.swift
+[1486/1562] Compiling CodexBar MemoryPressureRelief.swift
+[1487/1562] Compiling CodexBar MenuBarDisplayMode.swift
+[1488/1562] Compiling CodexBar MenuBarDisplayText.swift
+[1489/1562] Compiling CodexBar MenuBarLayout.swift
+[1490/1562] Compiling CodexBar MenuBarLayoutAutomaticWindowDisplayNormalizer.swift
+[1491/1562] Compiling CodexBar MenuBarLayoutConditionalEditor.swift
+[1492/1562] Compiling CodexBar MenuBarLayoutEditor.swift
+[1501/1706] Compiling CodexBar ChutesProviderImplementation.swift
+[1502/1706] Compiling CodexBar ClaudeLoginFlow.swift
+[1503/1706] Compiling CodexBar ClaudeProviderImplementation.swift
+[1504/1706] Compiling CodexBar ClaudeProviderRuntime.swift
+[1505/1706] Compiling CodexBar ClaudeSettingsStore.swift
+[1506/1706] Compiling CodexBar ClaudeSwapAccountMenuDisplay.swift
+[1507/1706] Compiling CodexBar ClaudeSwapAccountSwitcherView.swift
+[1508/1706] Compiling CodexBar ClaudeUIErrorMapper.swift
+[1509/1706] Compiling CodexBar StatusItemController+ClaudeSwapMenu.swift
+[1510/1706] Compiling CodexBar UsageStore+ClaudeSwapRefresh.swift
+[1511/1706] Compiling CodexBar ClawRouterProviderImplementation.swift
+[1512/1706] Compiling CodexBar ClinePassProviderImplementation.swift
+[1513/1706] Compiling CodexBar CodeRabbitProviderImplementation.swift
+[1514/1706] Compiling CodexBar CodebuffProviderImplementation.swift
+[1515/1706] Compiling CodexBar CodexConsumerProjection.swift
+[1516/1706] Compiling CodexBar CodexLimitResetOwnerKey.swift
+[1517/1706] Compiling CodexBar CodexLoginFlow.swift
+[1518/1706] Compiling CodexBar CodexProviderImplementation.swift
+[1519/1706] Compiling CodexBar CodexProviderRuntime.swift
+[1520/1706] Compiling CodexBar CodexSettingsStore.swift
+[1521/1706] Compiling CodexBar CodexWeeklyResetConfirmation.swift
+[1522/1706] Compiling CodexBar CodexWeeklyResetDiagnostics.swift
+[1523/1706] Compiling CodexBar StatusItemController+CodexAccountCard.swift
+[1524/1706] Compiling CodexBar UsageStore+CodexAccountLabel.swift
+[1525/1730] Compiling CodexBar NousProviderImplementation.swift
+[1526/1730] Compiling CodexBar OllamaProviderImplementation.swift
+[1527/1730] Compiling CodexBar OllamaSettingsStore.swift
+[1528/1730] Compiling CodexBar OllamaUIErrorMapper.swift
+[1529/1730] Compiling CodexBar OpenAIAPIProviderImplementation.swift
+[1530/1730] Compiling CodexBar OpenCodeProviderImplementation.swift
+[1531/1730] Compiling CodexBar OpenCodeSettingsStore.swift
+[1532/1730] Compiling CodexBar OpenCodeGoProviderImplementation.swift
+[1533/1730] Compiling CodexBar OpenCodeGoSettingsStore.swift
+[1534/1730] Compiling CodexBar OpenRouterProviderImplementation.swift
+[1535/1730] Compiling CodexBar PerplexityProviderImplementation.swift
+[1536/1730] Compiling CodexBar PerplexitySettingsStore.swift
+[1537/1730] Compiling CodexBar PiProviderImplementation.swift
+[1538/1730] Compiling CodexBar PoeProviderImplementation.swift
+[1539/1730] Compiling CodexBar QoderProviderImplementation.swift
+[1540/1730] Compiling CodexBar QoderSettingsStore.swift
+[1541/1730] Compiling CodexBar QwenCloudProviderImplementation.swift
+[1542/1730] Compiling CodexBar QwenCloudSettingsStore.swift
+[1543/1730] Compiling CodexBar ReplicateProviderImplementation.swift
+[1544/1730] Compiling CodexBar ReplicateSettingsStore.swift
+[1545/1730] Compiling CodexBar SakanaProviderImplementation.swift
+[1546/1730] Compiling CodexBar ProviderCatalog.swift
+[1547/1730] Compiling CodexBar ProviderContext.swift
+[1548/1730] Compiling CodexBar ProviderCookieRefreshAction.swift
+[1549/1754] Compiling CodexBar KimiProviderImplementation.swift
+[1550/1754] Compiling CodexBar KimiSettingsStore.swift
+[1551/1754] Compiling CodexBar KiroLoginAlertPresentation.swift
+[1552/1754] Compiling CodexBar KiroLoginFlow.swift
+[1553/1754] Compiling CodexBar KiroLoginRunner.swift
+[1554/1754] Compiling CodexBar KiroProviderImplementation.swift
+[1555/1754] Compiling CodexBar LLMProxyProviderImplementation.swift
+[1556/1754] Compiling CodexBar LiteLLMProviderImplementation.swift
+[1557/1754] Compiling CodexBar LongCatProviderImplementation.swift
+[1558/1754] Compiling CodexBar LongCatSettingsStore.swift
+[1559/1754] Compiling CodexBar ManusProviderImplementation.swift
+[1560/1754] Compiling CodexBar ManusSettingsStore.swift
+[1561/1754] Compiling CodexBar MiMoProviderImplementation.swift
+[1562/1754] Compiling CodexBar MiMoSettingsStore.swift
+[1563/1754] Compiling CodexBar MiniMaxProviderImplementation.swift
+[1564/1754] Compiling CodexBar MiniMaxSettingsStore.swift
+[1565/1754] Compiling CodexBar MistralProviderImplementation.swift
+[1566/1754] Compiling CodexBar MistralSettingsStore.swift
+[1567/1754] Compiling CodexBar MoonshotProviderImplementation.swift
+[1568/1754] Compiling CodexBar MoonshotSettingsStore.swift
+[1569/1754] Compiling CodexBar MuseProviderImplementation.swift
+[1570/1754] Compiling CodexBar NeuralWattProviderImplementation.swift
+[1571/1754] Compiling CodexBar NotionProviderImplementation.swift
+[1572/1754] Compiling CodexBar NotionSettingsStore.swift
+[1573/1778] Compiling CodexBar ProviderCookieSettingsResolution.swift
+[1574/1778] Compiling CodexBar ProviderCookieSourceUI.swift
+[1575/1778] Compiling CodexBar ProviderImplementation.swift
+[1576/1778] Compiling CodexBar ProviderImplementationManifest.swift
+[1577/1778] Compiling CodexBar ProviderLoginFlow.swift
+[1578/1778] Compiling CodexBar ProviderMenuContext.swift
+[1579/1778] Compiling CodexBar ProviderPresentation.swift
+[1580/1778] Compiling CodexBar ProviderRuntime.swift
+[1581/1778] Compiling CodexBar ProviderSettingsDescriptors.swift
+[1582/1778] Compiling CodexBar ProviderTokenAccountSelection.swift
+[1583/1778] Compiling CodexBar StepFunProviderImplementation.swift
+[1584/1778] Compiling CodexBar StepFunSettingsStore.swift
+[1585/1778] Compiling CodexBar Sub2APIProviderImplementation.swift
+[1586/1778] Compiling CodexBar SyntheticProviderImplementation.swift
+[1587/1778] Compiling CodexBar T3ChatProviderImplementation.swift
+[1588/1778] Compiling CodexBar T3ChatSettingsStore.swift
+[1589/1778] Compiling CodexBar TypeSafeProviderImplementation.swift
+[1590/1778] Compiling CodexBar TypeSafeSettingsStore.swift
+[1591/1778] Compiling CodexBar V0ProviderImplementation.swift
+[1592/1778] Compiling CodexBar VeniceProviderImplementation.swift
+[1593/1778] Compiling CodexBar VeniceSettingsStore.swift
+[1594/1778] Compiling CodexBar VertexAILoginFlow.swift
+[1595/1778] Compiling CodexBar VertexAIProviderImplementation.swift
+[1596/1778] Compiling CodexBar WarpProviderImplementation.swift
+[1597/1802] Compiling CodexBar DoubaoProviderImplementation.swift
+[1598/1802] Compiling CodexBar DoubaoSettingsStore.swift
+[1599/1802] Compiling CodexBar ElevenLabsProviderImplementation.swift
+[1600/1802] Compiling CodexBar FactoryLoginFlow.swift
+[1601/1802] Compiling CodexBar FactoryProviderImplementation.swift
+[1602/1802] Compiling CodexBar FactorySettingsStore.swift
+[1603/1802] Compiling CodexBar FireworksProviderImplementation.swift
+[1604/1802] Compiling CodexBar FireworksSettingsStore.swift
+[1605/1802] Compiling CodexBar GeminiLoginFlow.swift
+[1606/1802] Compiling CodexBar GeminiProviderImplementation.swift
+[1607/1802] Compiling CodexBar GitKrakenProviderImplementation.swift
+[1608/1802] Compiling CodexBar GrokProviderImplementation.swift
+[1609/1802] Compiling CodexBar GrokSettingsStore.swift
+[1610/1802] Compiling CodexBar UsageStore+GrokLocalSessions.swift
+[1611/1802] Compiling CodexBar GroqProviderImplementation.swift
+[1612/1802] Compiling CodexBar HelmcodeProviderImplementation.swift
+[1613/1802] Compiling CodexBar HuggingFaceProviderImplementation.swift
+[1614/1802] Compiling CodexBar IBMBobProviderImplementation.swift
+[1615/1802] Compiling CodexBar JetBrainsLoginFlow.swift
+[1616/1802] Compiling CodexBar JetBrainsProviderImplementation.swift
+[1617/1802] Compiling CodexBar JetBrainsSettingsStore.swift
+[1618/1802] Compiling CodexBar KiloProviderImplementation.swift
+[1619/1802] Compiling CodexBar KiloSettingsStore.swift
+[1620/1802] Compiling CodexBar UsageStore+KiloOrgRefresh.swift
+[1621/1826] Compiling CodexBar WayfinderProviderImplementation.swift
+[1622/1826] Compiling CodexBar WindsurfProviderImplementation.swift
+[1623/1826] Compiling CodexBar WindsurfSettingsStore.swift
+[1624/1826] Compiling CodexBar XAIProviderImplementation.swift
+[1625/1826] Compiling CodexBar ZaiProviderImplementation.swift
+[1626/1826] Compiling CodexBar ZaiSettingsStore.swift
+[1627/1826] Compiling CodexBar ZedProviderImplementation.swift
+[1628/1826] Compiling CodexBar ZenMuxProviderImplementation.swift
+[1629/1826] Compiling CodexBar ZoomMateProviderImplementation.swift
+[1630/1826] Compiling CodexBar ZoomMateSettingsStore.swift
+[1631/1826] Compiling CodexBar QuotaWarningAlertOverlayController.swift
+[1632/1826] Compiling CodexBar QuotaWarningSettingsViews.swift
+[1633/1826] Compiling CodexBar ScreenConfettiOverlayController.swift
+[1634/1826] Compiling CodexBar SessionEquivalentForecast.swift
+[1635/1826] Compiling CodexBar SessionQuotaNotifications.swift
+[1636/1826] Compiling CodexBar SettingsApplicationMenu.swift
+[1637/1826] Compiling CodexBar SettingsStore+AppProviderSelection.swift
+[1638/1826] Compiling CodexBar SettingsStore+Config.swift
+[1639/1826] Compiling CodexBar SettingsStore+ConfigPersistence.swift
+[1640/1826] Compiling CodexBar SettingsStore+Defaults.swift
+[1641/1826] Compiling CodexBar SettingsStore+MenuObservation.swift
+[1642/1826] Compiling CodexBar SettingsStore+MenuPreferences.swift
+[1643/1826] Compiling CodexBar SettingsStore+ProviderDetection.swift
+[1644/1826] Compiling CodexBar SettingsStore+Sync.swift
+[1645/1826] Compiling CodexBar UsageStore+CodexAccountState.swift
+[1646/1826] Compiling CodexBar UsageStore+CodexPATRefresh.swift
+[1647/1826] Compiling CodexBar UsageStore+CodexRefresh.swift
+[1648/1826] Compiling CodexBar UsageStore+CodexResetBackfill.swift
+[1649/1826] Compiling CodexBar UsageStore+CodexWeeklyResetCandidatePersistence.swift
+[1650/1826] Compiling CodexBar UsageStore+CodexWeeklyResetConfirmation.swift
+[1651/1826] Compiling CodexBar UsageStore+CodexWeeklyResetMultiAccount.swift
+[1652/1826] Compiling CodexBar UsageStore+CodexWithheldPublicationError.swift
+[1653/1826] Compiling CodexBar CommandCodeProviderImplementation.swift
+[1654/1826] Compiling CodexBar CommandCodeSettingsStore.swift
+[1655/1826] Compiling CodexBar CopilotLoginFlow.swift
+[1656/1826] Compiling CodexBar CopilotProviderImplementation.swift
+[1657/1826] Compiling CodexBar CopilotSettingsStore.swift
+[1658/1826] Compiling CodexBar UsageStore+CopilotBudgets.swift
+[1659/1826] Compiling CodexBar UsageStore+CopilotCredits.swift
+[1660/1826] Compiling CodexBar CursorLoginFlow.swift
+[1661/1826] Compiling CodexBar CursorProviderImplementation.swift
+[1662/1826] Compiling CodexBar CursorSettingsStore.swift
+[1663/1826] Compiling CodexBar DeepInfraProviderImplementation.swift
+[1664/1826] Compiling CodexBar DeepSeekProviderImplementation.swift
+[1665/1826] Compiling CodexBar DeepSeekSettingsStore.swift
+[1666/1826] Compiling CodexBar DeepgramProviderImplementation.swift
+[1667/1826] Compiling CodexBar DevinProviderImplementation.swift
+[1668/1826] Compiling CodexBar DevinSettingsStore.swift
+[1669/1826] Compiling CodexBar StatusItemController+MenuRowReordering.swift
+[1670/1826] Compiling CodexBar StatusItemController+MenuSmartUpdate.swift
+[1671/1826] Compiling CodexBar StatusItemController+MenuSwitcherWarmup.swift
+[1672/1826] Compiling CodexBar StatusItemController+MenuTextRows.swift
+[1673/1826] Compiling CodexBar StatusItemController+MenuTracking.swift
+[1674/1826] Compiling CodexBar StatusItemController+MenuTypes.swift
+[1675/1826] Compiling CodexBar StatusItemController+MenuViewportRestore.swift
+[1676/1826] Compiling CodexBar StatusItemController+MenuWidthCache.swift
+[1677/1826] Compiling CodexBar StatusItemController+MergedSwitcherContentCache.swift
+[1678/1826] Compiling CodexBar StatusItemController+OverviewScroll.swift
+[1679/1826] Compiling CodexBar StatusItemController+OverviewSpend.swift
+[1680/1826] Compiling CodexBar StatusItemController+OverviewSubmenus.swift
+[1681/1826] Compiling CodexBar StatusItemController+PersistentMenuActions.swift
+[1682/1826] Compiling CodexBar StatusItemController+PersistentRefreshMenuItem.swift
+[1683/1826] Compiling CodexBar StatusItemController+ProviderNavigation.swift
+[1684/1826] Compiling CodexBar StatusItemController+ProviderSwitcher.swift
+[1685/1826] Compiling CodexBar StatusItemController+Shutdown.swift
+[1686/1826] Compiling CodexBar StatusItemController+StatusItemVending.swift
+[1687/1826] Compiling CodexBar StatusItemController+StorageMenuCard.swift
+[1688/1826] Compiling CodexBar StatusItemController+SwitcherMetrics.swift
+[1689/1826] Compiling CodexBar StatusItemController+SwitcherViews.swift
+[1690/1826] Compiling CodexBar StatusItemController+UsageHistoryMenu.swift
+[1691/1826] Compiling CodexBar StatusItemController+UserPlugins.swift
+[1692/1826] Compiling CodexBar StatusItemController+WidgetSnapshot.swift
+[1693/1826] Compiling CodexBar UsageStore+ClaudeVersionRecovery.swift
+[1694/1826] Compiling CodexBar UsageStore+CodexCostCatchUp.swift
+[1695/1826] Compiling CodexBar UsageStore+CodexResetCredits.swift
+[1696/1826] Compiling CodexBar UsageStore+GeminiMigration.swift
+[1697/1826] Compiling CodexBar UsageStore+HighestUsage.swift
+[1698/1826] Compiling CodexBar UsageStore+HistoricalPace.swift
+[1699/1826] Compiling CodexBar UsageStore+Hooks.swift
+[1700/1826] Compiling CodexBar UsageStore+LimitResetBoundary.swift
+[1701/1826] Compiling CodexBar UsageStore+LimitResetCelebration.swift
+[1702/1826] Compiling CodexBar UsageStore+LimitResetIdentity.swift
+[1703/1826] Compiling CodexBar UsageStore+Logging.swift
+[1704/1826] Compiling CodexBar UsageStore+MemoryPressure.swift
+[1705/1826] Compiling CodexBar UsageStore+MenuCardModel.swift
+[1706/1826] Compiling CodexBar UsageStore+NotionDebug.swift
+[1707/1826] Compiling CodexBar UsageStore+OpenAISubscriptionMetadata.swift
+[1708/1826] Compiling CodexBar UsageStore+OpenAIWeb.swift
+[1709/1826] Compiling CodexBar UsageStore+PermissionPrompts.swift
+[1710/1826] Compiling CodexBar UsageStore+PlanUtilization.swift
+[1711/1826] Compiling CodexBar UsageStore+PlanUtilizationLoading.swift
+[1712/1826] Compiling CodexBar UsageStore+ProviderRuntime.swift
+[1713/1826] Compiling CodexBar UsageStore+ProviderStatus.swift
+[1714/1826] Compiling CodexBar UsageStore+ProviderStorage.swift
+[1715/1826] Compiling CodexBar UsageStore+QuotaWarnings.swift
+[1716/1826] Compiling CodexBar UsageStore+QuotaWindowResets.swift
+[1717/1826] Compiling CodexBar StatusItemController.swift
+[1718/1826] Compiling CodexBar StatusItemMenu.swift
+[1719/1826] Compiling CodexBar StorageBreakdownMenuView.swift
+[1720/1826] Compiling CodexBar CloudSyncCoordinator.swift
+[1721/1826] Compiling CodexBar CloudSyncEngine.swift
+[1722/1826] Compiling CodexBar CloudSyncPersistence.swift
+[1723/1826] Compiling CodexBar ConfigFileWatcher.swift
+[1724/1826] Compiling CodexBar SyntheticTokenStore.swift
+[1725/1826] Compiling CodexBar TerminalApp.swift
+[1726/1826] Compiling CodexBar UpdateChannel.swift
+[1727/1826] Compiling CodexBar UsageBreakdownChartMenuView.swift
+[1728/1826] Compiling CodexBar UsageMenuCardHeaderAndUsageSectionView.swift
+[1729/1826] Compiling CodexBar UsageMenuCardLayout.swift
+[1730/1826] Compiling CodexBar UsagePaceText.swift
+[1731/1826] Compiling CodexBar UsageProgressBar.swift
+[1732/1826] Compiling CodexBar UsageStore+APIKeyDebug.swift
+[1733/1826] Compiling CodexBar UsageStore+Accessors.swift
+[1734/1826] Compiling CodexBar UsageStore+AccountRefreshPolicy.swift
+[1735/1826] Compiling CodexBar UsageStore+AdaptiveRefresh.swift
+[1736/1826] Compiling CodexBar UsageStore+BackgroundRefresh.swift
+[1737/1826] Compiling CodexBar UsageStore+ClaudeActiveAccountIdentity.swift
+[1738/1826] Compiling CodexBar UsageStore+ClaudeDebug.swift
+[1739/1826] Compiling CodexBar UsageStore+ClaudeHistoryFallback.swift
+[1740/1826] Compiling CodexBar UsageStore+ClaudeOAuthHistoryTypes.swift
+[1741/1826] Compiling CodexBar StatusItemController+CodexStackedMenu.swift
+[1742/1826] Compiling CodexBar StatusItemController+CompactAccountMenu.swift
+[1743/1826] Compiling CodexBar StatusItemController+CostMenuCard.swift
+[1744/1826] Compiling CodexBar StatusItemController+CountdownRefresh.swift
+[1745/1826] Compiling CodexBar StatusItemController+FleetAccounts.swift
+[1746/1826] Compiling CodexBar StatusItemController+FocusedApp.swift
+[1747/1826] Compiling CodexBar StatusItemController+HostedSubmenus.swift
+[1748/1826] Compiling CodexBar StatusItemController+IconObservation.swift
+[1749/1826] Compiling CodexBar StatusItemController+IconPerf.swift
+[1750/1826] Compiling CodexBar StatusItemController+MemoryPressure.swift
+[1751/1826] Compiling CodexBar StatusItemController+Menu.swift
+[1752/1826] Compiling CodexBar StatusItemController+MenuActionMapping.swift
+[1753/1826] Compiling CodexBar StatusItemController+MenuAppearance.swift
+[1754/1826] Compiling CodexBar StatusItemController+MenuBarLayout.swift
+[1755/1826] Compiling CodexBar StatusItemController+MenuCardHeightCache.swift
+[1756/1826] Compiling CodexBar StatusItemController+MenuCardItems.swift
+[1757/1826] Compiling CodexBar StatusItemController+MenuCardModel.swift
+[1758/1826] Compiling CodexBar StatusItemController+MenuCardRecycling.swift
+[1759/1826] Compiling CodexBar StatusItemController+MenuContexts.swift
+[1760/1826] Compiling CodexBar StatusItemController+MenuInteractionRefresh.swift
+[1761/1826] Compiling CodexBar StatusItemController+MenuLocalization.swift
+[1762/1826] Compiling CodexBar StatusItemController+MenuPresentation.swift
+[1763/1826] Compiling CodexBar StatusItemController+MenuReconcile.swift
+[1764/1826] Compiling CodexBar StatusItemController+MenuRefreshScheduling.swift
+[1765/1826] Compiling CodexBar UsageStore+Refresh.swift
+[1766/1826] Compiling CodexBar UsageStore+RefreshEnrichment.swift
+[1767/1826] Compiling CodexBar UsageStore+ResetBoundaryRefresh.swift
+[1768/1826] Compiling CodexBar UsageStore+SessionEquivalents.swift
+[1769/1826] Compiling CodexBar UsageStore+SessionQuotaTransition.swift
+[1770/1826] Compiling CodexBar UsageStore+SpendDashboardCodexCostCatchUp.swift
+[1771/1826] Compiling CodexBar UsageStore+SpendDashboardPublication.swift
+[1772/1826] Compiling CodexBar UsageStore+SpendDashboardTokenCost.swift
+[1773/1826] Compiling CodexBar UsageStore+StartupConnectivityRetry.swift
+[1774/1826] Compiling CodexBar UsageStore+SupplementalUsage.swift
+[1775/1826] Compiling CodexBar UsageStore+Timeout.swift
+[1776/1826] Compiling CodexBar UsageStore+TokenAccountCacheKey.swift
+[1777/1826] Compiling CodexBar UsageStore+TokenAccounts.swift
+[1778/1826] Compiling CodexBar UsageStore+TokenCost.swift
+[1779/1826] Compiling CodexBar UsageStore+TokenRefreshSequence.swift
+[1780/1826] Compiling CodexBar UsageStore+UserPlugins.swift
+[1781/1826] Compiling CodexBar UsageStore+WidgetAccounts.swift
+[1782/1826] Compiling CodexBar UsageStore+WidgetSnapshot.swift
+[1783/1826] Compiling CodexBar UsageStore.swift
+[1784/1826] Compiling CodexBar UsageStoreSupport.swift
+[1785/1826] Compiling CodexBar WarpTerminalConfig.swift
+[1786/1826] Compiling CodexBar WidgetAccountSnapshotStore.swift
+[1787/1826] Compiling CodexBar ZaiTokenStore.swift
+[1788/1826] Compiling CodexBar resource_bundle_accessor.swift
+[1789/1826] Compiling CodexBar SettingsStore+TokenAccounts.swift
+[1790/1826] Compiling CodexBar SettingsStore+TokenCost.swift
+[1791/1826] Compiling CodexBar SettingsStore.swift
+[1792/1826] Compiling CodexBar SettingsStoreState.swift
+[1793/1826] Compiling CodexBar SettingsWindowController.swift
+[1794/1826] Compiling CodexBar ShareStatsCardView.swift
+[1795/1826] Compiling CodexBar ShareStatsPayload.swift
+[1796/1826] Compiling CodexBar ShareStatsRenderer.swift
+[1797/1826] Compiling CodexBar ShareStatsWindowController.swift
+[1798/1826] Compiling CodexBar SidebarResizeHandle.swift
+[1799/1826] Compiling CodexBar SpendActivityHeatmap.swift
+[1800/1826] Compiling CodexBar SpendDashboardController.swift
+[1801/1826] Compiling CodexBar SpendDashboardLoadedInputScope.swift
+[1802/1826] Compiling CodexBar SpendDashboardModel+ModelBreakdown.swift
+[1803/1826] Compiling CodexBar SpendDashboardModel.swift
+[1804/1826] Compiling CodexBar SpendDashboardProviderBreakdown.swift
+[1805/1826] Compiling CodexBar SpendDashboardPublication.swift
+[1806/1826] Compiling CodexBar SpendDashboardSource+OpenCodex.swift
+[1807/1826] Compiling CodexBar SpendDashboardSummary.swift
+[1808/1826] Compiling CodexBar StatusComponentsMenuView.swift
+[1809/1826] Compiling CodexBar StatusItemController+AccountMenuDisplay.swift
+[1810/1826] Compiling CodexBar StatusItemController+Actions.swift
+[1811/1826] Compiling CodexBar StatusItemController+AgentSessions.swift
+[1812/1826] Compiling CodexBar StatusItemController+Animation.swift
+[1812/1826] Write Objects.LinkFileList
+[1813/1826] Linking CodexBar
+[1814/1827] Write CodexBar-entitlement.plist
+[1815/1827] Applying CodexBar
+[1817/2003] Compiling CodexBarTests AiAndProviderTests.swift
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:245:83: note: expanded code originates here
+243 |         #expect(previous?.totalCostUSD == 2)
+244 |         #expect(previous?.totalTokens == 200)
+245 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+246 |         #expect(current?.entryCount == 1)
+247 |         #expect(previous?.entryCount == 1)
+
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:288:83: note: expanded code originates here
+286 |         #expect(current?.totalCostUSD == 4)
+287 |         #expect(current?.totalTokens == 400)
+288 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+289 |     }
+290 | 
+[1818/2003] Compiling CodexBarTests AlibabaCodingPlanCookieImporterTests.swift
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:245:83: note: expanded code originates here
+243 |         #expect(previous?.totalCostUSD == 2)
+244 |         #expect(previous?.totalTokens == 200)
+245 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+246 |         #expect(current?.entryCount == 1)
+247 |         #expect(previous?.entryCount == 1)
+
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:288:83: note: expanded code originates here
+286 |         #expect(current?.totalCostUSD == 4)
+287 |         #expect(current?.totalTokens == 400)
+288 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+289 |     }
+290 | 
+[1819/2003] Compiling CodexBarTests AlibabaCodingPlanMenuCardModelTests.swift
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:245:83: note: expanded code originates here
+243 |         #expect(previous?.totalCostUSD == 2)
+244 |         #expect(previous?.totalTokens == 200)
+245 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+246 |         #expect(current?.entryCount == 1)
+247 |         #expect(previous?.entryCount == 1)
+
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:288:83: note: expanded code originates here
+286 |         #expect(current?.totalCostUSD == 4)
+287 |         #expect(current?.totalTokens == 400)
+288 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+289 |     }
+290 | 
+[1820/2003] Compiling CodexBarTests AlibabaCodingPlanProviderTests.swift
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:245:83: note: expanded code originates here
+243 |         #expect(previous?.totalCostUSD == 2)
+244 |         #expect(previous?.totalTokens == 200)
+245 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+246 |         #expect(current?.entryCount == 1)
+247 |         #expect(previous?.entryCount == 1)
+
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:288:83: note: expanded code originates here
+286 |         #expect(current?.totalCostUSD == 4)
+287 |         #expect(current?.totalTokens == 400)
+288 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+289 |     }
+290 | 
+[1821/2003] Compiling CodexBarTests AlibabaTokenPlanCLISubprocessTests.swift
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:245:83: note: expanded code originates here
+243 |         #expect(previous?.totalCostUSD == 2)
+244 |         #expect(previous?.totalTokens == 200)
+245 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+246 |         #expect(current?.entryCount == 1)
+247 |         #expect(previous?.entryCount == 1)
+
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:288:83: note: expanded code originates here
+286 |         #expect(current?.totalCostUSD == 4)
+287 |         #expect(current?.totalTokens == 400)
+288 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+289 |     }
+290 | 
+[1822/2003] Compiling CodexBarTests AlibabaTokenPlanDashboardActionTests.swift
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:245:83: note: expanded code originates here
+243 |         #expect(previous?.totalCostUSD == 2)
+244 |         #expect(previous?.totalTokens == 200)
+245 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+246 |         #expect(current?.entryCount == 1)
+247 |         #expect(previous?.entryCount == 1)
+
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:288:83: note: expanded code originates here
+286 |         #expect(current?.totalCostUSD == 4)
+287 |         #expect(current?.totalTokens == 400)
+288 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+289 |     }
+290 | 
+[1823/2003] Compiling CodexBarTests AugmentCLIFetchStrategyFallbackTests.swift
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:245:83: note: expanded code originates here
+243 |         #expect(previous?.totalCostUSD == 2)
+244 |         #expect(previous?.totalTokens == 200)
+245 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+246 |         #expect(current?.entryCount == 1)
+247 |         #expect(previous?.entryCount == 1)
+
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:288:83: note: expanded code originates here
+286 |         #expect(current?.totalCostUSD == 4)
+287 |         #expect(current?.totalTokens == 400)
+288 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+289 |     }
+290 | 
+[1824/2003] Compiling CodexBarTests AugmentKeepaliveLifecycleTests.swift
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:245:83: note: expanded code originates here
+243 |         #expect(previous?.totalCostUSD == 2)
+244 |         #expect(previous?.totalTokens == 200)
+245 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+246 |         #expect(current?.entryCount == 1)
+247 |         #expect(previous?.entryCount == 1)
+
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:288:83: note: expanded code originates here
+286 |         #expect(current?.totalCostUSD == 4)
+287 |         #expect(current?.totalTokens == 400)
+288 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+289 |     }
+290 | 
+[1825/2003] Compiling CodexBarTests AugmentProviderRuntimeTests.swift
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:245:83: note: expanded code originates here
+243 |         #expect(previous?.totalCostUSD == 2)
+244 |         #expect(previous?.totalTokens == 200)
+245 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+246 |         #expect(current?.entryCount == 1)
+247 |         #expect(previous?.entryCount == 1)
+
+macro expansion #expect:1:1: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+`- /Users/gamitha/Developer/CodexBar/TestsLinux/CostUsageQuotaWeekLinuxTests.swift:288:83: note: expanded code originates here
+286 |         #expect(current?.totalCostUSD == 4)
+287 |         #expect(current?.totalTokens == 400)
+288 |         #expect((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0) == 6)
+    |         `- note: in expansion of macro 'expect' here
+    +--- macro expansion #expect ---------------------------------------
+    |1 | Testing.__checkBinaryOperation((current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0),{ $0 == $1() },6,expression: .__fromBinaryOperation(.__fromSyntaxNode("(current?.totalCostUSD ?? 0) + (previous?.totalCostUSD ?? 0)"),"==",.__fromSyntaxNode("6")),comments: [],isRequired: false,sourceLocation: Testing.SourceLocation.__here()).__expected()
+    |  | `- error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+    +-------------------------------------------------------------------
+289 |     }
+290 | 
+error: fatalError
