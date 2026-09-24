@@ -250,7 +250,7 @@ struct PiProviderTests {
             .appendingPathComponent("agent", isDirectory: true)
             .appendingPathComponent("sessions", isDirectory: true)
             .standardizedFileURL
-        let ompRoot = try #require(roots.first { $0.url == defaultOMPRoot })
+        let ompRoot = try #require(roots.first { $0.url.path == defaultOMPRoot.path })
         #expect(ompRoot.missingIsKnownEmpty)
         #expect(ompRoot.resolutionIsComplete)
     }
@@ -275,7 +275,7 @@ struct PiProviderTests {
             .appendingPathComponent("agent", isDirectory: true)
             .appendingPathComponent("sessions", isDirectory: true)
             .standardizedFileURL
-        let ompRoot = try #require(roots.first { $0.url == defaultOMPRoot })
+        let ompRoot = try #require(roots.first { $0.url.path == defaultOMPRoot.path })
         #expect(ompRoot.resolutionIsComplete)
         #expect(!roots.contains { $0.url.path == "/.codexbar-unresolved-omp" })
     }
