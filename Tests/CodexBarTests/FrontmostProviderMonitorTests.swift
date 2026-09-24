@@ -6,13 +6,22 @@ import Testing
 struct FrontmostProviderMonitorTests {
     @Test
     func `only provider owned native apps match enabled providers`() {
-        let enabled: Set<UsageProvider> = [.codex, .claude, .copilot]
+        let enabled: Set<UsageProvider> = [.codex, .claude, .antigravity, .cursor, .zed, .kiro, .qoder, .copilot]
         #expect(NativeAppProviderMapping.provider(for: "com.openai.codex", enabledProviders: enabled) == .codex)
         #expect(NativeAppProviderMapping.provider(
             for: "com.anthropic.claudefordesktop", enabledProviders: enabled) == .claude)
+        #expect(NativeAppProviderMapping.provider(
+            for: "com.google.antigravity", enabledProviders: enabled) == .antigravity)
+        #expect(NativeAppProviderMapping.provider(for: "com.qoder.app", enabledProviders: enabled) == nil)
+        #expect(NativeAppProviderMapping.provider(
+            for: "com.todesktop.230313mzl4w4u92", enabledProviders: enabled) == nil)
+        #expect(NativeAppProviderMapping.provider(for: "dev.zed.Zed", enabledProviders: enabled) == nil)
+        #expect(NativeAppProviderMapping.provider(for: "dev.kiro.desktop", enabledProviders: enabled) == nil)
+        #expect(NativeAppProviderMapping.provider(for: "com.qoder.ide", enabledProviders: enabled) == nil)
         #expect(NativeAppProviderMapping.provider(for: "com.microsoft.VSCode", enabledProviders: enabled) == nil)
         #expect(NativeAppProviderMapping.provider(for: "com.apple.Safari", enabledProviders: enabled) == nil)
         #expect(NativeAppProviderMapping.provider(for: "com.openai.codex", enabledProviders: [.claude]) == nil)
+        #expect(NativeAppProviderMapping.provider(for: "com.google.antigravity", enabledProviders: [.codex]) == nil)
     }
 
     @Test
