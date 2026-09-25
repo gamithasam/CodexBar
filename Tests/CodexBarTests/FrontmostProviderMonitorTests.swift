@@ -5,6 +5,60 @@ import Testing
 @MainActor
 struct FrontmostProviderMonitorTests {
     @Test
+    func `monitor only runs while frontmost source can affect the collapsed merged icon`() {
+        #expect(FrontmostProviderMonitoringPolicy.shouldRun(
+            source: .frontmostApp, mergeIcons: true, isStacked: false))
+        for source in [UnifiedIconSource.currentSelection, .highestUsage] {
+            #expect(!FrontmostProviderMonitoringPolicy.shouldRun(
+                source: source, mergeIcons: true, isStacked: false))
+        }
+        #expect(!FrontmostProviderMonitoringPolicy.shouldRun(
+            source: .frontmostApp, mergeIcons: false, isStacked: false))
+        #expect(!FrontmostProviderMonitoringPolicy.shouldRun(
+            source: .frontmostApp, mergeIcons: true, isStacked: true))
+    }
+
+    @Test
+    func `presentation changes unregister and reseed the focus observer`() {
+        let source = FakeFrontmostApplicationEventSource(bundleIdentifier: "com.openai.codex")
+        var changes: [UsageProvider?] = []
+        let monitor = FrontmostProviderMonitor(
+            source: source,
+            enabledProviders: { [.codex, .claude] },
+            onChange: { changes.append($0) })
+
+        func synchronize(_ iconSource: UnifiedIconSource, mergeIcons: Bool, isStacked: Bool) {
+            monitor.synchronize(shouldRun: FrontmostProviderMonitoringPolicy.shouldRun(
+                source: iconSource, mergeIcons: mergeIcons, isStacked: isStacked))
+        }
+
+        synchronize(.frontmostApp, mergeIcons: true, isStacked: false)
+        #expect(source.startCount == 1)
+        #expect(monitor.currentProvider == .codex)
+
+        synchronize(.frontmostApp, mergeIcons: false, isStacked: false)
+        #expect(source.stopCount == 1)
+        #expect(!monitor.isRunning)
+        source.activate("com.anthropic.claudefordesktop")
+        #expect(changes == [.codex, nil])
+
+        synchronize(.frontmostApp, mergeIcons: true, isStacked: false)
+        #expect(source.startCount == 2)
+        #expect(monitor.currentProvider == .claude)
+
+        synchronize(.frontmostApp, mergeIcons: true, isStacked: true)
+        #expect(source.stopCount == 2)
+        synchronize(.currentSelection, mergeIcons: true, isStacked: false)
+        #expect(source.startCount == 2)
+
+        synchronize(.frontmostApp, mergeIcons: true, isStacked: false)
+        #expect(source.startCount == 3)
+        #expect(monitor.currentProvider == .claude)
+        monitor.stop()
+        #expect(source.stopCount == 3)
+    }
+
+    @Test
     func `only provider owned native apps match enabled providers`() {
         let enabled: Set<UsageProvider> = [.codex, .claude, .antigravity, .cursor, .zed, .kiro, .qoder, .copilot]
         #expect(NativeAppProviderMapping.provider(for: "com.openai.codex", enabledProviders: enabled) == .codex)

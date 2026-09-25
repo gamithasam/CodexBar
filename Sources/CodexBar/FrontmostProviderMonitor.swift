@@ -56,6 +56,12 @@ enum NativeAppProviderMapping {
     }
 }
 
+enum FrontmostProviderMonitoringPolicy {
+    static func shouldRun(source: UnifiedIconSource, mergeIcons: Bool, isStacked: Bool) -> Bool {
+        source == .frontmostApp && mergeIcons && !isStacked
+    }
+}
+
 @MainActor
 final class FrontmostProviderMonitor {
     private let source: FrontmostApplicationEventSource
@@ -72,6 +78,15 @@ final class FrontmostProviderMonitor {
         self.source = source
         self.enabledProviders = enabledProviders
         self.onChange = onChange
+    }
+
+    func synchronize(shouldRun: Bool) {
+        if shouldRun {
+            self.start()
+            self.refresh()
+        } else {
+            self.stop()
+        }
     }
 
     func start() {

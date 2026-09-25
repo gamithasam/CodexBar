@@ -2,9 +2,12 @@ import CodexBarCore
 
 extension StatusItemController {
     func synchronizeFrontmostProviderMonitor() {
-        let shouldMonitor = self.settings.unifiedIconSource == .frontmostApp
+        let shouldMonitor = FrontmostProviderMonitoringPolicy.shouldRun(
+            source: self.settings.unifiedIconSource,
+            mergeIcons: self.shouldMergeIcons,
+            isStacked: self.stackedMergeIconProvidersIfActive() != nil)
         guard shouldMonitor else {
-            self.frontmostProviderMonitor?.stop()
+            self.frontmostProviderMonitor?.synchronize(shouldRun: false)
             self.frontmostProviderMonitor = nil
             return
         }
@@ -21,7 +24,6 @@ extension StatusItemController {
                     self.updateIcons()
                 })
         }
-        self.frontmostProviderMonitor?.start()
-        self.frontmostProviderMonitor?.refresh()
+        self.frontmostProviderMonitor?.synchronize(shouldRun: true)
     }
 }
