@@ -144,7 +144,7 @@ struct PiSessionProcessContextTests {
             .appendingPathComponent("sessions", isDirectory: true)
             .standardizedFileURL
         #expect(roots.contains {
-            $0.url.path == defaultPiRoot.path && $0.missingIsKnownEmpty && !$0.preserveAfterProcessExit
+            $0.url == defaultPiRoot && $0.missingIsKnownEmpty && !$0.preserveAfterProcessExit
         })
     }
 
